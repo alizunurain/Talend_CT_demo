@@ -1,0 +1,29 @@
+{
+  "itemId" : "_YpyX8NyKEeyaV9efgVZKUg",
+  "contextList" : [ {
+    "contextName" : "development",
+    "repoId" : "_YDpvkNyLEeyaV9efgVZKUg",
+    "parameterList" : [ {
+      "id" : "_YD3yAdyLEeyaV9efgVZKUg",
+      "name" : "M1_employee_emp_master_Database"
+    }, {
+      "id" : "_YD3yAtyLEeyaV9efgVZKUg",
+      "name" : "M1_employee_emp_master_Server"
+    }, {
+      "id" : "_YD3yA9yLEeyaV9efgVZKUg",
+      "name" : "M1_employee_emp_master_Password"
+    }, {
+      "id" : "_YD3yBNyLEeyaV9efgVZKUg",
+      "name" : "M1_employee_emp_master_Port"
+    }, {
+      "id" : "_YD3yBdyLEeyaV9efgVZKUg",
+      "name" : "M1_employee_emp_master_AdditionalParams"
+    }, {
+      "id" : "_YD3yBtyLEeyaV9efgVZKUg",
+      "name" : "M1_employee_emp_master_Login"
+    }, {
+      "id" : "_YD3yB9yLEeyaV9efgVZKUg",
+      "name" : "parameter_RootFilePath"
+    } ]
+  } ]
+}
