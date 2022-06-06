@@ -2,6 +2,8 @@
   "version" : "1.0.0",
   "disable" : null,
   "requiredInstallableUnits" : [ {
+    "id" : "org.talend.lite.di.components.partitioner.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.di.jobtemplate.feature.feature.group"
   }, {
     "id" : "org.talend.lite.di.sap.feature.feature.group"
