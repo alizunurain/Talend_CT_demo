@@ -2,15 +2,45 @@
   "version" : "1.0.0",
   "disable" : null,
   "requiredInstallableUnits" : [ {
+    "id" : "org.talend.lite.amc.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.audit.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.di.components.partitioner.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.datalineage.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.docker.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.importation.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.jobscript.feature.feature.group"
   }, {
     "id" : "org.talend.lite.di.jobtemplate.feature.feature.group"
   }, {
+    "id" : "org.talend.lite.di.metadata.mdm.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.publish.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.resource.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.di.sap.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.testcontainer.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.validationrules.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.dq.feature.feature.group"
   }, {
     "id" : "org.talend.lite.tdm.core.feature.feature.group"
   }, {
+    "id" : "org.talend.studio.components.tcompv0.dataprep.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.tcompv0.datastewardship.feature.feature.group"
+  }, {
     "id" : "org.talend.studio.components.tcompv0.salesforce.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.tcompv0.snowflakeee.feature.feature.group"
   }, {
     "id" : "org.talend.transform.standard.hl7v2.1.feature.feature.group"
   }, {
