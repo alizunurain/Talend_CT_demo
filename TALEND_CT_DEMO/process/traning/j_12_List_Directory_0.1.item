@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="development" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="development">
-    <contextParameter comment="" internalId="_bd3BENyVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_AdditionalParams" prompt="parameter_M1_employee_emp_master_AdditionalParams?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
-    <contextParameter comment="" internalId="_bd3BEdyVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_Database" prompt="parameter_M1_employee_emp_master_Database?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="employee"/>
-    <contextParameter comment="" internalId="_bd3BEtyVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_Login" prompt="parameter_M1_employee_emp_master_Login?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="root"/>
-    <contextParameter comment="" internalId="_bd3BE9yVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_Password" prompt="parameter_M1_employee_emp_master_Password?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_Password" value="enc:system.encryption.key.v1:62JVXkwW8K/N28y9C7WSaQilYSaF0TiDTgGtgdi9zAc="/>
-    <contextParameter comment="" internalId="_bd3BFNyVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_Port" prompt="parameter_M1_employee_emp_master_Port?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="3306"/>
-    <contextParameter comment="" internalId="_bd3BFdyVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_Server" prompt="parameter_M1_employee_emp_master_Server?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="localhost"/>
-    <contextParameter comment="Root File Path" internalId="_bd3BFtyVEeyaV9efgVZKUg" name="parameter_RootFilePath" prompt="parameter_RootFilePath?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="C:/Users/AliZunurain/Documents/Talend_Studio/workspace/traning/"/>
+    <contextParameter comment="" internalId="_bd3BENyVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_AdditionalParams" prompt="connection_M1_employee_emp_master_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_bd3BEdyVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Database" prompt="connection_M1_employee_emp_master_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="employee"/>
+    <contextParameter comment="" internalId="_bd3BEtyVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Login" prompt="connection_M1_employee_emp_master_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_bd3BE9yVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Password" prompt="connection_M1_employee_emp_master_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:B7rTCERsp3FXNGMlFCNTslMM9VvDvtp+UTRyVpGAslY="/>
+    <contextParameter comment="" internalId="_bd3BFNyVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Port" prompt="connection_M1_employee_emp_master_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_bd3BFdyVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Server" prompt="connection_M1_employee_emp_master_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter comment="Root File Path" internalId="_bd3BFtyVEeyaV9efgVZKUg" name="parameter_RootFilePath" prompt="parameter_RootFilePath?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_Directory" value="C:/Users/AliZunurain/Documents/Talend_Studio/workspace/traning/"/>
   </context>
   <context confirmationNeeded="false" name="production">
-    <contextParameter comment="" internalId="_bd3BF9yVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_AdditionalParams" prompt="parameter_M1_employee_emp_master_AdditionalParams?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
-    <contextParameter comment="" internalId="_bd3BGNyVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_Database" prompt="parameter_M1_employee_emp_master_Database?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="employee"/>
-    <contextParameter comment="" internalId="_bd3BGdyVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_Login" prompt="parameter_M1_employee_emp_master_Login?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="root"/>
-    <contextParameter comment="" internalId="_bd3BGtyVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_Password" prompt="parameter_M1_employee_emp_master_Password?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_Password" value="enc:system.encryption.key.v1:WQ1n3/dtXd8tC+jgcOQjwB+cP9BElRXvgj1BPTbUCzU="/>
-    <contextParameter comment="" internalId="_bd3BG9yVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_Port" prompt="parameter_M1_employee_emp_master_Port?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="3306"/>
-    <contextParameter comment="" internalId="_bd3BHNyVEeyaV9efgVZKUg" name="parameter_M1_employee_emp_master_Server" prompt="parameter_M1_employee_emp_master_Server?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="localhost"/>
-    <contextParameter comment="Root File Path" internalId="_bd3BHdyVEeyaV9efgVZKUg" name="parameter_RootFilePath" prompt="parameter_RootFilePath?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_String" value="C:/Users/AliZunurain/Documents/Talend_Studio/workspace/traning/"/>
+    <contextParameter comment="" internalId="_bd3BF9yVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_AdditionalParams" prompt="connection_M1_employee_emp_master_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_bd3BGNyVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Database" prompt="connection_M1_employee_emp_master_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="employee"/>
+    <contextParameter comment="" internalId="_bd3BGdyVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Login" prompt="connection_M1_employee_emp_master_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_bd3BGtyVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Password" prompt="connection_M1_employee_emp_master_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:QRTJHVuyDXOVVvJHmgVSfJ/IYBcllX9YE7gY/fNgwhU="/>
+    <contextParameter comment="" internalId="_bd3BG9yVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Port" prompt="connection_M1_employee_emp_master_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_bd3BHNyVEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Server" prompt="connection_M1_employee_emp_master_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter comment="Root File Path" internalId="_bd3BHdyVEeyaV9efgVZKUg" name="parameter_RootFilePath" prompt="parameter_RootFilePath?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_Directory" value="C:/Users/AliZunurain/Documents/Talend_Studio/workspace/traning/"/>
+  </context>
+  <context confirmationNeeded="false" name="test">
+    <contextParameter comment="" internalId="_z78qgOavEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_Database" prompt="connection_M1_employee_emp_master_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="employee"/>
+    <contextParameter comment="" internalId="_z78qgeavEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_Server" prompt="connection_M1_employee_emp_master_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_z78qguavEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_Password" prompt="connection_M1_employee_emp_master_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:1tHy0Cy0zChdV0uv5bKP/78yIEM0TL/yUiTSVS/Hw7k="/>
+    <contextParameter comment="" internalId="_z78qg-avEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_Port" prompt="connection_M1_employee_emp_master_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_z78qhOavEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_AdditionalParams" prompt="connection_M1_employee_emp_master_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_z78qheavEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_Login" prompt="connection_M1_employee_emp_master_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+    <contextParameter comment="Root File Path" internalId="_z78qhuavEeyEC5J912Y-rg" name="parameter_RootFilePath" prompt="parameter_RootFilePath?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_Directory" value="C:/Users/AliZunurain/Documents/Talend_Studio/workspace/traning/"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -60,7 +69,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:wEmaCjle8x7RbBQakkqLv5WUi56KbMpN1JenY3fh"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:y0RWU02U2e6Yzznji5c1dfh9o4c7gTAWgVVCfqLd"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -95,7 +104,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:miEv10FuCrwkYsFhzC1OBwdBXLyE3BLehJEiqkOy"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:+g0gQEYZiWTC8IHVH+cz+LxwD6srWof3QDy3Q9A6"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -124,6 +133,11 @@
     <routinesParameter id="_97Qi0NxoEeyLLuvzz93iIw" name="TalendDate"/>
     <routinesParameter id="_97hBgNxoEeyLLuvzz93iIw" name="TalendStringUtil"/>
     <routinesParameter id="_97ZFsNxoEeyLLuvzz93iIw" name="TalendString"/>
+    <routinesParameter id="_NnbfkOYTEeyJkr8yRN45Dw" name="DQTechnical"/>
+    <routinesParameter id="_NnTjwOYTEeyJkr8yRN45Dw" name="DqStringHandling"/>
+    <routinesParameter id="_NnLA4OYTEeyJkr8yRN45Dw" name="DataQualityDependencies"/>
+    <routinesParameter id="_Nm2QwOYTEeyJkr8yRN45Dw" name="DataMasking"/>
+    <routinesParameter id="_NnDsIOYTEeyJkr8yRN45Dw" name="DataQuality"/>
   </parameters>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
@@ -195,13 +209,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0a36aaa3-c1ee-4f19-9109-4b6cc89dcf00"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>r6h6uvo96+7k/vF+41yl+pRnZtBYxplPxUd60MsMj8EhaZL9agK/A7+EQgDOjF21/aBuRGAEUtfB&#13;
-G3LhNHG8lg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c869da79-2f77-4204-a3d2-a45c8f64b18c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dep2WWEr9WA3rKLaDrSMQLsu8MWeEWBMQ3U/9eLoieF2nXpGYW9mF78MsNioyc3o8LE4k7U2aH/r&#13;
-7LzvZMn8eA==</DigestValue></Reference></SignedInfo><SignatureValue>fJKLDyQy3vkSMTc9LQiIvk6IT20P/jqHfcZkt8TlqXIEe8UouF5zOBNhm855bZupWrlwvqq13x1S&#13;
-4Yt9RV681pzZZVGQbxP66guxx8C3q4RVi1dmZtCmxFfKtPaZL038WBw6kuItI95rtWKkwUWLjS/v&#13;
-0QgsoXWFjH2K2mk31F2/V3xYhH6r/vMFEJDog2IpslcHw1NvDoicimPc752eJb5sZiU9GMolOG58&#13;
-yk0VChk9b8DZwrMDfWAeuBTGSB2JcAWJPlx8Ne/GSsvKtovxymi0Fgz9ZeCMdF++x7tGhfpPVbXR&#13;
-K0nYyOoCeWNLPjOGA1d2u9bxZaSJXv+HdOXDRw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ebd8704d-e72c-486e-a383-7acbf82a4475"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IJofCND5BiBd2+oE1rwTL0vzLF44+gNYJShppPYYz1SCyOtMSTFd585RpvQFnH4SSV2/E9BmY7lK&#13;
+o72JHzZ6aQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9f1dd4f6-4722-4803-90ab-9241e46d453e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Vs5oM4VOhPgIvysm6DpWrOAu/4JW8GmQWZa/L/50jkC5WEjrnM6N4xeaCaamD867+ShS2lY7FLnX&#13;
+7bCtvnTDtQ==</DigestValue></Reference></SignedInfo><SignatureValue>bp9EHZn/8KwUyLeoDi+znCd70fvW+EZNNSAvQKv65XMDjpfsaccWAR7a2s9tUSPVcoGT8dogdoi8&#13;
+4DO63rmTbj22JHrmFHYBh9HZJSgKABG9QQ1nqnyrQJNl5dX6bxC5roJfmoa/RyPwgauwZpHku0qp&#13;
+W4zSqFpAbKQ50zC+17S5caJ969aW2904VWios5Mq/gzA0OkHkYOBagk84kGxEUqYLry6tw547/fu&#13;
+F4hsJXDrfhQws1mJ67MfuSABVKIi2ufNDrhTV8kgz2HE1SPqUJmNIUCmr0YdS5LQjKd6DMItP5yU&#13;
+n1I4XplS4eu5gelBmFrQa/BwJKbdVnHtqJDlfw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -223,4 +237,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c869da79-2f77-4204-a3d2-a45c8f64b18c" Target="#_0a36aaa3-c1ee-4f19-9109-4b6cc89dcf00"><Timestamp>2022-06-03 21:55:02</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9f1dd4f6-4722-4803-90ab-9241e46d453e" Target="#_ebd8704d-e72c-486e-a383-7acbf82a4475"><Timestamp>2022-06-07 22:27:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
