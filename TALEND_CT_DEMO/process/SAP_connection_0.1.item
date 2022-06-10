@@ -3,9 +3,15 @@
     <contextParameter comment="" internalId="_1ydIsOjqEeyl4MmNqdmoww" name="parameter_Client" prompt="parameter_Client?" promptNeeded="false" repositoryContextId="_ItrSAOjqEeyl4MmNqdmoww" type="id_String" value="&quot;400&quot;"/>
     <contextParameter comment="" internalId="_1ydIsejqEeyl4MmNqdmoww" name="parameter_Host_Name" prompt="parameter_Host_Name?" promptNeeded="false" repositoryContextId="_ItrSAOjqEeyl4MmNqdmoww" type="id_String" value="&quot;ZEPISZEQ00&quot;"/>
     <contextParameter comment="" internalId="_1ydIsujqEeyl4MmNqdmoww" name="parameter_language" prompt="parameter_language?" promptNeeded="false" repositoryContextId="_ItrSAOjqEeyl4MmNqdmoww" type="id_String" value="&quot;EN&quot;"/>
-    <contextParameter comment="" internalId="_1ydIs-jqEeyl4MmNqdmoww" name="parameter_password" prompt="parameter_password?" promptNeeded="false" repositoryContextId="_ItrSAOjqEeyl4MmNqdmoww" type="id_Password" value="enc:system.encryption.key.v1:UUNU6Qk6gIM8dhciYy/o3UlU+YjwlRzfm7Nw/wSszxVzq1IQBt9Acw=="/>
+    <contextParameter comment="" internalId="_1ydIs-jqEeyl4MmNqdmoww" name="parameter_password" prompt="parameter_password?" promptNeeded="false" repositoryContextId="_ItrSAOjqEeyl4MmNqdmoww" type="id_Password" value="enc:system.encryption.key.v1:fMyqsnrLOwP36Dl5WTRhConr8DGfPeZc0LQyWVzrtlhWe9VxFDfodw=="/>
     <contextParameter comment="" internalId="_1ydItOjqEeyl4MmNqdmoww" name="parameter_System_number" prompt="parameter_System_number?" promptNeeded="false" repositoryContextId="_ItrSAOjqEeyl4MmNqdmoww" type="id_String" value="&quot;00&quot;"/>
     <contextParameter comment="" internalId="_1ydItejqEeyl4MmNqdmoww" name="parameter_Userid" prompt="parameter_Userid?" promptNeeded="false" repositoryContextId="_ItrSAOjqEeyl4MmNqdmoww" type="id_String" value="&quot;SF_INTEG&quot;"/>
+    <contextParameter comment="" internalId="_R9b8cOkGEeyl4MmNqdmoww" name="sap_connection1_UserName" prompt="sap_connection1_UserName?" promptNeeded="false" repositoryContextId="_H4msYOkEEeyl4MmNqdmoww" type="id_String" value="SF_INTEG"/>
+    <contextParameter comment="" internalId="_R9b8cekGEeyl4MmNqdmoww" name="sap_connection1_Client" prompt="sap_connection1_Client?" promptNeeded="false" repositoryContextId="_H4msYOkEEeyl4MmNqdmoww" type="id_String" value="400"/>
+    <contextParameter comment="" internalId="_R9b8cukGEeyl4MmNqdmoww" name="sap_connection1_Language" prompt="sap_connection1_Language?" promptNeeded="false" repositoryContextId="_H4msYOkEEeyl4MmNqdmoww" type="id_String" value="EN"/>
+    <contextParameter comment="" internalId="_R9b8c-kGEeyl4MmNqdmoww" name="sap_connection1_SystemNumber" prompt="sap_connection1_SystemNumber?" promptNeeded="false" repositoryContextId="_H4msYOkEEeyl4MmNqdmoww" type="id_String" value="00"/>
+    <contextParameter comment="" internalId="_R9b8dOkGEeyl4MmNqdmoww" name="sap_connection1_Password" prompt="sap_connection1_Password?" promptNeeded="false" repositoryContextId="_H4msYOkEEeyl4MmNqdmoww" type="id_Password" value="enc:system.encryption.key.v1:q+uz3/S+teWfKOtMlO110JQtzTJJLOCftqekX924RDKkwsbYvy2XjA=="/>
+    <contextParameter comment="" internalId="_R9b8dekGEeyl4MmNqdmoww" name="sap_connection1_Host" prompt="sap_connection1_Host?" promptNeeded="false" repositoryContextId="_H4msYOkEEeyl4MmNqdmoww" type="id_String" value="ZEPISZEQ00"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -50,7 +56,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:D8htkT/rtPjscEOTDCO1zqvWtSohJW5DxxQeURsR"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:08Q1t6i6FX8bjddzC47l4Vg/zWi+0QkrTBxcvaQq"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -85,7 +91,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:UhcSeXy/bEVYagYTqs6nPGSg3Li0aCDDUq/VI+gZ"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:fKL0QGg0p4YnqnDgoyhtfHRcZ02hN7vjIxBmI+32"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -128,7 +134,7 @@
     <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer"/>
     <elementParameter field="TEXT" name="CLIENT" value="&quot;400&quot;"/>
     <elementParameter field="TEXT" name="USERID" value="&quot;SF_INTEG&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:GVYT7ElB2d95SbNO5XiKshzwhXdp/cnkdxoewsbtdgrr2O/q"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:4qdd2UWXJrDuaYyAT1H9zRMpN5pRbHf1cLybbrzT2W+9bm3f"/>
     <elementParameter field="TEXT" name="LANGUAGE" value="&quot;EN&quot;"/>
     <elementParameter field="TEXT" name="HOSTNAME" value="&quot;ZEPISZEQ00&quot;"/>
     <elementParameter field="TEXT" name="SYSTEMNUMBER" value="&quot;00&quot;"/>
@@ -149,7 +155,7 @@
     <elementParameter field="TEXT" name="FTP_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="FTP_PORT" show="false" value="21"/>
     <elementParameter field="TEXT" name="FTP_USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="FTP_PASS" show="false" value="enc:system.encryption.key.v1:pGEfuzB855KNnBnZ9fWj0z2PnGo3wJpYcESn2TLE"/>
+    <elementParameter field="PASSWORD" name="FTP_PASS" show="false" value="enc:system.encryption.key.v1:GLIrdQZY89vMi+DQSS81ZGrRn4IdRHVBc3ztO1Bz"/>
     <elementParameter field="TEXT" name="FTP_DIR" show="false" value="&quot;/usr/sap/talend/ftp/&quot;"/>
     <elementParameter field="TEXT" name="GENERATED_FILENAME_PREFIX" show="false" value="&quot;current_data_file&quot;"/>
     <elementParameter field="TEXT" name="FETCH_SIZE" value="-1"/>
@@ -199,7 +205,7 @@
     <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer"/>
     <elementParameter field="TEXT" name="CLIENT" value="context.parameter_Client"/>
     <elementParameter field="TEXT" name="USERID" value="context.parameter_Userid"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:PazbnURy6eUX1/LzRx3ZfyxYTH9a3SG0DHfIWgfBq+GiB67VPaXQsvaVpjxkljrqpI4jgGnT"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:Jy4UlLe3S1t52ruXoTEANmgACnbNOahJVwpc2z+Yp2DbRADbqqq5ss2z/NnUsC8Z+QcsfhC9"/>
     <elementParameter field="TEXT" name="LANGUAGE" value="context.parameter_language"/>
     <elementParameter field="TEXT" name="HOSTNAME" value="context.parameter_Host_Name"/>
     <elementParameter field="TEXT" name="SYSTEMNUMBER" value="context.parameter_System_number"/>
@@ -227,13 +233,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0656012c-4aa4-4785-85cf-78536fd52354"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sasI9MbWTmXUy2AGd9olsOqzejUNN7GZeXvVPOpOueDGkxYzR4OuOIWD2XXawBJH6Y9V409/8y/p&#13;
-zgCgFis9qg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_17007a04-9994-4587-8715-bffed818ed83"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>W7wqDh9e7YMpJmqqtNFjyP9ctaATy2rnk9Pg4lGcPzWJF3aMivNjmTmeTJilSOuenGQ25YPE3vDR&#13;
-/f6ZLZAZGA==</DigestValue></Reference></SignedInfo><SignatureValue>QjsHsL7WVwLY2wN6UVA2NOIQDuw4uWLeEwv2sqp0jbvD9i/HxSIsp/LqScwWBcGRhlZ/9sLkrgYr&#13;
-FKyMrs1PUSn+8nI+yPAXm8nlcOIAASRbEwXWYRrrhm+RhE+UVktH95NceTTpEwbtnBtLruFy4EKf&#13;
-NaLTCBzcj/7QKTy0m4c8IM/4ZyKFWUCR4J0YQ/2CAL6qF6LHvVOuUaAv4ND58YcWYOLqEKay49I2&#13;
-hp/B5D963DffOd1m9DHYWgAcoaIVnu06CU94KOGNka5bZUxpE/wBCpezmdbXkeRT/lhPTb7ERzmx&#13;
-hyffmxRKdw7Q//2Kv0DNtbwR7I9txABUjjZoBw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_06b4e5b0-ae0b-4f1e-b6cf-d0c537db6974"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Yp2Qiyztbxyyfv3Zt90zqUGpsQloUQ1NJLj7wwpmhoCf3k8sMmTaI/EU2KNjd3NqfXOYSOI0JZg+&#13;
+5nhypMaIyw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_59e2370a-aa5d-4096-9390-1bb273d1892d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KNv4TviHwPy77qFdpS0sfxi58/EtN0bTQNvPjUg62JeJBr9CJKXXOhU/h742j6EeatxBY6LqTkh5&#13;
+zDIom7uCjQ==</DigestValue></Reference></SignedInfo><SignatureValue>CkZ+lawevJ6Gc4Z8su5NwXfb70vWbNplbf+pejXV6g3kxJimOo9SUNol+EF/1BGLC/yZpM3Vnk0M&#13;
+RnhF5lrszSpfa7vtPKgyg8Gzx1qIROWsiLiYaq48zegAmH/yshBR6Maj/93YVyzfJLNKhWR9a2Yx&#13;
+LIU5PgRWlgE/DKPP2nJBLWymO7tDOtjAolEOYq2alf8MoR7rIoC3Jczxzm6ebNOctHHEgflz0FDE&#13;
+6mmCJdgdUryKzUSRj63y4oK0yafkLUYk4ersK4k6G8RWdBluBf/AJfNS/RupYii3+3//5GhxEyyu&#13;
+nM8JYyrNIQMysbkCbW2yhBlK8akG70EwOC5GyA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -255,4 +261,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_17007a04-9994-4587-8715-bffed818ed83" Target="#_0656012c-4aa4-4785-85cf-78536fd52354"><Timestamp>2022-06-10 18:26:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_59e2370a-aa5d-4096-9390-1bb273d1892d" Target="#_06b4e5b0-ae0b-4f1e-b6cf-d0c537db6974"><Timestamp>2022-06-10 21:54:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

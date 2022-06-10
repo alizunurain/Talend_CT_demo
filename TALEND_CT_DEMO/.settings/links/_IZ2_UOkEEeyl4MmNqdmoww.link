@@ -1,0 +1,26 @@
+{
+  "itemId" : "_IZ2_UOkEEeyl4MmNqdmoww",
+  "contextList" : [ {
+    "contextName" : "dev",
+    "repoId" : "_H4msYOkEEeyl4MmNqdmoww",
+    "parameterList" : [ {
+      "id" : "_H5BjIekEEeyl4MmNqdmoww",
+      "name" : "sap_connection1_UserName"
+    }, {
+      "id" : "_H5BjIukEEeyl4MmNqdmoww",
+      "name" : "sap_connection1_Client"
+    }, {
+      "id" : "_H5BjI-kEEeyl4MmNqdmoww",
+      "name" : "sap_connection1_Password"
+    }, {
+      "id" : "_H5BjJOkEEeyl4MmNqdmoww",
+      "name" : "sap_connection1_SystemNumber"
+    }, {
+      "id" : "_H5BjJekEEeyl4MmNqdmoww",
+      "name" : "sap_connection1_Host"
+    }, {
+      "id" : "_H5BjJukEEeyl4MmNqdmoww",
+      "name" : "sap_connection1_Language"
+    } ]
+  } ]
+}
