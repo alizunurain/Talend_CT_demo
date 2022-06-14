@@ -1,0 +1,101 @@
+{
+    "PO":
+        [{
+                "code": "12126",
+                "date": "2013-01-01",
+                "salesPerson": [{
+                        "fullName": "Kayla Woodcock",
+                        "customFields": {
+                            "OtherLanguages": ["Polish", "Chinese", "Japanese"],
+                            "HireDate": "2008-04-19T00:00:00",
+                            "Title": "Team Member",
+                            "PrimarySalesTerritory": "Plains",
+                            "CommissionRate": "0.98"
+                        }
+                    }
+                ],
+                "details": [{
+                        "line": 5,
+                        "amount": 330.00,
+                        "extraTestElement": "record1"
+                    }, {
+                        "line": 9,
+                        "amount": 288.00,
+                        "extraTestElement": "record11"
+                    }
+                ]
+            }, {
+                "code": "15342",
+                "date": "2013-01-01",
+                "salesPerson": [{
+                        "fullName": "Anthony Grosse",
+                        "customFields": {
+                            "OtherLanguages": ["Croatian", "Dutch", "Bokmål"],
+                            "HireDate": "2010-07-23T00:00:00",
+                            "Title": "Team Member",
+                            "PrimarySalesTerritory": "Mideast",
+                            "CommissionRate": "0.11"
+                        }
+                    }
+                ],
+                "details": [{
+                        "line": 6,
+                        "amount": 295.00,
+                        "extraTestElement": "record22"
+                    }, {
+                        "line": 3,
+                        "amount": 288.00,
+                        "extraTestElement": "record22"
+                    }
+                ]
+            }, {
+                "code": "45668",
+                "date": "2015-08-06",
+                "salesPerson": [{
+                        "fullName": "Tahir khan",
+                        "customFields": {
+                            "OtherLanguages": ["English", "Arabic", "Bokmål"],
+                            "HireDate": "2015-10-23T00:00:00",
+                            "Title": "Team Member",
+                            "PrimarySalesTerritory": "Mideast",
+                            "CommissionRate": "0.56"
+                        }
+                    }
+                ],
+                "details": [{
+                        "line": 5,
+                        "amount": 130.00,
+                        "extraTestElement": "record33"
+                    }, {
+                        "line": 7,
+                        "amount": 99.00,
+                        "extraTestElement": "record32"
+                    }
+                ]
+            }, {
+                "code": "54668",
+                "date": "2018-10-05",
+                "salesPerson": [{
+                        "fullName": "Bilal Ahmed",
+                        "customFields": {
+                            "OtherLanguages": ["French", "Panjabi", "German"],
+                            "HireDate": "2015-11-25T00:00:00",
+                            "Title": "Team Lead",
+                            "PrimarySalesTerritory": "Mideast",
+                            "CommissionRate": "0.89"
+                        }
+                    }
+                ],
+                "details": [{
+                        "line": 8,
+                        "amount": 135.00,
+                        "extraTestElement": "record44"
+                    }, {
+                        "line": 9,
+                        "amount": 325.00,
+                        "extraTestElement": "record44"
+                    }
+                ]
+            }
+        ]
+}

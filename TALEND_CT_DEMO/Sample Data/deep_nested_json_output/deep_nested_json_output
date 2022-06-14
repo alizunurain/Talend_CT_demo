@@ -1,0 +1,90 @@
+{
+    "PO":
+        [{
+                "code": "12126",
+                "date": "2013-01-01",
+                "salesPerson": [{
+                        "fullName": "Kayla Woodcock",
+                        "customFields": {
+                            "OtherLanguages": ["Polish", "Chinese", "Japanese"],
+                            "HireDate": "2008-04-19T00:00:00",
+                            "Title": "Team Member",
+                            "PrimarySalesTerritory": "Plains",
+                            "CommissionRate": "0.98"
+                        }
+                    }
+                ],
+                "detailsOutput": [{
+                        "line": 2,
+                        "amount": 2300.00
+                    }
+                ]
+            }, {
+                "code": "15342",
+                "date": "2013-01-01",
+                "salesPerson": [{
+                        "fullName": "Anthony Grosse",
+                        "customFields": {
+                            "OtherLanguages": ["Croatian", "Dutch", "Bokmål"],
+                            "HireDate": "2010-07-23T00:00:00",
+                            "Title": "Team Member",
+                            "PrimarySalesTerritory": "Mideast",
+                            "CommissionRate": "0.11"
+                        }
+                    }
+                ],
+                "detailsOutput": [{
+                        "line": 3,
+                        "amount": 117.00
+                    }, {
+                        "line": 6,
+                        "amount": 288.00
+                    }
+                ]
+            }, {
+                "code": "45668",
+                "date": "2015-08-06",
+                "salesPerson": [{
+                        "fullName": "Tahir khan",
+                        "customFields": {
+                            "OtherLanguages": ["English", "Arabic", "Bokmål"],
+                            "HireDate": "2015-10-23T00:00:00",
+                            "Title": "Team Member",
+                            "PrimarySalesTerritory": "Mideast",
+                            "CommissionRate": "0.56"
+                        }
+                    }
+                ],
+                "detailsOutput": [{
+                        "line": 5,
+                        "amount": 130.00
+                    }, {
+                        "line": 7,
+                        "amount": 299.00
+                    }
+                ]
+            }, {
+                "code": "54668",
+                "date": "2018-10-05",
+                "salesPerson": [{
+                        "fullName": "Bilal Ahmed",
+                        "customFields": {
+                            "OtherLanguages": ["French", "Panjabi", "German"],
+                            "HireDate": "2015-11-25T00:00:00",
+                            "Title": "Team Lead",
+                            "PrimarySalesTerritory": "Mideast",
+                            "CommissionRate": "0.89"
+                        }
+                    }
+                ],
+                "detailsOutput": [{
+                        "line": 4,
+                        "amount": 135.00
+                    }, {
+                        "line": 9,
+                        "amount": 325.00
+                    }
+                ]
+            }
+        ]
+}
