@@ -1,0 +1,70 @@
+{
+  "itemId" : "_lkTMAOzwEeypevHEdtZkHQ",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_H4msYOkEEeyl4MmNqdmoww",
+    "parameterList" : [ {
+      "id" : "_3wE3wu-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Client"
+    }, {
+      "id" : "_3wFe0e-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Host"
+    }, {
+      "id" : "_3wFe0u-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Language"
+    }, {
+      "id" : "_3wE3w--UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Password"
+    }, {
+      "id" : "_3wFe0O-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_SystemNumber"
+    }, {
+      "id" : "_3wE3we-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_UserName"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_H4msYOkEEeyl4MmNqdmoww",
+    "parameterList" : [ {
+      "id" : "_3wFe1e-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Client"
+    }, {
+      "id" : "_3wFe2O-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Host"
+    }, {
+      "id" : "_3wFe2e-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Language"
+    }, {
+      "id" : "_3wFe1u-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Password"
+    }, {
+      "id" : "_3wFe1--UEeybxNQd3clGuw",
+      "name" : "sap_connection1_SystemNumber"
+    }, {
+      "id" : "_3wFe1O-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_UserName"
+    } ]
+  }, {
+    "contextName" : "TEST",
+    "repoId" : "_H4msYOkEEeyl4MmNqdmoww",
+    "parameterList" : [ {
+      "id" : "_3wFe3O-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Client"
+    }, {
+      "id" : "_3wFe3--UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Host"
+    }, {
+      "id" : "_3wFe4O-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Language"
+    }, {
+      "id" : "_3wFe3e-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_Password"
+    }, {
+      "id" : "_3wFe3u-UEeybxNQd3clGuw",
+      "name" : "sap_connection1_SystemNumber"
+    }, {
+      "id" : "_3wFe2--UEeybxNQd3clGuw",
+      "name" : "sap_connection1_UserName"
+    } ]
+  } ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ORDERS05>
+  <EDI_DC40>
+    <TABNAM>bk101 A</TABNAM>
+    <MANDT>Belgian Waffles</MANDT>
+    <DOCNUM>ABB 5.95</DOCNUM>
+  </EDI_DC40>
+</ORDERS05>
