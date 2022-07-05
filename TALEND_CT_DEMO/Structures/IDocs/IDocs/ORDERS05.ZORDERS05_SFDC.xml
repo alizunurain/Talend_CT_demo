@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x18192813965' V1='4' name='ORDERS05.ZORDERS05_SFDC' incarnation='205'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ORDERS05.ZORDERS05_SFDC' description='Salesforce interface extension for order data'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' inheritsFromIncarnation='40' inheritsFromTimestamp='0x18192813933' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40' description='Control record' checksumValid='true' checksum='3LGd8wzgRdiosOYW/woRNTzJKJA='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EDI_DC40' description='Control record'>
+        <delimTerminator>\n</delimTerminator>
+      </savedOrigCopyAtInheritsFrom>
+      <delimTerminator>\n</delimTerminator>
+    </child>
+    <child t='167' id='6' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDK01005' description='Document header general data' checksumValid='true' checksum='in2NQrf2boTkGkjOpYqxN132itg='>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='7' V167='21' inheritsFromIncarnation='72' inheritsFromTimestamp='0x1819281393e' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK01005.xml' V281='13' V1='4' name='E2EDK01005' description='Document header general data' checksumValid='true' checksum='GmPNNzxNf3LT8v0KSboZaRDGS+8='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='8' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK01005.xml' V281='13' V1='4' name='E2EDK01005'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='9' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDK01005' description='Document header general data'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='10' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x1819281393f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/ZE1EDK01_SFDC000.xml' V281='13' V1='4' name='ZE1EDK01_SFDC000' description='Additional order header data for Salesforce interface' checksumValid='true' checksum='H9zXr2erooAvNjoXQsrn8Yj36qw='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='11' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/ZE1EDK01_SFDC000.xml' V281='13' V1='4' name='ZE1EDK01_SFDC000'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='12' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ZE1EDK01_SFDC000' description='Additional order header data for Salesforce interface'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='13' V167='21' inheritsFromIncarnation='35' inheritsFromTimestamp='0x1819281393f' inheritsInThisStruct='true' V283='2' occurMaxTimes='12' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK14.xml' V281='13' V1='4' name='E2EDK14' description='Document Header Organizational Data' checksumValid='true' checksum='HsdVvZaOcq7tZjEuL5EsyLcssio='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='14' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK14.xml' V281='13' V1='4' name='E2EDK14'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='15' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDK14' description='Document Header Organizational Data'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='16' V167='21' inheritsFromIncarnation='75' inheritsFromTimestamp='0x18192813940' inheritsInThisStruct='true' V283='2' occurMaxTimes='10' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK03.xml' V281='13' V1='4' name='E2EDK03' description='Document header date segment' checksumValid='true' checksum='TGm4X3X1f6Qo/PBiqTL4SukBQJU='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='17' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK03.xml' V281='13' V1='4' name='E2EDK03'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='18' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDK03' description='Document header date segment'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='19' V167='21' inheritsFromIncarnation='43' inheritsFromTimestamp='0x18192813941' inheritsInThisStruct='true' V283='2' occurMaxTimes='10' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK04001.xml' V281='13' V1='4' name='E2EDK04001' description='Document header taxes' checksumValid='true' checksum='qyqd9If8aMwwxBePCQKqMtJMw9A='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='20' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK04001.xml' V281='13' V1='4' name='E2EDK04001'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='21' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDK04001' description='Document header taxes'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='22' V167='21' inheritsFromIncarnation='52' inheritsFromTimestamp='0x18192813941' inheritsInThisStruct='true' V283='2' occurMaxTimes='16' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK05001.xml' V281='13' V1='4' name='E2EDK05001' description='Document header conditions' checksumValid='true' checksum='DVwUPkhKaQupZoyrJBfY7DI5KgM='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='23' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK05001.xml' V281='13' V1='4' name='E2EDK05001'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='24' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDK05001' description='Document header conditions'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='25' V167='21' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDKA1003' description='Document Header Partner Information'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='26' V167='21' inheritsFromIncarnation='90' inheritsFromTimestamp='0x18192813942' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDKA1003.xml' V281='13' V1='4' name='E2EDKA1003' description='Document Header Partner Information' checksumValid='true' checksum='lnaV9HVM3Bj62y8EZDgD0m3nXkw='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='27' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDKA1003.xml' V281='13' V1='4' name='E2EDKA1003'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='28' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDKA1003' description='Document Header Partner Information'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='29' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x18192813943' inheritsInThisStruct='true' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDKA3.xml' V281='13' V1='4' name='E2EDKA3' description='Document Header Partner Information Additional Data' checksumValid='true' checksum='aWaDwBeE1dlOpfDZJbSwZb+CdPs='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='30' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDKA3.xml' V281='13' V1='4' name='E2EDKA3'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='31' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDKA3' description='Document Header Partner Information Additional Data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='32' V167='21' inheritsFromIncarnation='116' inheritsFromTimestamp='0x18192813944' inheritsInThisStruct='true' V283='2' occurMaxTimes='10' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK02.xml' V281='13' V1='4' name='E2EDK02' description='Document header reference data' checksumValid='true' checksum='FxuqkNsI8K5GgmAtD60IOZIUDVo='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='33' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK02.xml' V281='13' V1='4' name='E2EDK02'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='34' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDK02' description='Document header reference data'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='35' V167='21' inheritsFromIncarnation='19' inheritsFromTimestamp='0x18192813944' inheritsInThisStruct='true' V283='2' occurMaxTimes='4' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK17.xml' V281='13' V1='4' name='E2EDK17' description='Document Header Terms of Delivery' checksumValid='true' checksum='isXi5mFCMpKXolZH0gIZGcRfziY='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='36' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK17.xml' V281='13' V1='4' name='E2EDK17'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='37' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDK17' description='Document Header Terms of Delivery'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='38' V167='21' inheritsFromIncarnation='24' inheritsFromTimestamp='0x18192813946' inheritsInThisStruct='true' V283='2' occurMaxTimes='3' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK18.xml' V281='13' V1='4' name='E2EDK18' description='Document Header Terms of Payment' checksumValid='true' checksum='8fK51GdSwMj+DdVLgy7Cf7jbeWQ='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='39' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK18.xml' V281='13' V1='4' name='E2EDK18'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='40' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDK18' description='Document Header Terms of Payment'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='41' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x18192813946' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK35000.xml' V281='13' V1='4' name='E2EDK35000' description='Document Header Additional Data' checksumValid='true' checksum='WeO5eMFmO4whj/u3B+G4nzOwXwg='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='42' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK35000.xml' V281='13' V1='4' name='E2EDK35000'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='43' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDK35000' description='Document Header Additional Data'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='44' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x18192813947' inheritsInThisStruct='true' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK36000.xml' V281='13' V1='4' name='E2EDK36000' description='Doc.header payment cards' checksumValid='true' checksum='GnIiywy6eeb7U/XSha0S4b/+JFQ='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='45' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDK36000.xml' V281='13' V1='4' name='E2EDK36000'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='46' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDK36000' description='Doc.header payment cards'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='47' V167='21' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDKT1002' description='Document Header Text Identification'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='48' V167='21' inheritsFromIncarnation='36' inheritsFromTimestamp='0x18192813947' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDKT1002.xml' V281='13' V1='4' name='E2EDKT1002' description='Document Header Text Identification' checksumValid='true' checksum='Y3rPVlUO2qjBQ4xl90XFiOpWPVY='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='49' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDKT1002.xml' V281='13' V1='4' name='E2EDKT1002'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='50' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDKT1002' description='Document Header Text Identification'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='51' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x18192813948' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDKT2001.xml' V281='13' V1='4' name='E2EDKT2001' description='Document Header Texts' checksumValid='true' checksum='L4Yu3V6AmnwLrNCv9KJC8+1u+m8='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='52' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDKT2001.xml' V281='13' V1='4' name='E2EDKT2001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='53' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDKT2001' description='Document Header Texts'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='54' V167='21' V283='2' occurMaxTimes='999999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDP01007' description='Document Item General Data' checksumValid='true' checksum='9rPBphy1+B2oiB3bJfaJ3nlUOT8='>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='55' V167='21' inheritsFromIncarnation='99' inheritsFromTimestamp='0x18192813948' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP01007.xml' V281='13' V1='4' name='E2EDP01007' description='Document Item General Data' checksumValid='true' checksum='85nZay8GVQcZnfouUUYEvUgTMH8='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='56' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP01007.xml' V281='13' V1='4' name='E2EDP01007'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='57' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDP01007' description='Document Item General Data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='58' V167='21' inheritsFromIncarnation='33' inheritsFromTimestamp='0x18192813949' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/ZE1EDP01_SFDC000.xml' V281='13' V1='4' name='ZE1EDP01_SFDC000' description='Additional order line item data for Salesforce interface' checksumValid='true' checksum='t5aeV5Q3qxkEL5nymZOM64TkKmY='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='59' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/ZE1EDP01_SFDC000.xml' V281='13' V1='4' name='ZE1EDP01_SFDC000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='60' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ZE1EDP01_SFDC000' description='Additional order line item data for Salesforce interface'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='61' V167='21' inheritsFromIncarnation='118' inheritsFromTimestamp='0x18192813949' inheritsInThisStruct='true' V283='2' occurMaxTimes='10' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP02001.xml' V281='13' V1='4' name='E2EDP02001' description='Document Item Reference Data' checksumValid='true' checksum='YUqdKP07fWGmEt4MTvdwOu7zGDA='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='62' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP02001.xml' V281='13' V1='4' name='E2EDP02001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='63' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDP02001' description='Document Item Reference Data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='64' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x1819281394a' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUREF.xml' V281='13' V1='4' name='E2CUREF' description='CU: Reference order item / instance in configuration' checksumValid='true' checksum='FDWjA438AIskCXcSwG2F6D4g8jk='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='65' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUREF.xml' V281='13' V1='4' name='E2CUREF'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='66' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2CUREF' description='CU: Reference order item / instance in configuration'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='67' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x1819281394b' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2ADDI1001.xml' V281='13' V1='4' name='E2ADDI1001' description='Additionals' checksumValid='true' checksum='zQltNOeSPt//u6vnUO6XCnpJkxQ='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='68' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2ADDI1001.xml' V281='13' V1='4' name='E2ADDI1001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='69' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2ADDI1001' description='Additionals'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='70' V167='21' inheritsFromIncarnation='75' inheritsFromTimestamp='0x1819281394c' inheritsInThisStruct='true' V283='2' occurMaxTimes='10' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP03.xml' V281='13' V1='4' name='E2EDP03' description='Document Item Date Segment' checksumValid='true' checksum='QnXXqHI0wowyFKu6XZCccRRjWkA='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='71' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP03.xml' V281='13' V1='4' name='E2EDP03'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='72' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDP03' description='Document Item Date Segment'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='73' V167='21' inheritsFromIncarnation='43' inheritsFromTimestamp='0x1819281394d' inheritsInThisStruct='true' V283='2' occurMaxTimes='10' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP04001.xml' V281='13' V1='4' name='E2EDP04001' description='Document Item Taxes' checksumValid='true' checksum='y3TiQVX1anttnZIqbh3oY4GLGAg='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='74' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP04001.xml' V281='13' V1='4' name='E2EDP04001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='75' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDP04001' description='Document Item Taxes'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='76' V167='21' V283='2' occurMaxTimes='16' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDP05002' description='Document Item Conditions'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='77' V167='21' inheritsFromIncarnation='81' inheritsFromTimestamp='0x1819281394d' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP05002.xml' V281='13' V1='4' name='E2EDP05002' description='Document Item Conditions' checksumValid='true' checksum='RvWl7ALjduR9Dr8cmehjfVlgI4U='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='78' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP05002.xml' V281='13' V1='4' name='E2EDP05002'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='79' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDP05002' description='Document Item Conditions'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='80' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x1819281394e' inheritsInThisStruct='true' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPS5000.xml' V281='13' V1='4' name='E2EDPS5000' description='A&amp;D: Price Scale (Quantity)' checksumValid='true' checksum='bI8Cf2WGupff7O14PAvgPbpCWK0='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='81' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPS5000.xml' V281='13' V1='4' name='E2EDPS5000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='82' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDPS5000' description='A&amp;D: Price Scale (Quantity)'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='167' id='83' V167='21' inheritsFromIncarnation='35' inheritsFromTimestamp='0x1819281394f' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP20001.xml' V281='13' V1='4' name='E2EDP20001' description='Schedule lines' checksumValid='true' checksum='+GW/UFUBO+rrOxvGAGXscOzmwCk='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='84' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP20001.xml' V281='13' V1='4' name='E2EDP20001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='85' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDP20001' description='Schedule lines'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='86' V167='21' V283='2' occurMaxTimes='8' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDPA1003' description='Doc.item partner information'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='87' V167='21' inheritsFromIncarnation='90' inheritsFromTimestamp='0x1819281394f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPA1003.xml' V281='13' V1='4' name='E2EDPA1003' description='Doc.item partner information' checksumValid='true' checksum='w2P96cNbySZQg6q6fHAji92+tho='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='88' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPA1003.xml' V281='13' V1='4' name='E2EDPA1003'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='89' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDPA1003' description='Doc.item partner information'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='90' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x18192813950' inheritsInThisStruct='true' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPA3.xml' V281='13' V1='4' name='E2EDPA3' description='Document Item Partner Information Additional Data' checksumValid='true' checksum='3R57TY2QZPee49uB2SvR7IWautU='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='91' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPA3.xml' V281='13' V1='4' name='E2EDPA3'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='92' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDPA3' description='Document Item Partner Information Additional Data'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='167' id='93' V167='21' inheritsFromIncarnation='39' inheritsFromTimestamp='0x18192813950' inheritsInThisStruct='true' V283='2' occurMaxTimes='5' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP19002.xml' V281='13' V1='4' name='E2EDP19002' description='Document Item Object Identification' checksumValid='true' checksum='JPiQ1dTbllbUYm1gB+vFE8NVIaQ='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='94' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP19002.xml' V281='13' V1='4' name='E2EDP19002'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='95' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDP19002' description='Document Item Object Identification'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='96' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDPAD001' description='A&amp;D: Material Exchange'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='97' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x18192813951' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPAD001.xml' V281='13' V1='4' name='E2EDPAD001' description='A&amp;D: Material Exchange' checksumValid='true' checksum='TT5NNYQFZDbbwfuBrCa0Y9rcR7M='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='98' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPAD001.xml' V281='13' V1='4' name='E2EDPAD001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='99' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDPAD001' description='A&amp;D: Material Exchange'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='100' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2TXTH1001' description='General Text Header'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='101' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x18192813952' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2TXTH1001.xml' V281='13' V1='4' name='E2TXTH1001' description='General Text Header' checksumValid='true' checksum='s8pRPHfQnYJ2yIQUQGd93lK7/ao='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='102' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2TXTH1001.xml' V281='13' V1='4' name='E2TXTH1001'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='103' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2TXTH1001' description='General Text Header'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+            <child t='167' id='104' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x18192813952' inheritsInThisStruct='true' V283='2' occurMaxTimes='100' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2TXTP1.xml' V281='13' V1='4' name='E2TXTP1' description='General Text Segment' checksumValid='true' checksum='n8JcX8oNQJ9hs3RB6nuJkOCx114='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='105' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2TXTP1.xml' V281='13' V1='4' name='E2TXTP1'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='106' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2TXTP1' description='General Text Segment'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+        </child>
+        <child t='167' id='107' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x18192813953' inheritsInThisStruct='true' V283='2' occurMaxTimes='5' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP17001.xml' V281='13' V1='4' name='E2EDP17001' description='Document item terms of delivery' checksumValid='true' checksum='RKzdFETnw5VAkROK5PggcdHSNEE='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='108' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP17001.xml' V281='13' V1='4' name='E2EDP17001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='109' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDP17001' description='Document item terms of delivery'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='110' V167='21' inheritsFromIncarnation='24' inheritsFromTimestamp='0x18192813953' inheritsInThisStruct='true' V283='2' occurMaxTimes='3' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP18001.xml' V281='13' V1='4' name='E2EDP18001' description='Document Item Terms of Payment' checksumValid='true' checksum='SyULVwNuWGbhloQ11p7Y7ALrwxI='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='111' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP18001.xml' V281='13' V1='4' name='E2EDP18001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='112' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDP18001' description='Document Item Terms of Payment'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='113' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x18192813954' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP35000.xml' V281='13' V1='4' name='E2EDP35000' description='Document Item Additional Data' checksumValid='true' checksum='fIPSNEIPMlqYCSl1TbIJk0+Q0Jg='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='114' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDP35000.xml' V281='13' V1='4' name='E2EDP35000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='115' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDP35000' description='Document Item Additional Data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='116' V167='21' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDPT1001' description='Document Item Text Identification'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='117' V167='21' inheritsFromIncarnation='34' inheritsFromTimestamp='0x18192813954' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPT1001.xml' V281='13' V1='4' name='E2EDPT1001' description='Document Item Text Identification' checksumValid='true' checksum='iGBmdQb41n+wM2GmRYzi8rRPQ8o='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='118' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPT1001.xml' V281='13' V1='4' name='E2EDPT1001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='119' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDPT1001' description='Document Item Text Identification'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='120' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x18192813955' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPT2001.xml' V281='13' V1='4' name='E2EDPT2001' description='Document Item Texts' checksumValid='true' checksum='eTufTbQDV3huX2eVc57e7rJZDlE='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='121' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDPT2001.xml' V281='13' V1='4' name='E2EDPT2001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='122' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDPT2001' description='Document Item Texts'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='167' id='123' V167='21' V283='2' occurMaxTimes='9999999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDC01' description='SS: Service specifications general data' checksumValid='true' checksum='SWjRjOFFaipAgSQ3O4eyIlJeJdM='>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='124' V167='21' inheritsFromIncarnation='78' inheritsFromTimestamp='0x18192813956' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC01.xml' V281='13' V1='4' name='E2EDC01' description='SS: Service specifications general data' checksumValid='true' checksum='nIL9z2d1iN3AZyl/vQ2r/4tE/hU='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='125' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC01.xml' V281='13' V1='4' name='E2EDC01'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='126' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDC01' description='SS: Service specifications general data'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='127' V167='21' inheritsFromIncarnation='24' inheritsFromTimestamp='0x18192813957' inheritsInThisStruct='true' V283='2' occurMaxTimes='10' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC02.xml' V281='13' V1='4' name='E2EDC02' description='SS item: Reference data' checksumValid='true' checksum='FhnKIus1D+CHh4zhBT8gBeNOV/8='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='128' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC02.xml' V281='13' V1='4' name='E2EDC02'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='129' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDC02' description='SS item: Reference data'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='130' V167='21' inheritsFromIncarnation='75' inheritsFromTimestamp='0x18192813957' inheritsInThisStruct='true' V283='2' occurMaxTimes='10' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC03.xml' V281='13' V1='4' name='E2EDC03' description='SS item: Date segment' checksumValid='true' checksum='WwBy4z8vH6NwkE7NggN/btbhHm0='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='131' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC03.xml' V281='13' V1='4' name='E2EDC03'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='132' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDC03' description='SS item: Date segment'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='133' V167='21' inheritsFromIncarnation='42' inheritsFromTimestamp='0x18192813958' inheritsInThisStruct='true' V283='2' occurMaxTimes='10' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC04.xml' V281='13' V1='4' name='E2EDC04' description='SS item: Taxes' checksumValid='true' checksum='4D2348LbK3PZs8A3zZnc5YlkLQM='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='134' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC04.xml' V281='13' V1='4' name='E2EDC04'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='135' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDC04' description='SS item: Taxes'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='136' V167='21' inheritsFromIncarnation='53' inheritsFromTimestamp='0x18192813958' inheritsInThisStruct='true' V283='2' occurMaxTimes='16' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC05.xml' V281='13' V1='4' name='E2EDC05' description='SS item: Conditions' checksumValid='true' checksum='1Cgk/SjGlMIePwLXwuigDdebMnw='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='137' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC05.xml' V281='13' V1='4' name='E2EDC05'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='138' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDC05' description='SS item: Conditions'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='139' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x18192813959' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC06000.xml' V281='13' V1='4' name='E2EDC06000' description='Service line formula fields' checksumValid='true' checksum='GFxbm/zQSiucEfiAi5CkLpp/jys='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='140' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC06000.xml' V281='13' V1='4' name='E2EDC06000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='141' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDC06000' description='Service line formula fields'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='142' V167='21' inheritsFromIncarnation='18' inheritsFromTimestamp='0x1819281395a' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC07000.xml' V281='13' V1='4' name='E2EDC07000' description='Service line user fields' checksumValid='true' checksum='mZxKdq/o/0mtOtV+Jgqw7oW0x+E='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='143' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC07000.xml' V281='13' V1='4' name='E2EDC07000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='144' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDC07000' description='Service line user fields'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='145' V167='21' inheritsFromIncarnation='85' inheritsFromTimestamp='0x1819281395b' inheritsInThisStruct='true' V283='2' occurMaxTimes='8' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDCA1.xml' V281='13' V1='4' name='E2EDCA1' description='SS items: Partner information' checksumValid='true' checksum='xH1rqDC19bD/ZfOT9hiYOnrL0Eg='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='146' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDCA1.xml' V281='13' V1='4' name='E2EDCA1'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='147' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDCA1' description='SS items: Partner information'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='148' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x1819281395c' inheritsInThisStruct='true' V283='2' occurMaxTimes='5' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC19.xml' V281='13' V1='4' name='E2EDC19' description='SS items: Object identification' checksumValid='true' checksum='6oc2yAtyB4eCu8oQB2sHTtKJIM4='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='149' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC19.xml' V281='13' V1='4' name='E2EDC19'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='150' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDC19' description='SS items: Object identification'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='151' V167='21' inheritsFromIncarnation='19' inheritsFromTimestamp='0x1819281395c' inheritsInThisStruct='true' V283='2' occurMaxTimes='5' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC17.xml' V281='13' V1='4' name='E2EDC17' description='SS items: Terms of delivery' checksumValid='true' checksum='OUHJb5f/tfMlAOsqByVeGbEHcVY='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='152' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC17.xml' V281='13' V1='4' name='E2EDC17'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='153' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDC17' description='SS items: Terms of delivery'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='154' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x1819281395d' inheritsInThisStruct='true' V283='2' occurMaxTimes='3' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC18.xml' V281='13' V1='4' name='E2EDC18' description='SS items: Terms of payment' checksumValid='true' checksum='kpaI+cEJlASj2GMqZM6kCEu3vLg='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='155' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDC18.xml' V281='13' V1='4' name='E2EDC18'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='156' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDC18' description='SS items: Terms of payment'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='157' V167='21' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDCT1' description='SS items: Text identification'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='158' V167='21' inheritsFromIncarnation='33' inheritsFromTimestamp='0x1819281395d' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDCT1.xml' V281='13' V1='4' name='E2EDCT1' description='SS items: Text identification' checksumValid='true' checksum='9+dP/op4ULXlmaPSNfceHv96eE0='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='159' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDCT1.xml' V281='13' V1='4' name='E2EDCT1'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='160' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDCT1' description='SS items: Text identification'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+            <child t='167' id='161' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x1819281395e' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDCT2.xml' V281='13' V1='4' name='E2EDCT2' description='SS items: Texts'>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='162' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDCT2.xml' V281='13' V1='4' name='E2EDCT2'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='163' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDCT2' description='SS items: Texts'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='164' V167='21' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2CUCFG003' description='CU: Configuration data'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='165' V167='21' inheritsFromIncarnation='29' inheritsFromTimestamp='0x1819281395e' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUCFG003.xml' V281='13' V1='4' name='E2CUCFG003' description='CU: Configuration data' checksumValid='true' checksum='/VeIDAZn9IUClf4uEzqNQi/eLjU='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='166' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUCFG003.xml' V281='13' V1='4' name='E2CUCFG003'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='167' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2CUCFG003' description='CU: Configuration data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='168' V167='21' inheritsFromIncarnation='29' inheritsFromTimestamp='0x1819281395f' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUINS002.xml' V281='13' V1='4' name='E2CUINS002' description='CU: Instance data' checksumValid='true' checksum='1rS1K94IFYIIfIOBSrnz0XI5iqk='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='169' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUINS002.xml' V281='13' V1='4' name='E2CUINS002'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='170' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2CUINS002' description='CU: Instance data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='171' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x1819281395f' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUPRT002.xml' V281='13' V1='4' name='E2CUPRT002' description='CU: part-of data' checksumValid='true' checksum='bOvmgTtlbtz0TcRc7OHD9+wmmPU='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='172' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUPRT002.xml' V281='13' V1='4' name='E2CUPRT002'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='173' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2CUPRT002' description='CU: part-of data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='174' V167='21' inheritsFromIncarnation='32' inheritsFromTimestamp='0x18192813960' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUVAL002.xml' V281='13' V1='4' name='E2CUVAL002' description='CU: Characteristic valuation' checksumValid='true' checksum='2Roaq72oFYIXxQcHmwtI7tJuPSg='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='175' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUVAL002.xml' V281='13' V1='4' name='E2CUVAL002'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='176' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2CUVAL002' description='CU: Characteristic valuation'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='177' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x18192813961' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUBLB000.xml' V281='13' V1='4' name='E2CUBLB000' description='CU: Configuration BLOB (SCE)'>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='178' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2CUBLB000.xml' V281='13' V1='4' name='E2CUBLB000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='179' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2CUBLB000' description='CU: Configuration BLOB (SCE)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='180' V167='21' V283='2' occurMaxTimes='999999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL37005' description='Handling unit header'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='181' V167='21' inheritsFromIncarnation='102' inheritsFromTimestamp='0x18192813961' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDL37005.xml' V281='13' V1='4' name='E2EDL37005' description='Handling unit header' checksumValid='true' checksum='ga1ibeeU+F95gR7bDYPTrsRVWtk='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='182' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDL37005.xml' V281='13' V1='4' name='E2EDL37005'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='183' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL37005' description='Handling unit header'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='184' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x18192813962' inheritsInThisStruct='true' V283='2' occurMaxTimes='9' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDL39000.xml' V281='13' V1='4' name='E2EDL39000' description='Control Segment for Handling Units' checksumValid='true' checksum='pPuc7SmRNwb8AjMxIHo0ZzQPk3k='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='185' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDL39000.xml' V281='13' V1='4' name='E2EDL39000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='186' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL39000' description='Control Segment for Handling Units'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='187' V167='21' inheritsFromIncarnation='22' inheritsFromTimestamp='0x18192813963' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDL38.xml' V281='13' V1='4' name='E2EDL38' description='Handling Unit Header Descriptions' checksumValid='true' checksum='uL3lzEP1xoZE6bgA0MMwY9XbTug='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='188' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDL38.xml' V281='13' V1='4' name='E2EDL38'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='189' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL38' description='Handling Unit Header Descriptions'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='190' V167='21' inheritsFromIncarnation='44' inheritsFromTimestamp='0x18192813963' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDL44004.xml' V281='13' V1='4' name='E2EDL44004' description='Handling Unit Item (Delivery)' checksumValid='true' checksum='jWmjiaSRCoSyQtK1Oo9JzPHBzI4='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='191' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDL44004.xml' V281='13' V1='4' name='E2EDL44004'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='192' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL44004' description='Handling Unit Item (Delivery)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='193' V167='21' inheritsFromIncarnation='46' inheritsFromTimestamp='0x18192813964' inheritsInThisStruct='true' V283='2' occurMaxTimes='5' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDS01.xml' V281='13' V1='4' name='E2EDS01' description='Summary segment general' checksumValid='true' checksum='2Ny/DSAKv4/w4mLdulhW1osqzds='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='194' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/IDocs/Segments/E2EDS01.xml' V281='13' V1='4' name='E2EDS01'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='195' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDS01' description='Summary segment general'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+    </child>
+  </rootElem>
+  <defaultRep t='181' id='196' V181='2' V170='10' V704='2' idoctyp='ORDERS05' cimtyp='ZORDERS05_SFDC' isTrimTrailingEmptyFields='true' V690='1' encoding='UTF-8' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='IDocs'>
+  </defaultRep>
+  <child t='162' id='197' V1='4' name='Representations'>
+    <child t='181' idref='196'/>
+    <child t='172' id='198' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    </child>
+  </child>
+  <child t='165' id='199' V1='4' name='Document Bindings'>
+    <child t='166' id='200' V166='5' docType='1' V1='4' name='/ORDERS05.ZORDERS05_SFDC'>
+      <elemNode t='167' idref='2'/>
+    </child>
+  </child>
+</root>

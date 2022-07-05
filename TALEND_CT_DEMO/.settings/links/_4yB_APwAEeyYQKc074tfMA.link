@@ -1,0 +1,43 @@
+{
+  "itemId" : "_4yB_APwAEeyYQKc074tfMA",
+  "contextList" : [ {
+    "contextName" : "PROD",
+    "repoId" : "_PoLQUPwBEeyYQKc074tfMA",
+    "parameterList" : [ {
+      "id" : "_bHFjpfwBEeyYQKc074tfMA",
+      "name" : "parameter_idocs_file_out_unsued"
+    }, {
+      "id" : "_hPGDsfwBEeyYQKc074tfMA",
+      "name" : "parameter_obj_id"
+    }, {
+      "id" : "_bHFjpPwBEeyYQKc074tfMA",
+      "name" : "parameter_rootURI"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_PoLQUPwBEeyYQKc074tfMA",
+    "parameterList" : [ {
+      "id" : "_bHFjovwBEeyYQKc074tfMA",
+      "name" : "parameter_idocs_file_out_unsued"
+    }, {
+      "id" : "_hPGDsPwBEeyYQKc074tfMA",
+      "name" : "parameter_obj_id"
+    }, {
+      "id" : "_bHFjofwBEeyYQKc074tfMA",
+      "name" : "parameter_rootURI"
+    } ]
+  }, {
+    "contextName" : "TEST",
+    "repoId" : "_PoLQUPwBEeyYQKc074tfMA",
+    "parameterList" : [ {
+      "id" : "_bHFjqPwBEeyYQKc074tfMA",
+      "name" : "parameter_idocs_file_out_unsued"
+    }, {
+      "id" : "_hPGDsvwBEeyYQKc074tfMA",
+      "name" : "parameter_obj_id"
+    }, {
+      "id" : "_bHFjp_wBEeyYQKc074tfMA",
+      "name" : "parameter_rootURI"
+    } ]
+  } ]
+}

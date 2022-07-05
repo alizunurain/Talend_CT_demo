@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <PO>
+    <TABNAM>xxxxxxxxxx</TABNAM>
+    <IDOCTYPE>xxxxxxxxxx</IDOCTYPE>
+    <CREDAT>xxxxxxxxx</CREDAT>
+    <CRETIM>xxxxxxxxx</CRETIM>
+    <DOCNUM>xxxxxxxxxx xxxxxxxxxx</DOCNUM>
+    <OBJ_ID>xxxxxxxxxx xxx</OBJ_ID>
+    <OBJ_ID_four_dgit_code>xxxxxxxxxx xxx</OBJ_ID_four_dgit_code>
+    <NAME>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx</NAME>
+    <NAME_2>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx</NAME_2>
+    <STREET>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx</STREET>
+    <STR_SUPPL1>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx</STR_SUPPL1>
+    <STR_SUPPL2>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx</STR_SUPPL2>
+    <STR_SUPPL3>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx</STR_SUPPL3>
+    <CITY>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx</CITY>
+    <REGION>xxxxx</REGION>
+    <POSTL_COD1>xxxxxxxxxx xxx</POSTL_COD1>
+    <POSTL_COD2>xxxxxxxxxx xxx</POSTL_COD2>
+    <DISTRICT>xxxxxxxxxx xxx</DISTRICT>
+    <COUNTRY>xxxxx</COUNTRY>
+    <LANGU>xxx</LANGU>
+    <SORT1>xxxxxxxxxx xxxxxxxxx</SORT1>
+    <SORT2>xxxxxxxxxx xxxxxxxxx</SORT2>
+    <STD_NO>xxxxxxxxxx xxxxxxxxx</STD_NO>
+    <TELEPHONE>xxxxxxxxxx xxxxxxxxx</TELEPHONE>
+    <TEL_EXTENSION>xxxxx</TEL_EXTENSION>
+    <CALLER_NO>xxxxxxxxxx xxxxxxxxx</CALLER_NO>
+    <TELEPHONE_MOBILE>xxxxxxxxxx xxxxxxxxx</TELEPHONE_MOBILE>
+    <FAX>xxxxxxxxxx xxxxxxxxx xxxxxxxxx</FAX>
+    <FAX_EXTENSION>xxxxx</FAX_EXTENSION>
+    <PRIMARY_EMAIL>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx x</PRIMARY_EMAIL>
+  </PO>
+</root>

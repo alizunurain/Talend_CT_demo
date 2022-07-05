@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x181a7e8142b' V1='4' name='ZDEBMAS1' incarnation='136'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ZDEBMAS1' description='Zep Customer Master with Enhancements'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' inheritsFromIncarnation='40' inheritsFromTimestamp='0x181a7e813ec' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40' description='Control record' checksumValid='true' checksum='MhD6Nl7C1/4F6oUEY19ApG91y9I='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EDI_DC40' description='Control record'>
+        <delimTerminator>\n</delimTerminator>
+      </savedOrigCopyAtInheritsFrom>
+      <delimTerminator>\n</delimTerminator>
+    </child>
+    <child t='167' id='6' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2KNA1M005' description='Master customer master basic data (KNA1)' checksumValid='true' checksum='1QOYSHJZLKJD78PZNZvZXRz3VYg='>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='7' V167='21' inheritsFromIncarnation='157' inheritsFromTimestamp='0x181a7e813fb' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNA1M005.xml' V281='13' V1='4' name='E2KNA1M005' description='Master customer master basic data (KNA1)' checksumValid='true' checksum='BS6TpQM4bBt8iZTXFthzK1kGOko='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='8' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNA1M005.xml' V281='13' V1='4' name='E2KNA1M005'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='9' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNA1M005' description='Master customer master basic data (KNA1)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='10' V167='21' inheritsFromIncarnation='29' inheritsFromTimestamp='0x181a7e813ff' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNA11002.xml' V281='13' V1='4' name='E2KNA11002' description='Customer Master: Additional General Fields  (KNA1)' checksumValid='true' checksum='mVlJjLSK+JYriC1nuFMtzELfs6M='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='11' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNA11002.xml' V281='13' V1='4' name='E2KNA11002'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='12' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNA11002' description='Customer Master: Additional General Fields  (KNA1)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='13' V167='21' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2KNA1H001' description='Master customer master basic data: Texts, header'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='14' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x181a7e81401' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNA1H001.xml' V281='13' V1='4' name='E2KNA1H001' description='Master customer master basic data: Texts, header' checksumValid='true' checksum='AreqznFCmOMr4eQ3sOmJZVxa65c='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='15' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNA1H001.xml' V281='13' V1='4' name='E2KNA1H001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='16' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNA1H001' description='Master customer master basic data: Texts, header'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='17' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x181a7e81402' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNA1L.xml' V281='13' V1='4' name='E2KNA1L' description='Master customer master basic data: Text line' checksumValid='true' checksum='2h1WYF0JUxACCmlh1sYqgnn0hYc='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='18' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNA1L.xml' V281='13' V1='4' name='E2KNA1L'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='19' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNA1L' description='Master customer master basic data: Text line'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='20' V167='21' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2KNVVM007' description='Master customer master sales data (KNVV)' checksumValid='true' checksum='AeZdlXfQho6cIJzHDq2ttwozpF0='>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='21' V167='21' inheritsFromIncarnation='97' inheritsFromTimestamp='0x181a7e81403' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVVM007.xml' V281='13' V1='4' name='E2KNVVM007' description='Master customer master sales data (KNVV)' checksumValid='true' checksum='Hk1KAEASQ6f3r/ofFOw9SCQIn6A='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='22' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVVM007.xml' V281='13' V1='4' name='E2KNVVM007'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='23' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNVVM007' description='Master customer master sales data (KNVV)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='24' V167='21' inheritsFromIncarnation='34' inheritsFromTimestamp='0x181a7e81406' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/Z2KNVHM000.xml' V281='13' V1='4' name='Z2KNVHM000' description='Master customer master hierarchy (KNVH)' checksumValid='true' checksum='gsG4yoACvgzMBVZ0w7dfAAw6OxA='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='25' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/Z2KNVHM000.xml' V281='13' V1='4' name='Z2KNVHM000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='26' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Z2KNVHM000' description='Master customer master hierarchy (KNVH)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='27' V167='21' inheritsFromIncarnation='52' inheritsFromTimestamp='0x181a7e81406' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/Z2KNVVX000.xml' V281='13' V1='4' name='Z2KNVVX000' description='Zep Freight Enhancments' checksumValid='true' checksum='hVEvHtxfw51JfX2mBuWYxhelTA4='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='28' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/Z2KNVVX000.xml' V281='13' V1='4' name='Z2KNVVX000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='29' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Z2KNVVX000' description='Zep Freight Enhancments'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='30' V167='21' inheritsFromIncarnation='36' inheritsFromTimestamp='0x181a7e81409' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/Z2NACHM000.xml' V281='13' V1='4' name='Z2NACHM000' description='Paperless billing output condition data (NACH)' checksumValid='true' checksum='KzDx5/AIR5B6SoxH365Nzn3at3A='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='31' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/Z2NACHM000.xml' V281='13' V1='4' name='Z2NACHM000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='32' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Z2NACHM000' description='Paperless billing output condition data (NACH)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='33' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x181a7e8140a' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVPM002.xml' V281='13' V1='4' name='E2KNVPM002' description='Master customer master partner roles (KNVP)' checksumValid='true' checksum='1s5ukL4C/CLPkMRfpvCEdWJ2UDU='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='34' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVPM002.xml' V281='13' V1='4' name='E2KNVPM002'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='35' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNVPM002' description='Master customer master partner roles (KNVP)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='36' V167='21' inheritsFromIncarnation='41' inheritsFromTimestamp='0x181a7e8140b' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVDM001.xml' V281='13' V1='4' name='E2KNVDM001' description='Master customer master document request (KNVD)' checksumValid='true' checksum='vYHtvO5IL/0KsDzo9ZHJyBtvJZQ='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='37' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVDM001.xml' V281='13' V1='4' name='E2KNVDM001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='38' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNVDM001' description='Master customer master document request (KNVD)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='39' V167='21' inheritsFromIncarnation='24' inheritsFromTimestamp='0x181a7e8140c' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVIM.xml' V281='13' V1='4' name='E2KNVIM' description='Master customer master tax indicators (KNVI)' checksumValid='true' checksum='kW7zj69cBzOftXMeGMMKmlU/GkM='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='40' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVIM.xml' V281='13' V1='4' name='E2KNVIM'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='41' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNVIM' description='Master customer master tax indicators (KNVI)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='42' V167='21' inheritsFromIncarnation='28' inheritsFromTimestamp='0x181a7e8140d' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVLM.xml' V281='13' V1='4' name='E2KNVLM' description='Master customer master licenses (KNVL)' checksumValid='true' checksum='Z3SalPMuX0xtdCYS1KTaK43xBG0='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='43' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVLM.xml' V281='13' V1='4' name='E2KNVLM'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='44' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNVLM' description='Master customer master licenses (KNVL)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='45' V167='21' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2KNVVH001' description='Master customer master sales data: Texts, header'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='46' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x181a7e8140f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVVH001.xml' V281='13' V1='4' name='E2KNVVH001' description='Master customer master sales data: Texts, header' checksumValid='true' checksum='pJO4r5awn3ObLD4OjOEQk4nZPCY='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='47' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVVH001.xml' V281='13' V1='4' name='E2KNVVH001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='48' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNVVH001' description='Master customer master sales data: Texts, header'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='49' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x181a7e8140f' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVVL.xml' V281='13' V1='4' name='E2KNVVL' description='Master customer master sales data: text line' checksumValid='true' checksum='35hXYhGGKvWuqQotrAJ86zUvTSg='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='50' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVVL.xml' V281='13' V1='4' name='E2KNVVL'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='51' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNVVL' description='Master customer master sales data: text line'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='52' V167='21' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2KNB1M006' description='Master Customer Master Company Code (KNB1)'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='53' V167='21' inheritsFromIncarnation='113' inheritsFromTimestamp='0x181a7e8140f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNB1M006.xml' V281='13' V1='4' name='E2KNB1M006' description='Master Customer Master Company Code (KNB1)' checksumValid='true' checksum='ShNDrGleWm9di6GzXJdN7p8PK3Q='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='54' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNB1M006.xml' V281='13' V1='4' name='E2KNB1M006'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='55' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNB1M006' description='Master Customer Master Company Code (KNB1)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='56' V167='21' inheritsFromIncarnation='29' inheritsFromTimestamp='0x181a7e8140f' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNB5M.xml' V281='13' V1='4' name='E2KNB5M' description='Master customer master reminder data (KNB5)' checksumValid='true' checksum='OrK6LOHjSkeqvZS9iXKz5I9s6Sk='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='57' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNB5M.xml' V281='13' V1='4' name='E2KNB5M'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='58' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNB5M' description='Master customer master reminder data (KNB5)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='59' V167='21' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2KNB1H001' description='Master customer master company code: Texts, header'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='60' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x181a7e81413' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNB1H001.xml' V281='13' V1='4' name='E2KNB1H001' description='Master customer master company code: Texts, header' checksumValid='true' checksum='8ZJTZexNCd6T1HP0yhozamYUlm8='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='61' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNB1H001.xml' V281='13' V1='4' name='E2KNB1H001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='62' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNB1H001' description='Master customer master company code: Texts, header'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='63' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x181a7e81414' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNB1L.xml' V281='13' V1='4' name='E2KNB1L' description='Master customer master company code: text line' checksumValid='true' checksum='bpHLRoRa3Q1Q5S5OE70bbbkQS3w='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='64' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNB1L.xml' V281='13' V1='4' name='E2KNB1L'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='65' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNB1L' description='Master customer master company code: text line'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='66' V167='21' inheritsFromIncarnation='44' inheritsFromTimestamp='0x181a7e81414' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNBKM004.xml' V281='13' V1='4' name='E2KNBKM004' description='Master customer master bank details and bank master' checksumValid='true' checksum='DrlfC0q/776gDBsKcdrGyyhdYD4='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='67' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNBKM004.xml' V281='13' V1='4' name='E2KNBKM004'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='68' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNBKM004' description='Master customer master bank details and bank master'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='69' V167='21' inheritsFromIncarnation='54' inheritsFromTimestamp='0x181a7e81416' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVAM.xml' V281='13' V1='4' name='E2KNVAM' description='Master customer master unloading point (KNVA)' checksumValid='true' checksum='eVIFpIBX3CgMa32BpSiBSwmc+o8='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='70' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVAM.xml' V281='13' V1='4' name='E2KNVAM'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='71' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNVAM' description='Master customer master unloading point (KNVA)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='72' V167='21' inheritsFromIncarnation='25' inheritsFromTimestamp='0x181a7e81416' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF12.xml' V281='13' V1='4' name='E2WRF12' description='Segment for plant/receiving points' checksumValid='true' checksum='pYdaHwKEXZ4Zv8GDLtmyM2WMtK0='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='73' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF12.xml' V281='13' V1='4' name='E2WRF12'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='74' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2WRF12' description='Segment for plant/receiving points'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='75' V167='21' inheritsFromIncarnation='28' inheritsFromTimestamp='0x181a7e81416' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF4M.xml' V281='13' V1='4' name='E2WRF4M' description='Segment for plant/departments' checksumValid='true' checksum='Tj7p1VXN+64uJWOAQqZgWsQRCXg='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='76' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF4M.xml' V281='13' V1='4' name='E2WRF4M'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='77' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2WRF4M' description='Segment for plant/departments'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='78' V167='21' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2KNVKM001' description='Master customer master contact person (KNVK)'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='79' V167='21' inheritsFromIncarnation='86' inheritsFromTimestamp='0x181a7e81416' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVKM001.xml' V281='13' V1='4' name='E2KNVKM001' description='Master customer master contact person (KNVK)' checksumValid='true' checksum='NPC4tCwta2t74vsecR69YSXcho8='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='80' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVKM001.xml' V281='13' V1='4' name='E2KNVKM001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='81' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNVKM001' description='Master customer master contact person (KNVK)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='82' V167='21' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2KNVKH001' description='Master customer master contact person: Texts, header'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='83' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x181a7e81416' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVKH001.xml' V281='13' V1='4' name='E2KNVKH001' description='Master customer master contact person: Texts, header' checksumValid='true' checksum='dqg2bOXh106ayxJsmPCW8PB/xt4='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='84' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVKH001.xml' V281='13' V1='4' name='E2KNVKH001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='85' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNVKH001' description='Master customer master contact person: Texts, header'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='86' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x181a7e81416' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVKL.xml' V281='13' V1='4' name='E2KNVKL' description='Master customer master contact person: text line' checksumValid='true' checksum='wIHXl3QdP9jdzta/j8uxjMC7FsI='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='87' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNVKL.xml' V281='13' V1='4' name='E2KNVKL'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='88' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNVKL' description='Master customer master contact person: text line'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='89' V167='21' inheritsFromIncarnation='31' inheritsFromTimestamp='0x181a7e81416' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNEXM.xml' V281='13' V1='4' name='E2KNEXM' description='Master customer master export data' checksumValid='true' checksum='TWXM6er3J1eWfv+TfT94Fbjk300='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='90' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNEXM.xml' V281='13' V1='4' name='E2KNEXM'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='91' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNEXM' description='Master customer master export data'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='92' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x181a7e81416' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNASM.xml' V281='13' V1='4' name='E2KNASM' description='Master customer master additional EU tax number' checksumValid='true' checksum='GZbQwb23LHGUVa/tMXLvwfoAH08='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='93' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNASM.xml' V281='13' V1='4' name='E2KNASM'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='94' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNASM' description='Master customer master additional EU tax number'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='95' V167='21' inheritsFromIncarnation='25' inheritsFromTimestamp='0x181a7e81416' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNKAM.xml' V281='13' V1='4' name='E2KNKAM' description='Master customer master credit management central data (KNKA)' checksumValid='true' checksum='OrXXtyNIH7/vnaP51DKQYxTqOQ4='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='96' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNKAM.xml' V281='13' V1='4' name='E2KNKAM'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='97' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNKAM' description='Master customer master credit management central data (KNKA)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='98' V167='21' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2KNKKM001' description='Master customer master credit mgmt control area data (KNKK)'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='99' V167='21' inheritsFromIncarnation='42' inheritsFromTimestamp='0x181a7e8141e' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNKKM001.xml' V281='13' V1='4' name='E2KNKKM001' description='Master customer master credit mgmt control area data (KNKK)' checksumValid='true' checksum='bVXeH0u8RO20Rj0AZQLLH+8+L0k='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='100' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNKKM001.xml' V281='13' V1='4' name='E2KNKKM001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='101' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNKKM001' description='Master customer master credit mgmt control area data (KNKK)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='102' V167='21' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2KNKKH001' description='Master customer master credit management: Text, header'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='103' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x181a7e8141f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNKKH001.xml' V281='13' V1='4' name='E2KNKKH001' description='Master customer master credit management: Text, header' checksumValid='true' checksum='Kx13dYggZMia/X8w6Kwj9SPtLT8='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='104' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNKKH001.xml' V281='13' V1='4' name='E2KNKKH001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='105' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNKKH001' description='Master customer master credit management: Text, header'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='106' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x181a7e81420' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNKKL.xml' V281='13' V1='4' name='E2KNKKL' description='Master customer master credit management: Text, line' checksumValid='true' checksum='M1hNfifjaMJJ4sfOaTqBYqnXEyA='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='107' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2KNKKL.xml' V281='13' V1='4' name='E2KNKKL'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='108' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2KNKKL' description='Master customer master credit management: Text, line'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='109' V167='21' inheritsFromIncarnation='30' inheritsFromTimestamp='0x181a7e81421' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2VCKUN000.xml' V281='13' V1='4' name='E2VCKUN000' description='Customer Master: Credit Card Data' checksumValid='true' checksum='esUhILe4R4UoXhCMQh105qtZSYY='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='110' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2VCKUN000.xml' V281='13' V1='4' name='E2VCKUN000'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='111' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2VCKUN000' description='Customer Master: Credit Card Data'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='112' V167='21' inheritsFromIncarnation='93' inheritsFromTimestamp='0x181a7e81422' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF1M.xml' V281='13' V1='4' name='E2WRF1M' description='Segment for plant master' checksumValid='true' checksum='Y2vwnXSFSoy1H+4e8+fF4AEZYzQ='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='113' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF1M.xml' V281='13' V1='4' name='E2WRF1M'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='114' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2WRF1M' description='Segment for plant master'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='115' V167='21' inheritsFromIncarnation='28' inheritsFromTimestamp='0x181a7e81422' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF3M001.xml' V281='13' V1='4' name='E2WRF3M001' description='Segment for supplying plant, time-dependent' checksumValid='true' checksum='z1GiPUEl7/ElfD4D8L8rI18gQ0U='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='116' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF3M001.xml' V281='13' V1='4' name='E2WRF3M001'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='117' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2WRF3M001' description='Segment for supplying plant, time-dependent'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='118' V167='21' inheritsFromIncarnation='25' inheritsFromTimestamp='0x181a7e81422' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF5M000.xml' V281='13' V1='4' name='E2WRF5M000' description='Segment for Plant/Merchant ID for Credit Card Company' checksumValid='true' checksum='CaZEzoT3QgH7Hl5tS1Fy4pEj+8M='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='119' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF5M000.xml' V281='13' V1='4' name='E2WRF5M000'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='120' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2WRF5M000' description='Segment for Plant/Merchant ID for Credit Card Company'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='121' V167='21' inheritsFromIncarnation='40' inheritsFromTimestamp='0x181a7e81422' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF6M.xml' V281='13' V1='4' name='E2WRF6M' description='Segment for plant/material groups' checksumValid='true' checksum='tkhfnQVb4wsyZydI3J5KPAVCV2M='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='122' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2WRF6M.xml' V281='13' V1='4' name='E2WRF6M'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='123' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2WRF6M' description='Segment for plant/material groups'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='124' V167='21' inheritsFromIncarnation='29' inheritsFromTimestamp='0x181a7e81428' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2T023W001.xml' V281='13' V1='4' name='E2T023W001' description='Segment for value-only material determination' checksumValid='true' checksum='IEcXAQLn7Cvob0iDRSo75BT65RQ='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='125' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2T023W001.xml' V281='13' V1='4' name='E2T023W001'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='126' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2T023W001' description='Segment for value-only material determination'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='127' V167='21' inheritsFromIncarnation='31' inheritsFromTimestamp='0x181a7e81429' inheritsInThisStruct='true' V283='2' occurMaxTimes='9999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2T023X001.xml' V281='13' V1='4' name='E2T023X001' description='Segment for exceptions in VO-material determination' checksumValid='true' checksum='JesHEwQP5n6l78qA6tD74zKBi9o='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='128' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/iDocs_Structures/Segments/E2T023X001.xml' V281='13' V1='4' name='E2T023X001'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='129' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2T023X001' description='Segment for exceptions in VO-material determination'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+    </child>
+  </rootElem>
+  <defaultRep t='181' id='130' V181='2' V170='10' V704='2' idoctyp='ZDEBMAS1' isTrimTrailingEmptyFields='true' V690='1' encoding='UTF-8' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='IDocs'>
+  </defaultRep>
+  <child t='162' id='131' V1='4' name='Representations'>
+    <child t='181' idref='130'/>
+    <child t='172' id='132' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    </child>
+  </child>
+  <child t='165' id='133' V1='4' name='Document Bindings'>
+  </child>
+</root>

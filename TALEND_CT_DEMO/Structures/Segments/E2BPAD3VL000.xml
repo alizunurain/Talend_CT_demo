@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x181ac77981a' V1='4' name='E2BPAD3VL000' incarnation='57'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPAD3VL000' description='Return structure for the address of a person in a company'>
+    <structNode t='150' idref='1'/>
+    <delimTerminator>\n</delimTerminator>
+    <child t='167' id='3' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' delimIncludeInitiator='true' V281='13' V1='4' name='SEGNAM' description='Segment name'>
+      <structNode t='150' idref='1'/>
+      <delimInitiator>E2BPAD3VL000                  </delimInitiator>
+    </child>
+    <child t='167' id='4' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MANDT' description='Client'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='5' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='16' maxSize='16' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DOCNUM' description='Number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='6' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SEGNUM' description='Record number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='7' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PSGNUM' description='Parent record number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='8' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HLEVEL' description='Hierarchy level'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='9' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ADDR_VERS' description='Version ID for International Addresses'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='10' V167='21' V283='2' occurMaxTimes='1' minSize='8' maxSize='8' dataType='31' dataFormat='301' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FROM_DATE' description='Valid-from date - in current Release only 00010101 possible'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='11' V167='21' V283='2' occurMaxTimes='1' minSize='8' maxSize='8' dataType='31' dataFormat='301' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TO_DATE' description='Valid-to date in current Release only 99991231 possible'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='12' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TITLE_P' description='Form-of-Address Key'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='13' V167='21' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FIRSTNAME' description='First name'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='14' V167='21' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LASTNAME' description='Last name'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='15' V167='21' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='BIRTH_NAME' description='Name of person at birth'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='16' V167='21' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MIDDLENAME' description='Middle name or second forename of a person'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='17' V167='21' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SECONDNAME' description='Second surname of a person'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='18' V167='21' V283='2' occurMaxTimes='1' minSize='80' maxSize='80' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FULLNAME' description='Full Name of Person'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='19' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FULLNAME_X' description='Status of Field &apos;Full Name&apos; NAME_TEXT'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='20' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='X' description='Converted from the previous release'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='21' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='M' description='Maintained manually'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='22' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TITLE_ACA1' description='Academic Title: Key'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='23' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TITLE_ACA2' description='Second academic title (key)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='24' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PREFIX1' description='Name Prefix (Key)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='25' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PREFIX2' description='2nd name prefix (key)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='26' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TITLE_SPPL' description='Name supplement, e.g. noble title (key)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='27' V167='21' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NICKNAME' description='Nickname or name used'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='28' V167='21' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='INITIALS' description='"Middle Initial" or personal initials'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='29' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NAMEFORMAT' description='Name format'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='30' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NAMCOUNTRY' description='Country for name format rule'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='31' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NAMCTRYISO' description='Country ISO code'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='32' V167='21' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PROFESSION' description='Profession'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='33' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SEX' description='Gender key'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='34' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='1' description='Male'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='35' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='2' description='Female'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='36' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LANGU_P' description='Language Key'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='37' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LANGUP_ISO' description='Language according to ISO 639'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='38' V167='21' V283='2' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SORT1_P' description='Search Term 1'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='39' V167='21' V283='2' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SORT2_P' description='Search Term 2'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='40' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LANGU_CR_P' description='Address record creation original language'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='41' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LANGUCPISO' description='Language according to ISO 639'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='42' V167='21' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DEPARTMENT' description='Department'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='43' V167='21' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FUNCTION' description='Function'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='44' V167='21' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='BUILDING_P' description='Building (number or code)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='45' V167='21' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FLOOR_P' description='Floor in building'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='46' V167='21' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ROOM_NO_P' description='Room or Appartment Number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='47' V167='21' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='INITS_SIG' description='Short name for correspondence'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='48' V167='21' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='INHOUSE_ML' description='Int. mail postal code'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='49' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='COMM_TYPE' description='Communication Method (Key) (Business Address Services)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='50' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PERS_GROUP' description='Person Group (Key) (Business Address Services)'>
+      <structNode t='150' idref='1'/>
+    </child>
+  </rootElem>
+  <defaultRep t='181' id='51' V181='2' V170='10' V704='2' isTrimTrailingEmptyFields='true' V690='1' encoding='UTF-8' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='IDocs'>
+  </defaultRep>
+  <child t='162' id='52' V1='4' name='Representations'>
+    <child t='181' idref='51'/>
+    <child t='172' id='53' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    </child>
+  </child>
+  <child t='165' id='54' V1='4' name='Document Bindings'>
+  </child>
+</root>
