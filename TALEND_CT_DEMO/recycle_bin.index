@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>Structures/zep_output_structures/test</deletedFolders>
+  <deletedItems id="_V4LksPbxEeyl1s1CcaqAKQ" path="" type="MAPS"/>
   <deletedItems id="_KDf5UPtdEeyit5xcPsbXTQ" path="" type="METADATA_FILE_XML"/>
 </recyclebin:RecycleBin>

@@ -3,7 +3,7 @@
     <contextParameter comment="" internalId="_jVJbgNyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_AdditionalParams" prompt="connection_M1_employee_emp_master_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
     <contextParameter comment="" internalId="_jVJbgdyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Database" prompt="connection_M1_employee_emp_master_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="employee"/>
     <contextParameter comment="" internalId="_jVJbgtyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Login" prompt="connection_M1_employee_emp_master_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
-    <contextParameter comment="" internalId="_jVKCkNyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Password" prompt="connection_M1_employee_emp_master_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:pSCKMo7ZFiEOm9QYMKGR7H3yRYhwKWvjV1yZfUQ2cd8="/>
+    <contextParameter comment="" internalId="_jVKCkNyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Password" prompt="connection_M1_employee_emp_master_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ifWH1335ZbqaUKRwnJLdRTGnKLbRhDBbZMYHKEMwFY0="/>
     <contextParameter comment="" internalId="_jVKCkdyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Port" prompt="connection_M1_employee_emp_master_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
     <contextParameter comment="" internalId="_jVKCktyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Server" prompt="connection_M1_employee_emp_master_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
     <contextParameter comment="Root File Path" internalId="_jVKCk9yXEeyaV9efgVZKUg" name="parameter_RootFilePath" prompt="parameter_RootFilePath?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_Directory" value="C:/Users/AliZunurain/Documents/Talend_Studio/workspace/traning/"/>
@@ -12,7 +12,7 @@
     <contextParameter comment="" internalId="_jVKClNyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_AdditionalParams" prompt="connection_M1_employee_emp_master_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
     <contextParameter comment="" internalId="_jVKCldyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Database" prompt="connection_M1_employee_emp_master_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="employee"/>
     <contextParameter comment="" internalId="_jVKCltyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Login" prompt="connection_M1_employee_emp_master_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
-    <contextParameter comment="" internalId="_jVKCl9yXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Password" prompt="connection_M1_employee_emp_master_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:GhNgGJd1xwyOAim3uUwVdA0j5yGSBl77X6i4IM9GY4o="/>
+    <contextParameter comment="" internalId="_jVKCl9yXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Password" prompt="connection_M1_employee_emp_master_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:iTBafAPygWARQF4MJvIfocOGdXprUAQGefsPygrBA6g="/>
     <contextParameter comment="" internalId="_jVKCmNyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Port" prompt="connection_M1_employee_emp_master_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
     <contextParameter comment="" internalId="_jVKCmdyXEeyaV9efgVZKUg" name="connection_M1_employee_emp_master_Server" prompt="connection_M1_employee_emp_master_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
     <contextParameter comment="Root File Path" internalId="_jVKCmtyXEeyaV9efgVZKUg" name="parameter_RootFilePath" prompt="parameter_RootFilePath?" promptNeeded="false" repositoryContextId="_YDpvkNyLEeyaV9efgVZKUg" type="id_Directory" value="C:/Users/AliZunurain/Documents/Talend_Studio/workspace/traning/"/>
@@ -20,7 +20,7 @@
   <context confirmationNeeded="false" name="test">
     <contextParameter comment="" internalId="_z9e7kOavEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_Database" prompt="connection_M1_employee_emp_master_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="employee"/>
     <contextParameter comment="" internalId="_z9e7keavEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_Server" prompt="connection_M1_employee_emp_master_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
-    <contextParameter comment="" internalId="_z9e7kuavEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_Password" prompt="connection_M1_employee_emp_master_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:DFV27EuC417ynba8WFCLuj0uwuAy0NpMDSZcHfHNbPk="/>
+    <contextParameter comment="" internalId="_z9e7kuavEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_Password" prompt="connection_M1_employee_emp_master_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:lu3vZWgG1IxFrDuB1kJlSRxl+p3otMTjcb0CL8sNo7g="/>
     <contextParameter comment="" internalId="_z9e7k-avEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_Port" prompt="connection_M1_employee_emp_master_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
     <contextParameter comment="" internalId="_z9e7lOavEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_AdditionalParams" prompt="connection_M1_employee_emp_master_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
     <contextParameter comment="" internalId="_z9e7leavEeyEC5J912Y-rg" name="connection_M1_employee_emp_master_Login" prompt="connection_M1_employee_emp_master_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
@@ -69,7 +69,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:UkQ0si6A6Dkegx6QJFixwckW6H7F3VwDbICGd77N"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:S7az4qIJ3NvIQAbyHH/jc5+kzgJUJ5DtrCE6Ce13"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -104,7 +104,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:IMmrQAw36O7Xy+wlepSj2LB95dNaQ9DVLgB8uUvO"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:VCxdk5oigMRpf6WBt13vHxQDkwefv+71tHgaJ/9z"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -373,7 +373,7 @@
     <elementParameter field="CHECK" name="ENCRYPT_FILES" value="false"/>
     <elementParameter field="CLOSED_LIST" name="ENCRYPT_METHOD" show="false" value="ENC_METHOD_STANDARD"/>
     <elementParameter field="CLOSED_LIST" name="AES_KEY_STRENGTH" show="false" value="AES_STRENGTH_256"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:QOeJ0+p0T9zIg0PdGHo8hX4x+3TKhCgax0SyXAKS"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:KqQBW9Wo/zBCON0U/Shhv1tY0aCDKVTr5+kUsHPx"/>
     <elementParameter field="CLOSED_LIST" name="ZIP64_MODE" value="ASNEEDED"/>
     <elementParameter field="CHECK" name="USE_SYNC_FLUSH" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="ArchiveAfterProcessing"/>
@@ -516,13 +516,13 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileCopy_1" offsetLabelX="0" offsetLabelY="0" source="tFileCopy_1" target="tFileDelete_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
   </connection>
-  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFileExist_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFileExist_1" target="tFileCopy_1">
-    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tFileExist_1_EXISTS&quot;)) == true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If1"/>
-  </connection>
-  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFileExist_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tFileExist_1" target="tMsgBox_1">
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFileExist_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFileExist_1" target="tMsgBox_1">
     <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tFileExist_1_EXISTS&quot;)) == false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If2"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFileExist_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tFileExist_1" target="tFileCopy_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tFileExist_1_EXISTS&quot;)) == true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If1"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileDelete_1" offsetLabelX="0" offsetLabelY="0" source="tFileDelete_1" target="tFixedFlowInput_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
@@ -576,13 +576,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7e6317ab-c471-4ff2-a3eb-61bfbbb02b7f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Kn6dYShTNjbCydVCqKqPApdwZN1ilScOOt2zzXusq4bOuUqDKI2zCRdgxqGaKN+iHf7f5s9+poqu&#13;
-3eUuaZRCgA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bd60a77a-c3c4-43b2-b32c-49051193f958"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ISInuiPMPbKQJ+6lgiO89Mi1ZCYTset9sf98DiPxWG5Y3ynRC2CQWeL6GoQz8JQx07Aj55PAa2bb&#13;
-8PpNXifv7A==</DigestValue></Reference></SignedInfo><SignatureValue>V+JWw49VEzEW2NDUhZ3k6gxODwXOu3sqMwi825ztsyUbonxcXzLH9u2nVWV0Fw2rq/0fto/+HIz+&#13;
-SQ+By33guYeZyYZCuea3yUJjH3mnrBxilp/UO6C/i+Xiov5ZwEzJh+mlXR+fxkPBfMkm1sRqu3sO&#13;
-m4+m2ELuccyM3MG7O8SWk4pxNnKIUL217dD0iAoum3v8eT7Mb2289ZUsi2T4AC4OupOqwVL0eoM6&#13;
-DNcZ7Nwskkb39YAeuoV/L5rh7AHmUbq+pJ20LS9VJQ/byKnvZXhB1nIAoFyeNoU2rlHNJhw2GXHH&#13;
-vn3ItRGKYTx/6+eQ0m9easocWv96nSxpQW3oyw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2df3a96e-4d12-4003-ba53-b3bafd049540"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AcBSrTL2xdK6ndvytLVXt80ffqZ9+V/Bs8qqVBBDlKtjZPDRVkN/eJmdMboxJu7HVU7fNhSlFbTR&#13;
+0A2f7Rk/jw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7f629aca-12e5-4fa3-ac06-3027acb8f087"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ADZ/V58elOJGD/CHx3VSN0cN913kCCtCVd5i9SjpDTxcR5b9hV34G3nqresjjlDOly1to0RRr6Zc&#13;
+X/maVvLreQ==</DigestValue></Reference></SignedInfo><SignatureValue>llJYhXtbs7m/2iMsCn0yBPpN7UZbiwUZ3nopvq1gXoVckdBExbHGr01GmSQhN8xEE7s/4gvyFkhS&#13;
+mAcnXoV9GzAfpZHStnNS2tkg1uQY5a0ZnpEa6jhI/mdcsRbcAsuMZmv8uX+Ns8Xgvo6PWwKBILL+&#13;
+hNh3qtIG7ocCpsW7rE1q18QEX5C5jRKN6kcbT5rwbRtGEbakuHoC6JnFFD40OjGGfISCnhe3/T4T&#13;
+RLf67iz88rUSwRYpl46QLqOHmGm298skLXL9MfjYaI+2WTpSdwGpMuh25eov4lUqKI1+mWkpUjFe&#13;
+ZId7rpgMhz816UJ5zdIoCW7HFl9U17Z4KDWzfA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -604,4 +604,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bd60a77a-c3c4-43b2-b32c-49051193f958" Target="#_7e6317ab-c471-4ff2-a3eb-61bfbbb02b7f"><Timestamp>2022-06-07 22:28:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7f629aca-12e5-4fa3-ac06-3027acb8f087" Target="#_2df3a96e-4d12-4003-ba53-b3bafd049540"><Timestamp>2022-07-06 04:37:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
