@@ -7,6 +7,7 @@
     <contextParameter comment="" name="parameter_hardcode_input_files" prompt="parameter_hardcode_input_files?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:\Users\AliZunurain\Documents\Talend_Studio\workspace\zep_talend_integration\hardcode_input_files\&quot;" xmi:id="_OTRlwPy4Eeyi9td06CWCWw"/>
     <contextParameter comment="" name="parameter_state_code" prompt="parameter_state_code?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDbTkPy7Eeyi9td06CWCWw"/>
     <contextParameter comment="" name="parameter_state_name" prompt="parameter_state_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9N_7UPzBEeyi9td06CWCWw"/>
+    <contextParameter comment="" name="parameter_idoc_file_path" prompt="parameter_idoc_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_JnT2oP8NEeyqDK_mF8Opvg"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_bHFjo_wBEeyYQKc074tfMA">
     <contextParameter comment="" name="parameter_rootURI" prompt="parameter_rootURI?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_bHFjpPwBEeyYQKc074tfMA"/>
@@ -16,6 +17,7 @@
     <contextParameter comment="" name="parameter_hardcode_input_files" prompt="parameter_hardcode_input_files?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_OTRlwfy4Eeyi9td06CWCWw"/>
     <contextParameter comment="" name="parameter_state_code" prompt="parameter_state_code?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDbTkfy7Eeyi9td06CWCWw"/>
     <contextParameter comment="" name="parameter_state_name" prompt="parameter_state_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9N_7UfzBEeyi9td06CWCWw"/>
+    <contextParameter comment="" name="parameter_idoc_file_path" prompt="parameter_idoc_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_JnT2of8NEeyqDK_mF8Opvg"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="TEST" xmi:id="_bHFjpvwBEeyYQKc074tfMA">
     <contextParameter comment="" name="parameter_rootURI" prompt="parameter_rootURI?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_bHFjp_wBEeyYQKc074tfMA"/>
@@ -25,14 +27,15 @@
     <contextParameter comment="" name="parameter_hardcode_input_files" prompt="parameter_hardcode_input_files?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_OTRlwvy4Eeyi9td06CWCWw"/>
     <contextParameter comment="" name="parameter_state_code" prompt="parameter_state_code?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDbTkvy7Eeyi9td06CWCWw"/>
     <contextParameter comment="" name="parameter_state_name" prompt="parameter_state_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9N_7UvzBEeyi9td06CWCWw"/>
+    <contextParameter comment="" name="parameter_idoc_file_path" prompt="parameter_idoc_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_JnT2ov8NEeyqDK_mF8Opvg"/>
   </talendfile:ContextType>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_29a5a91b-2ff3-4d40-949d-56a7365c5657"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bFaR36pAVLxL/0KCxTIvJw6me8ejTmakwDg6b4vO3WInyowaJPZ/jX4oOLZkofkXjFCIOKTasIsi&#13;
-w2TryWiJkg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_688c6405-71e2-48c9-801f-7e16dbe9bb9b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>baVN52GuBrPamxKrB/Q8g+V5E/5Jz26j5AGfIjXowp3M52axm0oQf5EW9Lw+w8Q4QwjIN6to/klC&#13;
-Yo+VcyTy7A==</DigestValue></Reference></SignedInfo><SignatureValue>jODhHu47oe+fdYxjCMO7N5mD32lbw50Z9zsOFP3rmyhVwGa86tyT2sYu76wLkQkTiV+InR2+TtJn&#13;
-O0BGkVYUMvLsM4ZDZ5twswrDw6woAO4pe6/K+SPWmmuy71Exmsou7X7uNpuY5bZ31WFTYu0OzhF2&#13;
-bf34FXGXXNTc6MDM2Ysny0MLHI6pnnV5Mb+On2dh1tR7IC+VpoSj3HJqq5m6qw8oyiQ/OeMUOc4E&#13;
-v6zo6VQUAn5v2AGgTOKNUBJpZpYLkLPLXX0f2LLZ3nIW91zUOK6rqU+QXfd//rmChUAlTkfSBpOh&#13;
-d74l7hSNLD0dlELAaUBIrjqzi4+cIET9pufrhg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_894f84f3-eea8-49f5-b0a9-ea0b0cd26adf"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rBKjP6nB1LMcTpP1728MGFHEniuiWR5pWWyP3Vx66Nc/D5RFfv15ASwm/catsJA1v6IkKi2Y58uR&#13;
+lO7Es/xQuA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d8ab6ff4-da86-470d-a3b6-5d3abce18b46"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/Mox/wTpfULjLFQC0ad9ugrPVZBelSBLuz1lnwQwuit0SHj8wW65C+ZjLzDfWGxkH08KfAKbd14z&#13;
+VRm4qm0iAQ==</DigestValue></Reference></SignedInfo><SignatureValue>dnXRzmfMq+Gb9rO830g2ml4JkW7MqdeUmCdx68r2yRG1ulibk8aKh3eFA+QokhHt/721MLevbV6t&#13;
+uL2GThy/WykI+QAM8mt+pRSg+6mHatTR9JEiLFpwttoMKs/x6nGr9YfzoLiWzpA7q6AVwmfk6nzy&#13;
+1UymrwUFGd7gQtjrRhVbxUIyYsRVaviG1em/FQ0c5lWNliEFA6lIkopdYhV4DXucbw24hhyaFdmm&#13;
+GQXkuzDhUxaJpSWPvzyd+Co4/OVmgwdRmEPI1ZEFw19kkBAYDlLKRCeW3AkaabNPHkJ1Yc4wH0Is&#13;
+RQ2aTJrPXTz72p6YLNCw6Q4CXVpTJNwcyRI3Lg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -54,4 +57,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_688c6405-71e2-48c9-801f-7e16dbe9bb9b" Target="#_29a5a91b-2ff3-4d40-949d-56a7365c5657"><Timestamp>2022-07-06 04:57:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d8ab6ff4-da86-470d-a3b6-5d3abce18b46" Target="#_894f84f3-eea8-49f5-b0a9-ea0b0cd26adf"><Timestamp>2022-07-08 22:27:35</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
