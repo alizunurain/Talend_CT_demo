@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/zep_idocs_structures/IDocs/ADRMAS03.xml' outStruct='Structures/zep_output_structures/ADRMAS03_xml_structure_output_xml.xml' inputRep='181' outputRep='172' nextMap='' inputStructUserName='ADRMAS03' outputStructUserName='ADRMAS03_xml_structure_output_xml' V1='4' name='ADRMAS03_map_2' incarnation='5280'>
-  <inputMapElem t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='232' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ADRMAS03' description='BAPI for Inbound Distribution of Company Addresses'>
+<root t='190' id='1' V190='11' inStruct='Structures/zep_idocs_structures/IDocs/ADRMAS03.xml' outStruct='Structures/zep_output_structures/ADRMAS03_xml_structure_output_xml.xml' inputRep='181' outputRep='172' nextMap='' inputStructUserName='ADRMAS03' outputStructUserName='ADRMAS03_xml_structure_output_xml' V1='4' name='ADRMAS03_map_2' incarnation='5536'>
+  <inputMapElem t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='331' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ADRMAS03' description='BAPI for Inbound Distribution of Company Addresses'>
     <mapNode t='190' idref='1'/>
-    <child t='200' id='5' V200='8' input='true' structElemExists='true' usedCount='36' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40' description='Control record'>
+    <child t='200' id='5' V200='8' input='true' structElemExists='true' usedCount='51' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40' description='Control record'>
       <mapNode t='190' idref='1'/>
       <delimTerminator>\n</delimTerminator>
-      <child t='200' id='6' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' delimIncludeInitiator='true' V281='13' V1='4' name='TABNAM' description='Table Name'>
+      <child t='200' id='6' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' delimIncludeInitiator='true' V281='13' V1='4' name='TABNAM' description='Table Name'>
         <mapNode t='190' idref='1'/>
         <delimInitiator>EDI_DC40  </delimInitiator>
       </child>
       <child t='200' id='7' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MANDT' description='Client'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='8' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='16' maxSize='16' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DOCNUM' description='Number'>
+      <child t='200' id='8' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='16' maxSize='16' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DOCNUM' description='Number'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DOCREL' description='SAP release'>
@@ -33,7 +33,7 @@
       <child t='200' id='14' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TEST' description='Test flag'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='15' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='IDOCTYP' description='EDBAS Basic type'>
+      <child t='200' id='15' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='IDOCTYP' description='EDBAS Basic type'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='16' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CIMTYP' description='EDCIM Extension'>
@@ -93,10 +93,10 @@
       <child t='200' id='34' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='70' maxSize='70' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='RCVLAD'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='35' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CREDAT' description='Created on'>
+      <child t='200' id='35' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CREDAT' description='Created on'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='36' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CRETIM' description='Created at'>
+      <child t='200' id='36' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CRETIM' description='Created at'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='37' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='14' maxSize='14' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='REFINT' description='Transmission'>
@@ -115,9 +115,9 @@
         <mapNode t='190' idref='1'/>
       </child>
     </child>
-    <child t='200' id='42' V200='8' input='true' structElemExists='true' usedCount='183' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2ADRMAS001' description='Header segment'>
+    <child t='200' id='42' V200='8' input='true' structElemExists='true' usedCount='261' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2ADRMAS001' description='Header segment'>
       <mapNode t='190' idref='1'/>
-      <child t='200' id='43' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/E2ADRMAS001.xml' V281='13' V1='4' name='E2ADRMAS001' description='Header segment'>
+      <child t='200' id='43' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/E2ADRMAS001.xml' V281='13' V1='4' name='E2ADRMAS001' description='Header segment'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>\n</delimTerminator>
         <child t='200' id='44' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' delimIncludeInitiator='true' V281='13' V1='4' name='SEGNAM' description='Segment name'>
@@ -142,7 +142,7 @@
         <child t='200' id='50' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OBJ_TYPE' description='Address owner object type'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='51' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='70' maxSize='70' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OBJ_ID' description='Address owner object ID'>
+        <child t='200' id='51' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='70' maxSize='70' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OBJ_ID' description='Address owner object ID'>
           <mapNode t='190' idref='1'/>
         </child>
         <child t='200' id='52' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='70' maxSize='70' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OBJ_ID_EXT' description='Object key'>
@@ -158,9 +158,9 @@
           <mapNode t='190' idref='1'/>
         </child>
       </child>
-      <child t='200' id='56' V200='8' input='true' structElemExists='true' usedCount='113' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2BPAD1VL000' description='Address distribution BAPI structure'>
+      <child t='200' id='56' V200='8' input='true' structElemExists='true' usedCount='161' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2BPAD1VL000' description='Address distribution BAPI structure'>
         <mapNode t='190' idref='1'/>
-        <child t='200' id='57' V200='8' input='true' structElemExists='true' usedCount='106' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/E2BPAD1VL000.xml' V281='13' V1='4' name='E2BPAD1VL000' description='Address distribution BAPI structure'>
+        <child t='200' id='57' V200='8' input='true' structElemExists='true' usedCount='151' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/E2BPAD1VL000.xml' V281='13' V1='4' name='E2BPAD1VL000' description='Address distribution BAPI structure'>
           <mapNode t='190' idref='1'/>
           <delimTerminator>\n</delimTerminator>
           <child t='200' id='58' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' delimIncludeInitiator='true' V281='13' V1='4' name='SEGNAM' description='Segment name'>
@@ -194,10 +194,10 @@
           <child t='200' id='67' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TITLE' description='Form-of-Address Key'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='68' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NAME' description='Name 1'>
+          <child t='200' id='68' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NAME' description='Name 1'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='69' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NAME_2' description='Name 2'>
+          <child t='200' id='69' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NAME_2' description='Name 2'>
             <mapNode t='190' idref='1'/>
           </child>
           <child t='200' id='70' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NAME_3' description='Name 3'>
@@ -212,10 +212,10 @@
           <child t='200' id='73' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='C_O_NAME' description='C/o name'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='74' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CITY' description='City'>
+          <child t='200' id='74' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CITY' description='City'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='75' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DISTRICT' description='District'>
+          <child t='200' id='75' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DISTRICT' description='District'>
             <mapNode t='190' idref='1'/>
           </child>
           <child t='200' id='76' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='12' maxSize='12' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CITY_NO' description='City code for city/street file'>
@@ -230,13 +230,13 @@
           <child t='200' id='79' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='REGIOGROUP' description='Regional structure grouping'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='80' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='POSTL_COD1' description='City postal code'>
+          <child t='200' id='80' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='POSTL_COD1' description='City postal code'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='81' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='POSTL_COD2' description='PO Box Postal Code'>
+          <child t='200' id='81' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='POSTL_COD2' description='PO Box Postal Code'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='82' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='POSTL_COD3' description='Company Postal Code (for Large Customers)'>
+          <child t='200' id='82' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='POSTL_COD3' description='Company Postal Code (for Large Customers)'>
             <mapNode t='190' idref='1'/>
           </child>
           <child t='200' id='83' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PCODE1_EXT' description='(Not Supported)City Postal Code Extension, e.g. ZIP+4+2 Code'>
@@ -275,7 +275,7 @@
           <child t='200' id='94' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSPZONE' description='Transportation zone to or from which the goods are delivered'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='95' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='60' maxSize='60' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='STREET' description='Street'>
+          <child t='200' id='95' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='60' maxSize='60' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='STREET' description='Street'>
             <mapNode t='190' idref='1'/>
           </child>
           <child t='200' id='96' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='12' maxSize='12' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='STREET_NO' description='Street Number for City/Street File'>
@@ -293,7 +293,7 @@
           <child t='200' id='100' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HOUSE_NO3' description='(Not supported) House Number Range'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='101' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='STR_SUPPL1' description='Street 2'>
+          <child t='200' id='101' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='STR_SUPPL1' description='Street 2'>
             <mapNode t='190' idref='1'/>
           </child>
           <child t='200' id='102' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='STR_SUPPL2' description='Street 3'>
@@ -314,25 +314,25 @@
           <child t='200' id='107' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ROOM_NO' description='Room or Appartment Number'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='108' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='COUNTRY' description='Country Key'>
+          <child t='200' id='108' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='COUNTRY' description='Country Key'>
             <mapNode t='190' idref='1'/>
           </child>
           <child t='200' id='109' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='COUNTRYISO' description='Country ISO code'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='110' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LANGU' description='Language Key'>
+          <child t='200' id='110' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LANGU' description='Language Key'>
             <mapNode t='190' idref='1'/>
           </child>
           <child t='200' id='111' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LANGU_ISO' description='Language according to ISO 639'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='112' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='REGION' description='Region (State, Province, County)'>
+          <child t='200' id='112' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='REGION' description='Region (State, Province, County)'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='113' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SORT1' description='Search Term 1'>
+          <child t='200' id='113' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SORT1' description='Search Term 1'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='114' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SORT2' description='Search Term 2'>
+          <child t='200' id='114' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SORT2' description='Search Term 2'>
             <mapNode t='190' idref='1'/>
           </child>
           <child t='200' id='115' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EXTENS_1' description='Extension (only for data conversion) (e.g. data line)'>
@@ -408,7 +408,7 @@
           </child>
         </child>
       </child>
-      <child t='200' id='138' V200='8' input='true' structElemExists='true' usedCount='29' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/E2BPADTEL004.xml' V281='13' V1='4' name='E2BPADTEL004' description='BAPI Structure for Telephone Numbers (Bus. Address Services)'>
+      <child t='200' id='138' V200='8' input='true' structElemExists='true' usedCount='41' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/E2BPADTEL004.xml' V281='13' V1='4' name='E2BPADTEL004' description='BAPI Structure for Telephone Numbers (Bus. Address Services)'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>\n</delimTerminator>
         <child t='200' id='139' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' delimIncludeInitiator='true' V281='13' V1='4' name='SEGNAM' description='Segment name'>
@@ -436,13 +436,13 @@
         <child t='200' id='146' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='COUNTRYISO' description='Country ISO code'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='147' V200='8' input='true' structElemExists='true' valueSetIndex='3' usedCount='8' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='STD_NO' description='Standard Sender Address in this Communication Type'>
+        <child t='200' id='147' V200='8' input='true' structElemExists='true' valueSetIndex='3' usedCount='11' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='STD_NO' description='Standard Sender Address in this Communication Type'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='148' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TELEPHONE' description='Telephone no.: dialling code+number'>
+        <child t='200' id='148' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TELEPHONE' description='Telephone no.: dialling code+number'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='149' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EXTENSION' description='Telephone no.: Extension'>
+        <child t='200' id='149' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EXTENSION' description='Telephone no.: Extension'>
           <mapNode t='190' idref='1'/>
         </child>
         <child t='200' id='150' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TEL_NO' description='Complete Number: Dialling Code+Number+Extension'>
@@ -476,7 +476,7 @@
           <mapNode t='190' idref='1'/>
         </child>
       </child>
-      <child t='200' id='160' V200='8' input='true' structElemExists='true' usedCount='22' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/E2BPADFAX004.xml' V281='13' V1='4' name='E2BPADFAX004' description='BAPI Structure for Fax Numbers (Business Address Services)'>
+      <child t='200' id='160' V200='8' input='true' structElemExists='true' usedCount='31' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/E2BPADFAX004.xml' V281='13' V1='4' name='E2BPADFAX004' description='BAPI Structure for Fax Numbers (Business Address Services)'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>\n</delimTerminator>
         <child t='200' id='161' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' delimIncludeInitiator='true' V281='13' V1='4' name='SEGNAM' description='Segment name'>
@@ -507,10 +507,10 @@
         <child t='200' id='169' V200='8' input='true' structElemExists='true' valueSetIndex='3' usedCount='1' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='STD_NO' description='Standard Sender Address in this Communication Type'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='170' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FAX' description='Fax number: dialling code+number'>
+        <child t='200' id='170' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FAX' description='Fax number: dialling code+number'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='171' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EXTENSION' description='Fax no.: Extension'>
+        <child t='200' id='171' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EXTENSION' description='Fax no.: Extension'>
           <mapNode t='190' idref='1'/>
         </child>
         <child t='200' id='172' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FAX_NO' description='Complete number: dialling code+number+extension'>
@@ -665,7 +665,7 @@
           <mapNode t='190' idref='1'/>
         </child>
       </child>
-      <child t='200' id='221' V200='8' input='true' structElemExists='true' usedCount='15' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/E2BPADSMTP004.xml' V281='13' V1='4' name='E2BPADSMTP004' description='BAPI Structure for E-Mail Addresses (Bus. Address Services)'>
+      <child t='200' id='221' V200='8' input='true' structElemExists='true' usedCount='21' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/Segments/E2BPADSMTP004.xml' V281='13' V1='4' name='E2BPADSMTP004' description='BAPI Structure for E-Mail Addresses (Bus. Address Services)'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>\n</delimTerminator>
         <child t='200' id='222' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' delimIncludeInitiator='true' V281='13' V1='4' name='SEGNAM' description='Segment name'>
@@ -690,7 +690,7 @@
         <child t='200' id='228' V200='8' input='true' structElemExists='true' valueSetIndex='3' usedCount='1' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='STD_NO' description='Standard Sender Address in this Communication Type'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='229' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='241' maxSize='241' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E_MAIL' description='E-Mail Address'>
+        <child t='200' id='229' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='241' maxSize='241' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E_MAIL' description='E-Mail Address'>
           <mapNode t='190' idref='1'/>
         </child>
         <child t='200' id='230' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EMAIL_SRCH' description='E-Mail Address Search Field'>
@@ -1489,128 +1489,128 @@
       </child>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='485' V200='8' structElemExists='true' usedCount='234' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
+  <outputMapElem t='200' id='485' V200='8' structElemExists='true' usedCount='321' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop(in$/ADRMAS03,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000,{Filter},{Sort Keys},{Contexts})))</loop>
-    <child t='200' id='486' V200='8' structElemExists='true' usedCount='224' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='PO'>
+    <child t='200' id='486' V200='8' structElemExists='true' usedCount='308' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='PO'>
       <mapNode t='190' idref='1'/>
       <emit>IsPresent(in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000)</emit>
-      <child t='200' id='487' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TABNAM'>
+      <child t='200' id='487' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TABNAM'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/EDI_DC40/TABNAM</value>
       </child>
-      <child t='200' id='488' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='IDOCTYPE'>
+      <child t='200' id='488' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='IDOCTYPE'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/EDI_DC40/IDOCTYP</value>
       </child>
-      <child t='200' id='489' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CREDAT'>
+      <child t='200' id='489' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CREDAT'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/EDI_DC40/CREDAT</value>
       </child>
-      <child t='200' id='490' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CRETIM'>
+      <child t='200' id='490' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CRETIM'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/EDI_DC40/CRETIM</value>
       </child>
-      <child t='200' id='491' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DOCNUM'>
+      <child t='200' id='491' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DOCNUM'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/EDI_DC40/DOCNUM</value>
       </child>
-      <child t='200' id='492' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='OBJ_ID'>
+      <child t='200' id='492' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='OBJ_ID'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/E2ADRMAS001/OBJ_ID</value>
       </child>
-      <child t='200' id='493' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='OBJ_ID_four_dgit_code'>
+      <child t='200' id='493' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='OBJ_ID_four_dgit_code'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/E2ADRMAS001/OBJ_ID</value>
       </child>
-      <child t='200' id='494' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='NAME'>
+      <child t='200' id='494' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='NAME'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/NAME</value>
       </child>
-      <child t='200' id='495' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='NAME_2'>
+      <child t='200' id='495' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='NAME_2'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/NAME_2</value>
       </child>
-      <child t='200' id='496' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='STREET'>
+      <child t='200' id='496' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='STREET'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/STREET</value>
       </child>
-      <child t='200' id='497' V200='8' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='STR_SUPPL1'>
+      <child t='200' id='497' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='STR_SUPPL1'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/STR_SUPPL1</value>
       </child>
-      <child t='200' id='498' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CITY'>
+      <child t='200' id='498' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CITY'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/CITY</value>
       </child>
-      <child t='200' id='499' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='REGION'>
+      <child t='200' id='499' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='REGION'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/REGION</value>
       </child>
-      <child t='200' id='500' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='POSTL_COD1'>
+      <child t='200' id='500' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='POSTL_COD1'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/POSTL_COD1</value>
       </child>
-      <child t='200' id='501' V200='8' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='POSTL_COD2'>
+      <child t='200' id='501' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='POSTL_COD2'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/POSTL_COD2</value>
       </child>
-      <child t='200' id='502' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='POSTL_COD3'>
+      <child t='200' id='502' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='POSTL_COD3'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/POSTL_COD3</value>
       </child>
-      <child t='200' id='503' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DISTRICT'>
+      <child t='200' id='503' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DISTRICT'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/DISTRICT</value>
       </child>
-      <child t='200' id='504' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='COUNTRY'>
+      <child t='200' id='504' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='COUNTRY'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/COUNTRY</value>
       </child>
-      <child t='200' id='505' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='LANGU'>
+      <child t='200' id='505' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='LANGU'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/LANGU</value>
       </child>
-      <child t='200' id='506' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='SORT1'>
+      <child t='200' id='506' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='SORT1'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/SORT1</value>
       </child>
-      <child t='200' id='507' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='SORT2'>
+      <child t='200' id='507' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='SORT2'>
         <mapNode t='190' idref='1'/>
         <value>in$/ADRMAS03/Loop-E2ADRMAS001/Loop-E2BPAD1VL000/E2BPAD1VL000/SORT2</value>
       </child>
-      <child t='200' id='508' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='STD_NO'>
+      <child t='200' id='508' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='STD_NO'>
         <mapNode t='190' idref='1'/>
         <value>AgConcat(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADTEL004/STD_NO(SimpleLoop(in$/ADRMAS03,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADTEL004,{Filter},{Sort Keys},{Contexts})))))</value>
       </child>
-      <child t='200' id='509' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TELEPHONE'>
+      <child t='200' id='509' V200='8' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TELEPHONE'>
         <mapNode t='190' idref='1'/>
         <value>AgConcat(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADTEL004/TELEPHONE(SimpleLoop(in$/ADRMAS03,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADTEL004,{Filter},{Sort Keys},{Contexts})))))</value>
       </child>
-      <child t='200' id='510' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TEL_EXTENSION'>
+      <child t='200' id='510' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TEL_EXTENSION'>
         <mapNode t='190' idref='1'/>
         <value>AgConcat(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADTEL004/EXTENSION(SimpleLoop(in$/ADRMAS03,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADTEL004,{Filter},{Sort Keys},{Contexts})))))</value>
       </child>
       <child t='200' id='511' V200='8' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TELEPHONE_MOBILE'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='512' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='FAX'>
+      <child t='200' id='512' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='FAX'>
         <mapNode t='190' idref='1'/>
         <value>AgConcat(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADFAX004/FAX(SimpleLoop(in$/ADRMAS03,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADFAX004,{Filter},{Sort Keys},{Contexts})))))</value>
       </child>
-      <child t='200' id='513' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='FAX_EXTENSION'>
+      <child t='200' id='513' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='FAX_EXTENSION'>
         <mapNode t='190' idref='1'/>
         <value>AgConcat(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADFAX004/EXTENSION(SimpleLoop(in$/ADRMAS03,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADFAX004,{Filter},{Sort Keys},{Contexts})))))</value>
       </child>
-      <child t='200' id='514' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PRIMARY_EMAIL'>
+      <child t='200' id='514' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PRIMARY_EMAIL'>
         <mapNode t='190' idref='1'/>
         <value>AgConcat(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADSMTP004/E_MAIL(SimpleLoop(in$/ADRMAS03,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/ADRMAS03/Loop-E2ADRMAS001/E2BPADSMTP004,{Filter},{Sort Keys},{Contexts})))))</value>
       </child>
     </child>
   </outputMapElem>
-  <inputRepRuntime t='704' id='535' V704='2' idoctyp='ADRMAS03' isTrimTrailingEmptyFields='true' V690='1' encoding='UTF-8'>
+  <inputRepRuntime t='704' id='538' V704='2' idoctyp='ADRMAS03' isTrimTrailingEmptyFields='true' V690='1' encoding='UTF-8'>
   </inputRepRuntime>
-  <outputRepRuntime t='692' id='536' V692='1' unnamedElemsNamespace='1' V690='1' encoding='UTF-8'>
+  <outputRepRuntime t='692' id='539' V692='1' unnamedElemsNamespace='1' V690='1' encoding='UTF-8'>
     <namespaceContainers t='220' ref='Namespace Containers/zep_output_structures.xml'/>
   </outputRepRuntime>
   <valueSets></valueSets>
@@ -1624,9 +1624,9 @@
   <valueSets>0|1</valueSets>
   <valueSets>SMARTCARD|LOCALFILE|LOCALDIR|LOCALDB|X500|ALL</valueSets>
   <valueSets>HPG|FTP|STK|ACC|INT|LOG|PFB|ROU</valueSets>
-  <inputXmlRepRuntime t='692' id='537' V692='1' V690='1'>
+  <inputXmlRepRuntime t='692' id='540' V692='1' V690='1'>
   </inputXmlRepRuntime>
-  <outputXmlRepRuntime t='692' idref='536'/>
+  <outputXmlRepRuntime t='692' idref='539'/>
   <child t='165' id='2' V1='4' name='Document Bindings'>
     <child t='166' id='515' V166='5' docType='1' docReposPath='/TALEND_CT_DEMO/Sample Data/zep_idocs_structures/IDocs/ADRMAS03/ADRMAS03_xml_structure_output_xml.xml' V1='4' name='in$/ADRMAS03'>
       <elemNode t='200' idref='4'/>

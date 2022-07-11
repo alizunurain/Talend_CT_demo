@@ -7,6 +7,9 @@
       "id" : "_OTRlwfy4Eeyi9td06CWCWw",
       "name" : "parameter_hardcode_input_files"
     }, {
+      "id" : "_JnT2of8NEeyqDK_mF8Opvg",
+      "name" : "parameter_idoc_file_path"
+    }, {
       "id" : "_bHFjpfwBEeyYQKc074tfMA",
       "name" : "parameter_idocs_file_out_unsued"
     }, {
@@ -32,6 +35,9 @@
       "id" : "_OTRlwPy4Eeyi9td06CWCWw",
       "name" : "parameter_hardcode_input_files"
     }, {
+      "id" : "_JnT2oP8NEeyqDK_mF8Opvg",
+      "name" : "parameter_idoc_file_path"
+    }, {
       "id" : "_bHFjovwBEeyYQKc074tfMA",
       "name" : "parameter_idocs_file_out_unsued"
     }, {
@@ -56,6 +62,9 @@
     "parameterList" : [ {
       "id" : "_OTRlwvy4Eeyi9td06CWCWw",
       "name" : "parameter_hardcode_input_files"
+    }, {
+      "id" : "_JnT2ov8NEeyqDK_mF8Opvg",
+      "name" : "parameter_idoc_file_path"
     }, {
       "id" : "_bHFjqPwBEeyYQKc074tfMA",
       "name" : "parameter_idocs_file_out_unsued"

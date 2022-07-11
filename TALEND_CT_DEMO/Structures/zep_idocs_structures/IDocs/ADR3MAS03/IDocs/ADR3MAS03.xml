@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x181ec2e42ad' V1='4' name='ADR3MAS03' incarnation='77'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ADR3MAS03' description='BAPI for Inbound Distribution of Contact Person Addresses'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' inheritsFromIncarnation='40' inheritsFromTimestamp='0x181ec2e3cc7' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40' description='Control record' checksumValid='true' checksum='ksSMnUAf0Q0QwLykSD6zqRII64o='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EDI_DC40' description='Control record'>
+        <delimTerminator>\n</delimTerminator>
+      </savedOrigCopyAtInheritsFrom>
+      <delimTerminator>\n</delimTerminator>
+    </child>
+    <child t='167' id='6' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2ADR3MAS001' description='Header segment' checksumValid='true' checksum='qmKtJCnuoWhF/PvoiXE7MRhRbbk='>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='7' V167='21' inheritsFromIncarnation='32' inheritsFromTimestamp='0x181ec2e4291' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2ADR3MAS001.xml' V281='13' V1='4' name='E2ADR3MAS001' description='Header segment' checksumValid='true' checksum='BBBX/eVFw2lRG+o7B2b7yq8euos='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='8' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2ADR3MAS001.xml' V281='13' V1='4' name='E2ADR3MAS001'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='9' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2ADR3MAS001' description='Header segment'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='10' V167='21' inheritsFromIncarnation='56' inheritsFromTimestamp='0x181ec2e4291' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPAD3VL000.xml' V281='13' V1='4' name='E2BPAD3VL000' description='Return structure for the address of a person in a company' checksumValid='true' checksum='crOGYO6OY6gA+w6E9k20K3XqVcY='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='11' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPAD3VL000.xml' V281='13' V1='4' name='E2BPAD3VL000'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='12' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPAD3VL000' description='Return structure for the address of a person in a company'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='13' V167='21' inheritsFromIncarnation='38' inheritsFromTimestamp='0x181ec2e4291' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADTEL004.xml' V281='13' V1='4' name='E2BPADTEL004' description='BAPI Structure for Telephone Numbers (Bus. Address Services)' checksumValid='true' checksum='4bFqB54jAANLs5X4hIKGXIjG7Q0='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='14' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADTEL004.xml' V281='13' V1='4' name='E2BPADTEL004'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='15' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADTEL004' description='BAPI Structure for Telephone Numbers (Bus. Address Services)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='16' V167='21' inheritsFromIncarnation='38' inheritsFromTimestamp='0x181ec2e4298' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADFAX004.xml' V281='13' V1='4' name='E2BPADFAX004' description='BAPI Structure for Fax Numbers (Business Address Services)' checksumValid='true' checksum='NeMPkf8F66h75hIz2Lgii7Kv5I8='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='17' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADFAX004.xml' V281='13' V1='4' name='E2BPADFAX004'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='18' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADFAX004' description='BAPI Structure for Fax Numbers (Business Address Services)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='19' V167='21' inheritsFromIncarnation='32' inheritsFromTimestamp='0x181ec2e4299' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADTTX004.xml' V281='13' V1='4' name='E2BPADTTX004' description='BAPI Structure for Teletex Numbers (Bus. Address Services)' checksumValid='true' checksum='EovqVVobzYJkMdw+05xTxE6QG78='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='20' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADTTX004.xml' V281='13' V1='4' name='E2BPADTTX004'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='21' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADTTX004' description='BAPI Structure for Teletex Numbers (Bus. Address Services)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='22' V167='21' inheritsFromIncarnation='32' inheritsFromTimestamp='0x181ec2e429a' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADTLX004.xml' V281='13' V1='4' name='E2BPADTLX004' description='BAPI Structure for Telex Numbers (Business Address Services)' checksumValid='true' checksum='Jlc6OdGvrlmaS40eXBVBeHHY4GU='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='23' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADTLX004.xml' V281='13' V1='4' name='E2BPADTLX004'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='24' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADTLX004' description='BAPI Structure for Telex Numbers (Business Address Services)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='25' V167='21' inheritsFromIncarnation='37' inheritsFromTimestamp='0x181ec2e429a' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADSMTP004.xml' V281='13' V1='4' name='E2BPADSMTP004' description='BAPI Structure for E-Mail Addresses (Bus. Address Services)' checksumValid='true' checksum='TyitfXY6IliQhy3hextXY8uDiyg='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='26' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADSMTP004.xml' V281='13' V1='4' name='E2BPADSMTP004'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='27' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADSMTP004' description='BAPI Structure for E-Mail Addresses (Bus. Address Services)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='28' V167='21' inheritsFromIncarnation='33' inheritsFromTimestamp='0x181ec2e429a' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADRML004.xml' V281='13' V1='4' name='E2BPADRML004' description='BAPI Structure for RML Addresses (Business Address Services)' checksumValid='true' checksum='ywUy91SPFXH1NhsSW/QUysZGgHs='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='29' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADRML004.xml' V281='13' V1='4' name='E2BPADRML004'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='30' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADRML004' description='BAPI Structure for RML Addresses (Business Address Services)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='31' V167='21' inheritsFromIncarnation='59' inheritsFromTimestamp='0x181ec2e429a' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADX400004.xml' V281='13' V1='4' name='E2BPADX400004' description='BAPI Structure for X.400 Addresses (Bus. Address Services)' checksumValid='true' checksum='pwtmCEZFyb9M7/Agq2oiVq16KVU='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='32' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADX400004.xml' V281='13' V1='4' name='E2BPADX400004'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='33' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADX400004' description='BAPI Structure for X.400 Addresses (Bus. Address Services)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='34' V167='21' inheritsFromIncarnation='30' inheritsFromTimestamp='0x181ec2e42a0' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADRFC004.xml' V281='13' V1='4' name='E2BPADRFC004' description='BAPI Structure for RFC Addresses (Business Address Services)' checksumValid='true' checksum='DbxIRRmuGsu913uY/zGU3npQzNg='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='35' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADRFC004.xml' V281='13' V1='4' name='E2BPADRFC004'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='36' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADRFC004' description='BAPI Structure for RFC Addresses (Business Address Services)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='37' V167='21' inheritsFromIncarnation='28' inheritsFromTimestamp='0x181ec2e42a1' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADPRT004.xml' V281='13' V1='4' name='E2BPADPRT004' description='BAPI Structure for PRT Addresses (Business Address Services)' checksumValid='true' checksum='65lk+BjO765eMSUK6WBttKch/H0='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='38' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADPRT004.xml' V281='13' V1='4' name='E2BPADPRT004'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='39' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADPRT004' description='BAPI Structure for PRT Addresses (Business Address Services)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='40' V167='21' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2BPADSSF001' description='BAPI Structure for SSF Addresses (Business Address Services)'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='41' V167='21' inheritsFromIncarnation='34' inheritsFromTimestamp='0x181ec2e42a1' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADSSF001.xml' V281='13' V1='4' name='E2BPADSSF001' description='BAPI Structure for SSF Addresses (Business Address Services)' checksumValid='true' checksum='WfyrFDZiTE4F75nTKVeWZSe5q5Y='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='42' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADSSF001.xml' V281='13' V1='4' name='E2BPADSSF001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='43' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADSSF001' description='BAPI Structure for SSF Addresses (Business Address Services)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='44' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2BPADSSF1000' description='BAPI Structure for SSF Addresses (Business Address Services)'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='45' V167='21' inheritsFromIncarnation='18' inheritsFromTimestamp='0x181ec2e42a1' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADSSF1000.xml' V281='13' V1='4' name='E2BPADSSF1000' description='BAPI Structure for SSF Addresses (Business Address Services)' checksumValid='true' checksum='DRYcU6P3U5erGDcVlC+7i0J56us='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='46' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADSSF1000.xml' V281='13' V1='4' name='E2BPADSSF1000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='47' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADSSF1000' description='BAPI Structure for SSF Addresses (Business Address Services)'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='48' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x181ec2e42a1' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADSSF2003.xml' V281='13' V1='4' name='E2BPADSSF2003' description='BAPI Structure for SSF Addresses (Business Address Services)' checksumValid='true' checksum='xkh3qgXPLD4pUG02V6IhcdnXXnc='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='49' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADSSF2003.xml' V281='13' V1='4' name='E2BPADSSF2003'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='50' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADSSF2003' description='BAPI Structure for SSF Addresses (Business Address Services)'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='51' V167='21' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2BPADURI001' description='BAPI Structure for URI Addresses (Business Address Services)'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='52' V167='21' inheritsFromIncarnation='34' inheritsFromTimestamp='0x181ec2e42a1' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADURI001.xml' V281='13' V1='4' name='E2BPADURI001' description='BAPI Structure for URI Addresses (Business Address Services)' checksumValid='true' checksum='DlwEuV05ZumUwBFPRe52KUiQymw='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='53' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADURI001.xml' V281='13' V1='4' name='E2BPADURI001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='54' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADURI001' description='BAPI Structure for URI Addresses (Business Address Services)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='55' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2BPADURI1000' description='BAPI Structure for URI Addresses (Business Address Services)'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='56' V167='21' inheritsFromIncarnation='18' inheritsFromTimestamp='0x181ec2e42a1' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADURI1000.xml' V281='13' V1='4' name='E2BPADURI1000' description='BAPI Structure for URI Addresses (Business Address Services)' checksumValid='true' checksum='yPSn3YfodzZ6Mjq6tc4vnIkO3rc='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='57' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADURI1000.xml' V281='13' V1='4' name='E2BPADURI1000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='58' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADURI1000' description='BAPI Structure for URI Addresses (Business Address Services)'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='59' V167='21' inheritsFromIncarnation='22' inheritsFromTimestamp='0x181ec2e42a9' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADURI2003.xml' V281='13' V1='4' name='E2BPADURI2003' description='BAPI Structure for URI Addresses (Business Address Services)' checksumValid='true' checksum='1Pcu92NXneLSHSHhiGIV3rfkrXo='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='60' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADURI2003.xml' V281='13' V1='4' name='E2BPADURI2003'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='61' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADURI2003' description='BAPI Structure for URI Addresses (Business Address Services)'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='62' V167='21' inheritsFromIncarnation='33' inheritsFromTimestamp='0x181ec2e42aa' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADPAG004.xml' V281='13' V1='4' name='E2BPADPAG004' description='BAPI Structure for Pager Numbers (Business Address Services)' checksumValid='true' checksum='5Y1kjThq4m/GjpbJGSN06Fwslts='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='63' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADPAG004.xml' V281='13' V1='4' name='E2BPADPAG004'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='64' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADPAG004' description='BAPI Structure for Pager Numbers (Business Address Services)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='65' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x181ec2e42ab' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPCOMREM002.xml' V281='13' V1='4' name='E2BPCOMREM002' description='BAPI structure for communication type comments' checksumValid='true' checksum='2ts9Nt9BEw3cPlJJ7Beto8wioWE='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='66' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPCOMREM002.xml' V281='13' V1='4' name='E2BPCOMREM002'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='67' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPCOMREM002' description='BAPI structure for communication type comments'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='68' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x181ec2e42ac' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADUSE001.xml' V281='13' V1='4' name='E2BPADUSE001' description='BAPI Structure for Communication Usages (BAS)' checksumValid='true' checksum='NyNMePAR6SeJ08OXQBsqFmlms1s='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='69' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/zep_idocs_structures/IDocs/ADR3MAS03/Segments/E2BPADUSE001.xml' V281='13' V1='4' name='E2BPADUSE001'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='70' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2BPADUSE001' description='BAPI Structure for Communication Usages (BAS)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+    </child>
+  </rootElem>
+  <defaultRep t='181' id='71' V181='2' V170='10' V704='2' idoctyp='ADR3MAS03' isTrimTrailingEmptyFields='true' V690='1' encoding='UTF-8' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='IDocs'>
+  </defaultRep>
+  <child t='162' id='72' V1='4' name='Representations'>
+    <child t='181' idref='71'/>
+    <child t='172' id='73' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    </child>
+  </child>
+  <child t='165' id='74' V1='4' name='Document Bindings'>
+  </child>
+</root>
