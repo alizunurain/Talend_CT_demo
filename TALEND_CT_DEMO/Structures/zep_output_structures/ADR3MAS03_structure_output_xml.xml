@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x181f4b48a68' V1='4' name='ADR3MAS03_structure_output_xml' incarnation='287'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PO' checksumValid='true' checksum='nryyMGrSXDEvbsJL0z2UQ2nWe2c='>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='19' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OBJ_TYPE_P'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='20' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OBJ_ID_P'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='21' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OBJ_TYPE_C'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='22' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OBJ_ID_C'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='23' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='IDOCTYP'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='4' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LastName'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='5' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FirstName'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='30' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FullName'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='24' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TELEPHONE'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='25' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TEL_EXTENSION'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='26' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Phone'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='27' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Fax_TELENO'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='28' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Fax_EXTENSION'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='29' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Fax'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='8' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Title'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='9' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Department'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='12' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Account'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='13' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E_MAIL'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+  </rootElem>
+  <defaultRep t='172' id='14' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' encoding='UTF-8' importDate='Tue Jul 12 17:18:02 MDT 2022' importFile='file:/C:/Users/AliZunurain/Documents/Talend_Studio/workspace/zep_talend_integration/output_structures/ADR3MAS03_structure_output_xml.xml' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    <namespaceContainers t='220' ref='Namespace Containers/zep_output_structures.xml'/>
+  </defaultRep>
+  <child t='162' id='15' V1='4' name='Representations'>
+    <child t='172' idref='14'/>
+  </child>
+  <child t='165' id='16' V1='4' name='Document Bindings'>
+    <child t='166' id='17' V166='5' docType='1' docReposPath='/TALEND_CT_DEMO/Sample Data/zep_output_structures/ADR3MAS03_structure_output_xml/ADR3MAS03_structure_output_xml' V1='4' name='/root'>
+      <elemNode t='167' idref='2'/>
+    </child>
+  </child>
+</root>

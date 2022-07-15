@@ -73,7 +73,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:6AEKNXuw/i0YjlsmR/eO7TQVORhQEWG5XZGKXGGP"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:qMphDUkadK/9IhhiFtSSA6M0BRrm0ynGF3woM1xl"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -108,7 +108,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:/C49k8XGhPTjC4B/mPWE8G4xtpbhkiJ7Ikmbxv/x"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:stZq7wRHDZeHJbFUK/5r4mnMuvdyDyp/gWr12lNk"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -154,7 +154,7 @@
     <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer"/>
     <elementParameter field="TEXT" name="CLIENT" value="&quot;400&quot;"/>
     <elementParameter field="TEXT" name="USERID" value="&quot;MULE_USER&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:2HP3RugSsJIv0+LPqTuPSNWsWzcNuFZPGvZJU7bSgTOmNBVV/MGN6w=="/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:T09XHfTteUC0GHExqTD419P0tHoecL/0kvpjpyRDFHahOlQDhKEUAQ=="/>
     <elementParameter field="TEXT" name="LANGUAGE" value="&quot;EN&quot;"/>
     <elementParameter field="TEXT" name="HOSTNAME" value="&quot;10.160.42.13&quot;"/>
     <elementParameter field="TEXT" name="SYSTEMNUMBER" value="&quot;00&quot;"/>
@@ -184,7 +184,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_2"/>
   </node>
-  <node componentName="tSAPIDocReceiver" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="736">
+  <node componentName="tSAPIDocReceiver" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="1216">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPIDocReceiver_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="FAILOVER" value="false"/>
@@ -192,7 +192,7 @@
     <elementParameter field="TEXT" name="SERVERPORT" value="&quot;61616&quot;"/>
     <elementParameter field="TABLE" name="SERVERS" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iJhQJcUWmvM5bXa1IvG/9zCkX7pgFnI9WDhM6pM1bh5g7gc="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Lq8NVJ5waBwDJlqjMyyJDDKdiGs0QGVje6Sr0lrwU89ClX8="/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="LABEL" name="USE_SSL_NOTE" show="false" value="Notice: You should use tSetKeysore or JVM arguments to specify keystore or truststore"/>
     <elementParameter field="CHECK" name="IS_TRANSACTED" show="false" value="false"/>
@@ -213,7 +213,7 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tHMap" componentVersion="1.0" offsetLabelX="0" offsetLabelY="0" posX="864" posY="736">
+  <node componentName="tHMap" componentVersion="1.0" offsetLabelX="0" offsetLabelY="0" posX="960" posY="1216">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHMap_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="LABEL" name="MAPPATH_HELP" value=""/>
@@ -260,7 +260,7 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1152" posY="736">
+  <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1248" posY="1216">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputRaw_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.parameter_rootURI+context.parameter_idocs_file_out_unsued+&quot;ADRMAS03_&quot;+Numeric.random(1,10000000)+&quot;.xml&quot;"/>
@@ -272,7 +272,7 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tSAPIDocReceiver" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="704">
+  <node componentName="tSAPIDocReceiver" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="1152">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPIDocReceiver_2"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="FAILOVER" value="false"/>
@@ -280,7 +280,7 @@
     <elementParameter field="TEXT" name="SERVERPORT" value="&quot;61616&quot;"/>
     <elementParameter field="TABLE" name="SERVERS" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:x1Xy7sgzFZyyJfa1DsGEtoQ24a9T/zhQekZ6sDO3qIBtgac="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XGYgvbD7m7/aVSB/OTrXGSJdrp9N3n7TwF+09eC4kTRVwIw="/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="LABEL" name="USE_SSL_NOTE" show="false" value="Notice: You should use tSetKeysore or JVM arguments to specify keystore or truststore"/>
     <elementParameter field="CHECK" name="IS_TRANSACTED" show="false" value="false"/>
@@ -301,7 +301,7 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tHMap" componentVersion="1.0" offsetLabelX="0" offsetLabelY="0" posX="384" posY="704">
+  <node componentName="tHMap" componentVersion="1.0" offsetLabelX="0" offsetLabelY="0" posX="768" posY="1152">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHMap_2"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="LABEL" name="MAPPATH_HELP" value=""/>
@@ -348,7 +348,7 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="704">
+  <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="1152">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputRaw_2"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.parameter_rootURI+context.parameter_idocs_file_out_unsued+&quot;ADRMAS03_data_0031_1_to_1_mapping_address2.xml&quot;"/>
@@ -360,7 +360,7 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tSAPIDocReceiver" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="768">
+  <node componentName="tSAPIDocReceiver" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="1184">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPIDocReceiver_3"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="FAILOVER" value="false"/>
@@ -368,7 +368,7 @@
     <elementParameter field="TEXT" name="SERVERPORT" value="&quot;61616&quot;"/>
     <elementParameter field="TABLE" name="SERVERS" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eMdulWiJ+BdMzcVaeoE+zFCWLgcTGhB5ZTvemHL1sGDziH8="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9JmLjz1EOel9L4FhMOhjc2qSeEcJUSaDAdT8yBoBjDgdvWc="/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="LABEL" name="USE_SSL_NOTE" show="false" value="Notice: You should use tSetKeysore or JVM arguments to specify keystore or truststore"/>
     <elementParameter field="CHECK" name="IS_TRANSACTED" show="false" value="false"/>
@@ -389,7 +389,7 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tHMap" componentVersion="1.0" offsetLabelX="0" offsetLabelY="0" posX="384" posY="768">
+  <node componentName="tHMap" componentVersion="1.0" offsetLabelX="0" offsetLabelY="0" posX="352" posY="1184">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHMap_3"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="LABEL" name="MAPPATH_HELP" value=""/>
@@ -436,7 +436,7 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="768">
+  <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="1184">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputRaw_3"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.parameter_rootURI+context.parameter_idocs_file_out_unsued+&quot;ADRMAS03_&quot;+TalendDate. getDate(&quot;yyyyMMdd_HHmmss&quot;)+&quot;.xml&quot;"/>
@@ -450,12 +450,13 @@
   </node>
   <node componentName="tSAPIDocReceiver" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPIDocReceiver_5"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="FAILOVER" value="false"/>
     <elementParameter field="TEXT" name="SERVERADDRESS" value="&quot;172.27.116.125&quot;"/>
     <elementParameter field="TEXT" name="SERVERPORT" value="&quot;61616&quot;"/>
     <elementParameter field="TABLE" name="SERVERS" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:r7qKwltGf2NpsKcHWfJHmNdB38Dd6OEaDbwbaGF8x0eQbHg="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LhqEDb2P6C90TRfaIos0JrkUaXLDejdDQ7JODdH9SBNUWk8="/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="LABEL" name="USE_SSL_NOTE" show="false" value="Notice: You should use tSetKeysore or JVM arguments to specify keystore or truststore"/>
     <elementParameter field="CHECK" name="IS_TRANSACTED" show="false" value="false"/>
@@ -478,6 +479,7 @@
   </node>
   <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
     <elementParameter field="TABLE" name="MAP" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -485,6 +487,7 @@
   </node>
   <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
@@ -504,6 +507,7 @@
   </node>
   <node componentName="tHMap" componentVersion="1.0" offsetLabelX="0" offsetLabelY="0" posX="704" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHMap_5"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="LABEL" name="MAPPATH_HELP" value=""/>
     <elementParameter field="EXTERNAL" name="MAP_EDITOR" value=""/>
     <elementParameter field="CHECK" name="RECREATE_MAP_SYNC_CONNECTIONS" value="false"/>
@@ -550,6 +554,7 @@
   </node>
   <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputRaw_5"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.parameter_rootURI+context.parameter_idocs_file_out_unsued+&quot;ADRMAS03_&quot;+((Integer)globalMap.get(&quot;tFlowToIterate_2_CURRENT_ITERATION&quot;))+&quot;.xml&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -561,6 +566,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1152" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_3"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;iDoc Receiver has been processed for Account Address Update&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="42"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
@@ -571,11 +577,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPIDocReceiver_4"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="FAILOVER" value="false"/>
-    <elementParameter field="TEXT" name="SERVERADDRESS" value="&quot;172.27.116.125&quot;"/>
+    <elementParameter field="TEXT" name="SERVERADDRESS" value="&quot;172.27.117.15&quot;"/>
     <elementParameter field="TEXT" name="SERVERPORT" value="&quot;61616&quot;"/>
     <elementParameter field="TABLE" name="SERVERS" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9IUBaac5CIqNXRp8gQ6o9AK6HyX0i2mXFD1/KCSxlfZO+K4="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:roXRQhgKs182JR3pCLli4nBGfMU1Xtw2tJcH5BqAFBYtVA0="/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="LABEL" name="USE_SSL_NOTE" show="false" value="Notice: You should use tSetKeysore or JVM arguments to specify keystore or truststore"/>
     <elementParameter field="CHECK" name="IS_TRANSACTED" show="false" value="false"/>
@@ -674,7 +680,7 @@
   <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputRaw_4"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.parameter_rootURI+context.parameter_idocs_file_out_unsued+&quot;DEBMASEX_&quot;+((Integer)globalMap.get(&quot;tFlowToIterate_1_CURRENT_ITERATION&quot;))+&quot;.xml&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.parameter_rootURI+context.parameter_idocs_file_out_unsued+&quot;DEBMAS06_DEBMASEX_&quot;+((Integer)globalMap.get(&quot;tFlowToIterate_1_CURRENT_ITERATION&quot;))+&quot;.xml&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
@@ -696,11 +702,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPIDocReceiver_6"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="FAILOVER" value="false"/>
-    <elementParameter field="TEXT" name="SERVERADDRESS" value="&quot;172.27.116.125&quot;"/>
+    <elementParameter field="TEXT" name="SERVERADDRESS" value="&quot;172.27.117.15&quot;"/>
     <elementParameter field="TEXT" name="SERVERPORT" value="&quot;61616&quot;"/>
     <elementParameter field="TABLE" name="SERVERS" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:I9v9KpZmlHIdLEsUJLE3r2bzXbAh8EqCVT2O9rNvSysokNE="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mrM3BV0ID06/MwQ+7xpcldhuEBC3y8tJxiG0w8EKPGChE0k="/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="LABEL" name="USE_SSL_NOTE" show="false" value="Notice: You should use tSetKeysore or JVM arguments to specify keystore or truststore"/>
     <elementParameter field="CHECK" name="IS_TRANSACTED" show="false" value="false"/>
@@ -755,7 +761,7 @@
     <elementParameter field="LABEL" name="MAPPATH_HELP" value=""/>
     <elementParameter field="EXTERNAL" name="MAP_EDITOR" value=""/>
     <elementParameter field="CHECK" name="RECREATE_MAP_SYNC_CONNECTIONS" value="false"/>
-    <elementParameter field="HMAP_PATH" name="HMAP_PATH" value="&quot;zep_idocs_maps_1_to_1/ADR3MAS03&quot;"/>
+    <elementParameter field="HMAP_PATH" name="HMAP_PATH" value="&quot;zep_idocs_maps/ADR3MAS03_map_1&quot;"/>
     <elementParameter field="RADIO" name="SOURCE_AS_MAP" show="false" value="false"/>
     <elementParameter field="RADIO" name="SOURCE_AS_STRING" value="true"/>
     <elementParameter field="RADIO" name="AS_MAP" show="false" value="false"/>
@@ -790,7 +796,7 @@
     <elementParameter field="CHECK" name="MAP_ROW_BY_ROW" value="false"/>
     <elementParameter field="CHECK" name="EMIT_EMPTY_PAYLOAD" value="true"/>
     <elementParameter field="CLOSED_LIST" name="EXCEPTION" value="64"/>
-    <elementParameter field="TEXT" name="LABEL" value="ADR3MAS03"/>
+    <elementParameter field="TEXT" name="LABEL" value="ADR3MAS03_map_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="strint_out2" name="ADR3MAS03_no_xml">
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
@@ -816,6 +822,397 @@
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_5"/>
+  </node>
+  <node componentName="tSAPIDocReceiver" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPIDocReceiver_7"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="FAILOVER" value="false"/>
+    <elementParameter field="TEXT" name="SERVERADDRESS" value="&quot;172.27.116.125&quot;"/>
+    <elementParameter field="TEXT" name="SERVERPORT" value="&quot;61616&quot;"/>
+    <elementParameter field="TABLE" name="SERVERS" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:blFXK62F5LL7W44VNvL3nOKGBlEepW1sFTDirCntMylUIqg="/>
+    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
+    <elementParameter field="LABEL" name="USE_SSL_NOTE" show="false" value="Notice: You should use tSetKeysore or JVM arguments to specify keystore or truststore"/>
+    <elementParameter field="CHECK" name="IS_TRANSACTED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="KEY_PREFIX" show="false" value="TALEND.IDOCS."/>
+    <elementParameter field="CHECK" name="LINK_THMAP" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="MAPPING" show="false" value=""/>
+    <elementParameter field="TEXT" name="IDOC_TYPE" value="&quot;ORDERS05.ZORDERS05_SFDC&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="MODE" value="BATCH"/>
+    <elementParameter field="CHECK" name="LISTEN_INTERVAL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="INTERVAL" show="false" value="3600"/>
+    <elementParameter field="CHECK" name="LISTEN_COUNT" show="false" value="false"/>
+    <elementParameter field="TEXT" name="COUNT" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="TIMEOUT" value="4"/>
+    <elementParameter field="TABLE" name="ADDITIONAL_OPTIONS" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="ACKNOWLEDGMENT_MODE" show="false" value="AUTO_ACKNOWLEDGE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSAPIDocReceiver_7">
+      <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_4"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
+    <elementParameter field="TABLE" name="MAP" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFlowToIterate_4"/>
+  </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_4"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="message"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;row10.message&quot;))"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_4">
+      <column comment="" key="false" length="-1" name="message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tHMap" componentVersion="1.0" offsetLabelX="0" offsetLabelY="0" posX="704" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHMap_7"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="LABEL" name="MAPPATH_HELP" value=""/>
+    <elementParameter field="EXTERNAL" name="MAP_EDITOR" value=""/>
+    <elementParameter field="CHECK" name="RECREATE_MAP_SYNC_CONNECTIONS" value="true"/>
+    <elementParameter field="HMAP_PATH" name="HMAP_PATH" value="&quot;zep_idocs_maps_1_to_1/ZORDERS05_SFDC&quot;"/>
+    <elementParameter field="RADIO" name="SOURCE_AS_MAP" show="false" value="false"/>
+    <elementParameter field="RADIO" name="SOURCE_AS_STRING" value="true"/>
+    <elementParameter field="RADIO" name="AS_MAP" show="false" value="false"/>
+    <elementParameter field="RADIO" name="AS_STRING" value="false"/>
+    <elementParameter field="RADIO" name="AS_BYTEARRAY" value="false"/>
+    <elementParameter field="RADIO" name="AS_INPUTSTREAM" value="false"/>
+    <elementParameter field="RADIO" name="AS_DOCUMENT" value="true"/>
+    <elementParameter field="TEXT" name="SOURCE_TDM_STRUCT_INCARNATION" show="false" value=""/>
+    <elementParameter field="TEXT" name="TARGET_TDM_STRUCT_INCARNATION" show="false" value=""/>
+    <elementParameter field="TEXT" name="SOURCE_GENERATED_TDM_STRUCT_PATH" show="false" value=""/>
+    <elementParameter field="TEXT" name="TARGET_GENERATED_TDM_STRUCT_PATH" show="false" value=""/>
+    <elementParameter field="TEXT" name="SINGLE_COLUMN_OBJECTTYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SINGLE_COLUMN_STRING" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SINGLE_COLUMN_BYTEARRAY" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SINGLE_COLUMN_DOCUMENT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="HIDE_INPUT_SET" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HIDE_OUTPUT_SET" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SHOW_INPUT_STRING" show="false" value="true"/>
+    <elementParameter field="TEXT" name="SHOW_INPUT_MAP" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SHOW_OUTPUT_STRING" show="false" value="true"/>
+    <elementParameter field="TEXT" name="SHOW_OUTPUT_MAP" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SHOW_OUTPUT_DOCUMENT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="IS_NEW" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SHOW_OUTPUT_BYTES" show="false" value="true"/>
+    <elementParameter field="RADIO" name="INCONNECTIONS_SYNCED" show="false" value="true"/>
+    <elementParameter field="RADIO" name="OUTCONNECTIONS_SYNCED" show="false" value="true"/>
+    <elementParameter field="TEXT" name="INCONNECTIONS_ORDER" show="false" value="row11"/>
+    <elementParameter field="TEXT" name="INCONNECTIONS_REMOVED" show="false" value=""/>
+    <elementParameter field="TEXT" name="OUTCONNECTIONS_REMOVED" show="false" value=""/>
+    <elementParameter field="TEXT" name="HMAP_VAR_PATH" value="&quot;&quot;"/>
+    <elementParameter field="HMAP_VAR_USED_MAPS" name="HMAP_VAR_USED_MAPS" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="MAP_ROW_BY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="EMIT_EMPTY_PAYLOAD" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="EXCEPTION" value="64"/>
+    <elementParameter field="TEXT" name="LABEL" value="ZORDERS05_SFDC"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="strint_out2" name="copyOfADR3MAS03_no_xml">
+      <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputRaw_7"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.parameter_rootURI+context.parameter_idocs_file_out_unsued+&quot;ZORDERS05_SFDC_&quot;+((Integer)globalMap.get(&quot;tFlowToIterate_4_CURRENT_ITERATION&quot;))+&quot;.xml&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="strint_out2" name="tFileOutputRaw_7">
+      <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1152" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_6"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;iDoc Receiver has been processed&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_6"/>
+  </node>
+  <node componentName="tSAPIDocReceiver" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPIDocReceiver_8"/>
+    <elementParameter field="CHECK" name="FAILOVER" value="false"/>
+    <elementParameter field="TEXT" name="SERVERADDRESS" value="&quot;172.27.118.93&quot;"/>
+    <elementParameter field="TEXT" name="SERVERPORT" value="&quot;61616&quot;"/>
+    <elementParameter field="TABLE" name="SERVERS" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:t/Pm68juIegFuCcYBsKuYVJi1kGKam12vg2w3TgGhubG1bs="/>
+    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
+    <elementParameter field="LABEL" name="USE_SSL_NOTE" show="false" value="Notice: You should use tSetKeysore or JVM arguments to specify keystore or truststore"/>
+    <elementParameter field="CHECK" name="IS_TRANSACTED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="KEY_PREFIX" show="false" value="TALEND.IDOCS."/>
+    <elementParameter field="CHECK" name="LINK_THMAP" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="MAPPING" show="false" value=""/>
+    <elementParameter field="TEXT" name="IDOC_TYPE" value="&quot;DEBMAS06.DEBMASEX&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="MODE" value="BATCH"/>
+    <elementParameter field="CHECK" name="LISTEN_INTERVAL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="INTERVAL" show="false" value="3600"/>
+    <elementParameter field="CHECK" name="LISTEN_COUNT" show="false" value="false"/>
+    <elementParameter field="TEXT" name="COUNT" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="TIMEOUT" value="4"/>
+    <elementParameter field="TABLE" name="ADDITIONAL_OPTIONS" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="ACKNOWLEDGMENT_MODE" show="false" value="AUTO_ACKNOWLEDGE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSAPIDocReceiver_8">
+      <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_5"/>
+    <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
+    <elementParameter field="TABLE" name="MAP" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFlowToIterate_5"/>
+  </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_5"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="message"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;row12.message&quot;))"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_5">
+      <column comment="" key="false" length="-1" name="message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tHMap" componentVersion="1.0" offsetLabelX="0" offsetLabelY="0" posX="640" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHMap_8"/>
+    <elementParameter field="LABEL" name="MAPPATH_HELP" value=""/>
+    <elementParameter field="EXTERNAL" name="MAP_EDITOR" value=""/>
+    <elementParameter field="CHECK" name="RECREATE_MAP_SYNC_CONNECTIONS" value="false"/>
+    <elementParameter field="HMAP_PATH" name="HMAP_PATH" value="&quot;zep_idocs_maps/DEBMAS06_DEBMASEX _map_1&quot;"/>
+    <elementParameter field="RADIO" name="SOURCE_AS_MAP" show="false" value="false"/>
+    <elementParameter field="RADIO" name="SOURCE_AS_STRING" value="true"/>
+    <elementParameter field="RADIO" name="AS_MAP" show="false" value="false"/>
+    <elementParameter field="RADIO" name="AS_STRING" value="false"/>
+    <elementParameter field="RADIO" name="AS_BYTEARRAY" value="false"/>
+    <elementParameter field="RADIO" name="AS_INPUTSTREAM" value="false"/>
+    <elementParameter field="RADIO" name="AS_DOCUMENT" value="true"/>
+    <elementParameter field="TEXT" name="SOURCE_TDM_STRUCT_INCARNATION" show="false" value=""/>
+    <elementParameter field="TEXT" name="TARGET_TDM_STRUCT_INCARNATION" show="false" value=""/>
+    <elementParameter field="TEXT" name="SOURCE_GENERATED_TDM_STRUCT_PATH" show="false" value=""/>
+    <elementParameter field="TEXT" name="TARGET_GENERATED_TDM_STRUCT_PATH" show="false" value=""/>
+    <elementParameter field="TEXT" name="SINGLE_COLUMN_OBJECTTYPE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="SINGLE_COLUMN_STRING" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SINGLE_COLUMN_BYTEARRAY" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SINGLE_COLUMN_DOCUMENT" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HIDE_INPUT_SET" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HIDE_OUTPUT_SET" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SHOW_INPUT_STRING" show="false" value="true"/>
+    <elementParameter field="TEXT" name="SHOW_INPUT_MAP" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SHOW_OUTPUT_STRING" show="false" value="true"/>
+    <elementParameter field="TEXT" name="SHOW_OUTPUT_MAP" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SHOW_OUTPUT_DOCUMENT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="IS_NEW" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SHOW_OUTPUT_BYTES" show="false" value="true"/>
+    <elementParameter field="RADIO" name="INCONNECTIONS_SYNCED" show="false" value="true"/>
+    <elementParameter field="RADIO" name="OUTCONNECTIONS_SYNCED" show="false" value="true"/>
+    <elementParameter field="TEXT" name="INCONNECTIONS_ORDER" show="false" value="row13"/>
+    <elementParameter field="TEXT" name="INCONNECTIONS_REMOVED" show="false" value=""/>
+    <elementParameter field="TEXT" name="OUTCONNECTIONS_REMOVED" show="false" value=""/>
+    <elementParameter field="TEXT" name="HMAP_VAR_PATH" value="&quot;&quot;"/>
+    <elementParameter field="HMAP_VAR_USED_MAPS" name="HMAP_VAR_USED_MAPS" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="MAP_ROW_BY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="EMIT_EMPTY_PAYLOAD" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="EXCEPTION" value="64"/>
+    <elementParameter field="TEXT" name="LABEL" value="DEBMAS06_DEBMASEX _map_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="strint_out2" name="copyOfDEBMASEX_no_xml">
+      <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputRaw_8"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.parameter_rootURI+context.parameter_idocs_file_out_unsued+&quot;DEBMAS06_DEBMASEX_&quot;+((Integer)globalMap.get(&quot;tFlowToIterate_5_CURRENT_ITERATION&quot;))+&quot;.xml&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="strint_out2" name="tFileOutputRaw_8">
+      <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1152" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_7"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;iDoc Receiver has been processed&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_7"/>
+  </node>
+  <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_-iwg8AMmEe2qfqZVs3bENw"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_-iwg8AMmEe2qfqZVs3bENw - metadata"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/AliZunurain/Documents/Talend_Studio/workspace/zep_talend_integration/ZSD_SFINT_CUSTOMER_ADDRESS.xml&quot;"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/ZSD_SFINT_CUSTOMER_ADDRESS/import&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="KUNNR"/>
+      <elementValue elementRef="QUERY" value="&quot;KUNNR&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SPART"/>
+      <elementValue elementRef="QUERY" value="&quot;SPART&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VKORG"/>
+      <elementValue elementRef="QUERY" value="&quot;VKORG&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VTWEG"/>
+      <elementValue elementRef="QUERY" value="&quot;VTWEG&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LIMIT" value="50"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" show="false" value="_-iwg8AMmEe2qfqZVs3bENw - metadata"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
+    <elementParameter field="CHECK" name="IGNORE_DTD" value="false"/>
+    <elementParameter field="FILE" name="TMP_FILENAME" show="false" value="&quot;C:/Users/AliZunurain/Documents/Talend_Studio/workspace/temp.xml&quot;"/>
+    <elementParameter field="CHECK" name="USE_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="FIELD_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="Dom4j"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="LABEL" value="ZSD_SFINT_CUSTOMER_ADDRESS_xml_input"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputXML_1">
+      <column comment="" key="false" length="10" name="KUNNR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="SPART" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="VKORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="VTWEG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="10" name="KUNNR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="SPART" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="VKORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="VTWEG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSAPBapi" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPBapi_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_IZ2_UOkEEeyl4MmNqdmoww"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer"/>
+    <elementParameter field="TEXT" name="CLIENT" value="&quot;400&quot;"/>
+    <elementParameter field="TEXT" name="USERID" value="&quot;MULE_USER&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:Ch1eS47XLQRm1engEs9C0cTgLtGt4nAFLFzrS76yfQsPGtAEIz/02g=="/>
+    <elementParameter field="TEXT" name="LANGUAGE" value="&quot;en&quot;"/>
+    <elementParameter field="TEXT" name="HOSTNAME" value="&quot;10.160.42.13&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMNUMBER" value="&quot;00&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMID" show="false" value="&quot;PRD&quot;"/>
+    <elementParameter field="TEXT" name="GROUPNAME" show="false" value="&quot;tGroup&quot;"/>
+    <elementParameter field="TEXT" name="SAP_FUNCTION" value="&quot;ZSD_SFINT_CUSTOMER_ADDRESS&quot;"/>
+    <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="true"/>
+    <elementParameter field="TABLE" name="MAPPING_INPUT">
+      <elementValue elementRef="NAME" value="&quot;KUNNR&quot;"/>
+      <elementValue elementRef="TYPE" value="SINGLE"/>
+      <elementValue elementRef="SCHEMA" value="row_KUNNR_1"/>
+      <elementValue elementRef="PARENT_ROW" value=""/>
+      <elementValue elementRef="PARAMETER_TYPE" value="IMPORT"/>
+      <elementValue elementRef="NAME" value="&quot;SPART&quot;"/>
+      <elementValue elementRef="TYPE" value="SINGLE"/>
+      <elementValue elementRef="SCHEMA" value="row_SPART_1"/>
+      <elementValue elementRef="PARENT_ROW" value=""/>
+      <elementValue elementRef="PARAMETER_TYPE" value="IMPORT"/>
+      <elementValue elementRef="NAME" value="&quot;VKORG&quot;"/>
+      <elementValue elementRef="TYPE" value="SINGLE"/>
+      <elementValue elementRef="SCHEMA" value="row_VKORG_1"/>
+      <elementValue elementRef="PARENT_ROW" value=""/>
+      <elementValue elementRef="PARAMETER_TYPE" value="IMPORT"/>
+      <elementValue elementRef="NAME" value="&quot;VTWEG&quot;"/>
+      <elementValue elementRef="TYPE" value="SINGLE"/>
+      <elementValue elementRef="SCHEMA" value="row_VTWEG_1"/>
+      <elementValue elementRef="PARENT_ROW" value=""/>
+      <elementValue elementRef="PARAMETER_TYPE" value="IMPORT"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="SCHEMAS">
+      <elementValue elementRef="NAME" value=""/>
+      <elementValue elementRef="TYPE" value="SINGLE"/>
+      <elementValue elementRef="SCHEMA" value=""/>
+    </elementParameter>
+    <elementParameter field="LABEL" name="NOTE_DATASOURCE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="SAP_DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TABLE" name="SAP_PROPERTIES"/>
+    <elementParameter field="TEXT" name="LABEL" value="ZSD_SFINT_CUSTOMER_ADDRESS"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSAPBapi_1"/>
+    <metadata comment="" label="row_KUNNR_1" name="row_KUNNR_1" type="INPUT">
+      <column comment="" key="false" length="10" name="KUNNR" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
+      <additionalProperties key="isinput" value="true"/>
+    </metadata>
+    <metadata comment="" label="row_SPART_1" name="row_SPART_1" type="INPUT">
+      <column comment="" key="false" length="2" name="SPART" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
+      <additionalProperties key="isinput" value="true"/>
+    </metadata>
+    <metadata comment="" label="row_VKORG_1" name="row_VKORG_1" type="INPUT">
+      <column comment="" key="false" length="4" name="VKORG" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
+      <additionalProperties key="isinput" value="true"/>
+    </metadata>
+    <metadata comment="" label="row_VTWEG_1" name="row_VTWEG_1" type="INPUT">
+      <column comment="" key="false" length="2" name="VTWEG" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
+      <additionalProperties key="isinput" value="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1312" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tSAPConnection_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
@@ -863,11 +1260,13 @@
   </connection>
   <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tSAPIDocReceiver_5" offsetLabelX="0" offsetLabelY="0" source="tSAPIDocReceiver_5" target="tFlowToIterate_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row6"/>
   </connection>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_2" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_2" target="tFixedFlowInput_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate2"/>
   </connection>
   <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tHMap_5">
@@ -877,13 +1276,16 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row7"/>
   </connection>
   <connection connectorName="FLOW" label="ADRMAS03_no_xml" lineStyle="0" metaname="ADRMAS03_no_xml" offsetLabelX="0" offsetLabelY="0" source="tHMap_5" target="tFileOutputRaw_5">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="ADRMAS03_no_xml"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputRaw_5" offsetLabelX="0" offsetLabelY="0" source="tFileOutputRaw_5" target="tWarn_3">
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
   </connection>
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tSAPIDocReceiver_4" offsetLabelX="0" offsetLabelY="0" source="tSAPIDocReceiver_4" target="tFlowToIterate_1">
@@ -945,6 +1347,66 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputRaw_6" offsetLabelX="0" offsetLabelY="0" source="tFileOutputRaw_6" target="tWarn_5">
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk4"/>
+  </connection>
+  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tSAPIDocReceiver_7" offsetLabelX="0" offsetLabelY="0" source="tSAPIDocReceiver_7" target="tFlowToIterate_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row10"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_4" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_4" target="tFixedFlowInput_4">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate5"/>
+  </connection>
+  <connection connectorName="FLOW" label="row11" lineStyle="0" metaname="tFixedFlowInput_4" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_4" target="tHMap_7">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="message"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row11"/>
+  </connection>
+  <connection connectorName="FLOW" label="copyOfADR3MAS03_no_xml" lineStyle="0" metaname="copyOfADR3MAS03_no_xml" offsetLabelX="0" offsetLabelY="0" source="tHMap_7" target="tFileOutputRaw_7">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="copyOfADR3MAS03_no_xml"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputRaw_7" offsetLabelX="0" offsetLabelY="0" source="tFileOutputRaw_7" target="tWarn_6">
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk5"/>
+  </connection>
+  <connection connectorName="FLOW" label="row12" lineStyle="0" metaname="tSAPIDocReceiver_8" offsetLabelX="0" offsetLabelY="0" source="tSAPIDocReceiver_8" target="tFlowToIterate_5">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row12"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_5" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_5" target="tFixedFlowInput_5">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate6"/>
+  </connection>
+  <connection connectorName="FLOW" label="row13" lineStyle="0" metaname="tFixedFlowInput_5" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_5" target="tHMap_8">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="message"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row13"/>
+  </connection>
+  <connection connectorName="FLOW" label="copyOfDEBMASEX_no_xml" lineStyle="0" metaname="copyOfDEBMASEX_no_xml" offsetLabelX="0" offsetLabelY="0" source="tHMap_8" target="tFileOutputRaw_8">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="copyOfDEBMASEX_no_xml"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputRaw_8" offsetLabelX="0" offsetLabelY="0" source="tFileOutputRaw_8" target="tWarn_7">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk6"/>
+  </connection>
+  <connection connectorName="FLOW" label="row14" lineStyle="10" mergeOrder="1" metaname="tFileInputXML_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_1" target="tSAPBapi_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row14"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
@@ -1012,13 +1474,43 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6f251aff-6ce0-4fd8-a187-5a575ae7c3e8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>T7dRBccBWACPqTDEVHz6j6rXBcTgIeqGyJEzzt4sQo0bqBip8xORRYyq1II1ZqzDCsIT3gelZhKh&#13;
-UHSNHc/rzw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_394ec6be-5dbc-4846-8518-02b11d05c041"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iQDKNXLqF8Wg83Bvho5B/aB3Dp3Q8JBLD4jp4LirkBco3242uFnyUaB+vw8Z59Yb5Po+S58XTaNE&#13;
-zjXzomoRDg==</DigestValue></Reference></SignedInfo><SignatureValue>gUMRSNmdmV7R+sF/OODLO+smgju3+hjkbrPkwAudsqXcY8uvvhWTqO6hTR+iG6p0PBUAniwN87pO&#13;
-DVYDqk3EdzhLOoas8ZmuNH/q04YgPvShWmQZaoiXsY79VhfBAJdjUPxBAZcwjecxZLalHsxsNAc5&#13;
-gmrKcwamuuW0V4+F4SNn15AmuxOXWLdYkA5ya7r76S/x1XlK+2iRFo87B/JbwhQTnPmz8aNLRWYY&#13;
-+q4BYonvMdvAlNXf75bLXRASqto104yqn6bGb6LQCbb0aTyc6FstYjz/tkpdmfBAwf/q2YSWTPVd&#13;
-iRpML6hw9Jc14xm3zkEIfa/EEnjpe0FlSNyHSw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPIDocReceiver_7"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_6"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPIDocReceiver_8"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_7"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e338fc39-56e5-4267-881d-93b8f8d65063"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>S4e/70gO02OK92Iy1DNfKve5zUAYklv6mldsTAeQPsU9vKN1n9kSkW5P3Ww5fsnSicWAi7MbmYKM&#13;
+QnRbCrsT0g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5c0e55aa-c653-4e02-b91b-2e600ce38964"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7YmZu5ZAGvWFwJ6UtoCRPoF2K3kJDxWixHkFGqvBmDiP+ph+XUantcOgOWtXawc7iTfH+mybXdhf&#13;
+dXnII45DrA==</DigestValue></Reference></SignedInfo><SignatureValue>JoL9vyNWD/3evbfOMhGPoF3UHyfIYDZq2jPhHsSGrbZltwWJdV1+OZ1Vs0l8fPQHWNbODMCUtnLV&#13;
+Mv7dOglG/P++nRkpFhyBioaR7f/XQWd5Er6X3Bdk/v1Q1NaVBdWzDS5W8WIHFj+L5rDYnK/oA947&#13;
+Wzvv+/bzYKm0LzBYJU+QQo58wqBom+gU44aN9XnSu08yxOXin2gu9k71u+o69dQegpYQXfLMAo2j&#13;
+xBqspKsUeRyjxOUyjzobl79lbki5THuZBxbwvw2ZRAvD40/mYFsi2IFviIVTs0qy+5UIrYYMwqWh&#13;
+RAEp+S89kQL4C1bjL+6G4shh1K4bYm7jL7/kNw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1040,4 +1532,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_394ec6be-5dbc-4846-8518-02b11d05c041" Target="#_6f251aff-6ce0-4fd8-a187-5a575ae7c3e8"><Timestamp>2022-07-11 21:43:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5c0e55aa-c653-4e02-b91b-2e600ce38964" Target="#_e338fc39-56e5-4267-881d-93b8f8d65063"><Timestamp>2022-07-15 19:38:20</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

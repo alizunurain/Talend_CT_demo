@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <PO>
+      <LastName>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx</LastName>
+      <FirstName>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx</FirstName>
+      <Phone>xxxxxxxxxx xxxxxxxxx</Phone>
+      <Fax>xxxxxxxxxx xxxxxxxxxx</Fax>
+      <Title>xxxxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxxxx</Title>
+      <Department>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx</Department>
+      <SAP_Contact_ID__c>xxxxxxxxxx xxxxxxxxxx</SAP_Contact_ID__c>
+      <SAP_Account_Number__c>xxxxxxxxxx xxxxxxxxxx</SAP_Account_Number__c>
+      <Account>xxxxxxxxxx xxxxxxxxxx</Account>
+      <Email>xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx x</Email>
+</PO>
+</root>

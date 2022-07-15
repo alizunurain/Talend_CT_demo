@@ -1,15 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendMetadata:SAPConnection xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Client="400" Host="10.160.42.13" Language="en" Password="enc:system.encryption.key.v1:EVrZyn5ViSqIHTy7rIKTi6TM0Bys6RKF5VzAasYDe0Tp5YB4DB8=" SystemNumber="00" Username="MULE_USER" contextName="DEV" jcoVersion="SAP2" xmi:id="_IZ40gOkEEeyl4MmNqdmoww" xmi:version="2.0">
-  <taggedValue tag="adsoConnectionType" value="SAP_JCO" xmi:id="_IZ40gekEEeyl4MmNqdmoww"/>
-  <BWInfoObjects id="_B1RXUOkMEeyl4MmNqdmoww" innerIOType="BASIC" label="_0UNIT" modelType="InfoObject" name="0UNIT" tableSearchType="UNIT" tableType="TABLE" xmi:id="_HsXGiOkMEeyl4MmNqdmoww">
-    <feature businessName="" comment="Unit of measure" label="_UNIT" length="3" name="0UNIT" sourceType="STRING" talendType="id_String" xmi:id="_HsXGiekMEeyl4MmNqdmoww" xsi:type="TalendMetadata:SAPBWTableField"/>
-  </BWInfoObjects>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f8a7b36f-4ed4-4e4b-996b-ac104b368604"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>k1pbq8hJjE5zT1d5HlqydvckSzQvd84wpcjUcXunR6WfIoGYYDR7wu/nM74EUtEG1z+mR5UgaDJK&#13;
-Rah/zajaJg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e8b375f4-208e-4e82-8659-7d19ca184943"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JK7ZM+MecLR0ZRHe3HAizBVYC+ay7NvhHMDxUxb7pgNBmxTGeXZVffUNcCxbwKmuNhHqUcClG+cX&#13;
-P/16srmf/A==</DigestValue></Reference></SignedInfo><SignatureValue>ZvVA5SNiFCqNZy9Y4XJsxQIAnX9FX67B324amadbAWRwkRhB3q3LugSnz2+Ly31CMu1OVne+8qqg&#13;
-Nlpjo4gCiifeJnWUxmT4pIOpL8LZaMyUxz/yY7M47tBdyiuf3203Sx4O6TLMstZo+JfAiXKn7fj4&#13;
-FUqSOTyZfxN+2lmf6esn10dInTtlCWjIbyEWrzCa2M2X7Ryf/MqKjLVwStsBM0XiNpYPzUERzink&#13;
-h9l0jX/D7mbIk+FyWo0C2BFZ9BdZyVoZjloPfwWMc2YePdN4znHjVCmRrSIHxW8OYVVhioIap4Zh&#13;
-sXx0rGIxt3ddXVuqegC+dsyIIFc2XyaCudm7iQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.foundation.businessinformation="http:///orgomg/cwm/foundation/businessinformation.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:SAPConnection Client="400" Host="10.160.42.13" Language="en" Password="enc:system.encryption.key.v1:EVrZyn5ViSqIHTy7rIKTi6TM0Bys6RKF5VzAasYDe0Tp5YB4DB8=" SystemNumber="00" Username="MULE_USER" contextName="DEV" jcoVersion="SAP2" xmi:id="_IZ40gOkEEeyl4MmNqdmoww">
+    <taggedValue tag="adsoConnectionType" value="SAP_JCO" xmi:id="_IZ40gekEEeyl4MmNqdmoww"/>
+    <Funtions connection="_IZ40gOkEEeyl4MmNqdmoww" description="_fGzQYAMmEe2qfqZVs3bENw" id="_Y3vGEAMmEe2qfqZVs3bENw" label="ZSD_SFINT_CUSTOMER_ADDRESS" name="ZSD_SFINT_CUSTOMER_ADDRESS" xmi:id="_fGtJwAMmEe2qfqZVs3bENw">
+      <inputTables id="_cVHy8AMmEe2qfqZVs3bENw" label="KUNNR" name="KUNNR" tableType="INPUT" xmi:id="_fGtJwQMmEe2qfqZVs3bENw">
+        <feature label="KUNNR" length="10" name="KUNNR" sourceType="string" talendType="id_String" xmi:id="_fGtJwgMmEe2qfqZVs3bENw" xsi:type="TalendMetadata:MetadataColumn"/>
+      </inputTables>
+      <inputTables id="_cVK2QAMmEe2qfqZVs3bENw" label="SPART" name="SPART" tableType="INPUT" xmi:id="_fGtJwwMmEe2qfqZVs3bENw">
+        <feature label="SPART" length="2" name="SPART" sourceType="string" talendType="id_String" xmi:id="_fGtJxAMmEe2qfqZVs3bENw" xsi:type="TalendMetadata:MetadataColumn"/>
+      </inputTables>
+      <inputTables id="_cVK2QQMmEe2qfqZVs3bENw" label="VKORG" name="VKORG" tableType="INPUT" xmi:id="_fGtJxQMmEe2qfqZVs3bENw">
+        <feature label="VKORG" length="4" name="VKORG" sourceType="string" talendType="id_String" xmi:id="_fGtJxgMmEe2qfqZVs3bENw" xsi:type="TalendMetadata:MetadataColumn"/>
+      </inputTables>
+      <inputTables id="_cVK2QgMmEe2qfqZVs3bENw" label="VTWEG" name="VTWEG" tableType="INPUT" xmi:id="_fGtJxwMmEe2qfqZVs3bENw">
+        <feature label="VTWEG" length="2" name="VTWEG" sourceType="string" talendType="id_String" xmi:id="_fGtJyAMmEe2qfqZVs3bENw" xsi:type="TalendMetadata:MetadataColumn"/>
+      </inputTables>
+      <paramData xmi:id="_fGtJyQMmEe2qfqZVs3bENw">
+        <inputRoot name="Input" xmi:id="_fGtJygMmEe2qfqZVs3bENw">
+          <children length="10" name="KUNNR" tableResideInTables="false" type="string" xmi:id="_fGtJywMmEe2qfqZVs3bENw"/>
+          <children length="2" name="SPART" tableResideInTables="false" type="string" xmi:id="_fGtJzAMmEe2qfqZVs3bENw"/>
+          <children length="4" name="VKORG" tableResideInTables="false" type="string" xmi:id="_fGtJzQMmEe2qfqZVs3bENw"/>
+          <children length="2" name="VTWEG" tableResideInTables="false" type="string" xmi:id="_fGtJzgMmEe2qfqZVs3bENw"/>
+        </inputRoot>
+        <outputRoot name="Output" xmi:id="_fGtJzwMmEe2qfqZVs3bENw">
+          <children name="ADDRESSES" tableResideInTables="false" type="table" xmi:id="_fGtJ0AMmEe2qfqZVs3bENw">
+            <children length="10" name="KUNNR" tableResideInTables="false" type="string" xmi:id="_fGtJ0QMmEe2qfqZVs3bENw"/>
+            <children length="40" name="NAME1" tableResideInTables="false" type="string" xmi:id="_fGtJ0gMmEe2qfqZVs3bENw"/>
+            <children length="40" name="NAME2" tableResideInTables="false" type="string" xmi:id="_fGtJ0wMmEe2qfqZVs3bENw"/>
+            <children length="60" name="STREET" tableResideInTables="false" type="string" xmi:id="_fGtJ1AMmEe2qfqZVs3bENw"/>
+            <children length="40" name="STR_SUPPL1" tableResideInTables="false" type="string" xmi:id="_fGtJ1QMmEe2qfqZVs3bENw"/>
+            <children length="40" name="STR_SUPPL2" tableResideInTables="false" type="string" xmi:id="_fGtJ1gMmEe2qfqZVs3bENw"/>
+            <children length="40" name="STR_SUPPL3" tableResideInTables="false" type="string" xmi:id="_fGtJ1wMmEe2qfqZVs3bENw"/>
+            <children length="40" name="CITY1" tableResideInTables="false" type="string" xmi:id="_fGtJ2AMmEe2qfqZVs3bENw"/>
+            <children length="40" name="CITY2" tableResideInTables="false" type="string" xmi:id="_fGtJ2QMmEe2qfqZVs3bENw"/>
+            <children length="3" name="REGION" tableResideInTables="false" type="string" xmi:id="_fGtJ2gMmEe2qfqZVs3bENw"/>
+            <children length="10" name="POST_CODE1" tableResideInTables="false" type="string" xmi:id="_fGtJ2wMmEe2qfqZVs3bENw"/>
+            <children length="3" name="COUNTRY" tableResideInTables="false" type="string" xmi:id="_fGtJ3AMmEe2qfqZVs3bENw"/>
+            <children length="30" name="TEL_NUMBER" tableResideInTables="false" type="string" xmi:id="_fGtJ3QMmEe2qfqZVs3bENw"/>
+            <children length="10" name="TEL_EXTENS" tableResideInTables="false" type="string" xmi:id="_fGtJ3gMmEe2qfqZVs3bENw"/>
+            <children length="30" name="FAX_NUMBER" tableResideInTables="false" type="string" xmi:id="_fGtJ3wMmEe2qfqZVs3bENw"/>
+            <children length="10" name="FAX_EXTENS" tableResideInTables="false" type="string" xmi:id="_fGtJ4AMmEe2qfqZVs3bENw"/>
+            <children length="241" name="SMTP_ADDR" tableResideInTables="false" type="string" xmi:id="_fGtJ4QMmEe2qfqZVs3bENw"/>
+          </children>
+        </outputRoot>
+      </paramData>
+    </Funtions>
+    <BWInfoObjects id="_B1RXUOkMEeyl4MmNqdmoww" innerIOType="BASIC" label="_0UNIT" modelType="InfoObject" name="0UNIT" tableSearchType="UNIT" tableType="TABLE" xmi:id="_HsXGiOkMEeyl4MmNqdmoww">
+      <feature businessName="" comment="Unit of measure" label="_UNIT" length="3" name="0UNIT" sourceType="STRING" talendType="id_String" xmi:id="_HsXGiekMEeyl4MmNqdmoww" xsi:type="TalendMetadata:SAPBWTableField"/>
+    </BWInfoObjects>
+  </TalendMetadata:SAPConnection>
+  <orgomg.cwm.foundation.businessinformation:Description body="Retrieve customer address data for specific partners" modelElement="_fGtJwAMmEe2qfqZVs3bENw" xmi:id="_fGzQYAMmEe2qfqZVs3bENw"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ea0c362c-017c-4d7f-9f35-3a18ffd9e0ce"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eX4Cj7zMCIc3gdkGqCfiW2i5A0W2aApf4HNR21NhgOEk+C9tlpKP854iNuz0wAM2DnnwqauocHTA&#13;
+RFQO1nn46g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a69c72bc-1fec-4482-ae66-86ec3a982a4d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ADP7thkisMMBHBuzRlgHNS7AmL7H6luWR8liEEbId/J1+iSPy/UhTp4dXKH2PIhpbh0R9IWpUoYK&#13;
+o6EJ84W4bQ==</DigestValue></Reference></SignedInfo><SignatureValue>FlwndNUAY3FgkVJLUaKmRdbYoIhtXv2LNAv3VX8dwQzo50Cna4XASnLnzSldOCCOeX08jFNQMxSp&#13;
+u1qki7w0rj0fJB+XnKwtAwQFw4fscgmVr9Yyzh3Hd5ZHCTbGdnf+OBf7zyhDUOGePZLwL09k6YGU&#13;
+mtZD3k1ZOa7fn5SSByx53jZh+XyaMVs32jt1kcIyA/YZOhlVcWCFXmeQ5rflPcHh0T7Ul3w1TFXE&#13;
+hDqta4+LnOyV5KA6i/DLKZKzoA1UuLaMEfl/+/Lpct4th6oVhWr3Mu+99PfbIV8vahNlhlMTm1Pl&#13;
+RBucu+BBta9R5RCgxuji5Q8dfTj4U2caWev6GA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -31,4 +77,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e8b375f4-208e-4e82-8659-7d19ca184943" Target="#_f8a7b36f-4ed4-4e4b-996b-ac104b368604"><Timestamp>2022-06-23 21:35:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></TalendMetadata:SAPConnection>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a69c72bc-1fec-4482-ae66-86ec3a982a4d" Target="#_ea0c362c-017c-4d7f-9f35-3a18ffd9e0ce"><Timestamp>2022-07-14 03:38:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
