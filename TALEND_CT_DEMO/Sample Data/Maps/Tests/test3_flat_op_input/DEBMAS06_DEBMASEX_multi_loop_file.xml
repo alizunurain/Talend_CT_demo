@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<po>
+		<DOCNUM>40139365</DOCNUM>
+		<KUNNR>11400159</KUNNR>
+		<KTOKD>Y001</KTOKD>
+		<Contacts>
+			<PARNR>2202763</PARNR>
+			<PARNR>2202764</PARNR>
+			<PARNR>2202765</PARNR>
+			<PARNR>2202766</PARNR>
+			<PARNR>2202767</PARNR>
+			<PARNR>2202770</PARNR> 
+			<PARNR>2202805</PARNR>
+		</Contacts>
+		<multiloop>
+			<PARNR>2202gfg763</PARNR>
+			<PARNR>220gffg2764</PARNR>
+			<PARNR>220gf2765</PARNR>
+			<PARNR>22gfgf02766</PARNR>
+			<PARNR>22gfgf02767</PARNR>
+			<PARNR>22gfggf2770</PARNR> 
+			<PARNR>22gffg02805</PARNR>
+		</multiloop>
+	</po>
+</root>

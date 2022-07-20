@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x1820ef305a9' V1='4' name='DEBMAS06_DEBMASEX _structure_output_xml' incarnation='5'>
+<root t='150' id='1' V150='13' creationTimestamp='0x18212022e21' V1='4' name='DEBMAS06_DEBMASEX _structure_output_xml_test' incarnation='5'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
     <structNode t='150' idref='1'/>
-    <child t='167' id='3' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='po' checksumValid='true' checksum='kr7U/oaw03gvVamZzaBqW4aG3Os='>
+    <child t='167' id='3' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='po' checksumValid='true' checksum='CAaBVD5Lnh57Al4yLCi19PStdrY='>
       <structNode t='150' idref='1'/>
       <child t='167' id='4' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='DOCNUM'>
         <structNode t='150' idref='1'/>
@@ -76,7 +76,7 @@
       <child t='167' id='27' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='PARAU'>
         <structNode t='150' idref='1'/>
       </child>
-      <child t='167' id='28' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='E2KNVPM002'>
+      <child t='167' id='28' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='E2KNVPM002_KUNN2'>
         <structNode t='150' idref='1'/>
         <child t='167' id='29' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='PARVW'>
           <structNode t='150' idref='1'/>
@@ -97,7 +97,7 @@
       <child t='167' id='34' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='WE'>
         <structNode t='150' idref='1'/>
       </child>
-      <child t='167' id='35' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='Contacts'>
+      <child t='167' id='35' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='Contacts_PARNR'>
         <structNode t='150' idref='1'/>
         <child t='167' id='36' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='PARNR'>
           <structNode t='150' idref='1'/>
@@ -105,7 +105,7 @@
       </child>
     </child>
   </rootElem>
-  <defaultRep t='172' id='37' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' encoding='UTF-8' importDate='Sun Jul 17 19:36:24 MDT 2022' importFile='file:/C:/Users/AliZunurain/Documents/Talend_Studio/workspace/zep_talend_integration/output_structures/DEBMAS06_DEBMASEX%20_structure_output_xml.xml' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+  <defaultRep t='172' id='37' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' encoding='UTF-8' importDate='Mon Jul 18 09:51:50 MDT 2022' importFile='file:/C:/Users/AliZunurain/Documents/Talend_Studio/workspace/zep_talend_integration/output_structures/DEBMAS06_DEBMASEX%20_structure_output_xml_test.xml' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
     <namespaceContainers t='220' ref='Namespace Containers/zep_output_structures.xml'/>
   </defaultRep>
   <child t='162' id='38' V1='4' name='Representations'>

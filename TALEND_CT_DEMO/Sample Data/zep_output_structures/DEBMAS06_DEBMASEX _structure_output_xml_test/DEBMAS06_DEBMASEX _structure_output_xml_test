@@ -25,17 +25,29 @@
         <PAFKT>ttrtt54yy545</PAFKT>
         <PAKN5>ttrtt54yy545</PAKN5>
         <PARAU>ttrtt54yy545</PARAU>
-        <E2KNVPM002>    
+        <E2KNVPM002_KUNN2>    
             <PARVW>ttrtt54yy545</PARVW>
             <PARZA>ttrtt54yy545</PARZA>
             <KUNN2>ttrtt54yy545</KUNN2>
-        </E2KNVPM002>
+        </E2KNVPM002_KUNN2>
+        <E2KNVPM002_KUNN2>    
+            <PARVW>ttrtt54yy545</PARVW>
+            <PARZA>ttrtt54yy545</PARZA>
+            <KUNN2>ttrtt54yy545</KUNN2>
+        </E2KNVPM002_KUNN2>
+        <E2KNVPM002_KUNN2>    
+            <PARVW>ttrtt54yy545</PARVW>
+            <PARZA>ttrtt54yy545</PARZA>
+            <KUNN2>ttrtt54yy545</KUNN2>
+        </E2KNVPM002_KUNN2>
         <AG>ttrtt54yy545</AG>
         <RE>ttrtt54yy545</RE>
         <WE>ttrtt54yy545</WE>
-        <Contacts>
+        <Contacts_PARNR>
             <PARNR>000233202763</PARNR>
             <PARNR>000224402764</PARNR>
-        </Contacts>
+            <PARNR>000224402764</PARNR>
+            <PARNR>000224402764</PARNR>
+        </Contacts_PARNR>
     </po>
 </root> 

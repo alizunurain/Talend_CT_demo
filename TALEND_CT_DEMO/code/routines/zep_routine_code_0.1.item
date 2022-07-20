@@ -1,0 +1,1344 @@
+package routines;
+import java.util.HashMap;
+import java.util.Map;
+
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class zep_routine_code {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+    public static String PropertyCodes(String property) {
+        Map<String, String> map = new HashMap<>();
+        
+        // #lookup Values
+        // #account lookup
+        map.put("Y001", "012500000006jBXAAY");
+        map.put("YREP", "012500000006jBYAAY");
+        map.put("Y012", "012500000006jBVAAY");
+        
+        //noBlock
+        map.put("noBlock", "No");
+        
+        // #Contract Type (Price Group)
+        map.put("CT.01", "Bulk Buyer");
+        map.put("CT.02", "Occasional Buyer	");
+        map.put("CT.AA", "Advance Auto");
+        map.put("CT.AB", "Federated Auto");
+        map.put("CT.AC", "Parts Direct");
+        map.put("CT.AD", "Wurth");
+        map.put("CT.DA", "Triple S Members");
+        map.put("CT.DB", "Airgas");
+        map.put("CT.DC", "Cintas");
+        map.put("CT.DD", "CSC Network");
+        map.put("CT.DE", "Domestic Linen");
+        map.put("CT.DF", "WW Grainger");
+        map.put("CT.DG", "HD Supply");
+        map.put("CT.DH", "Home Depot Pro");
+        map.put("CT.DI", "Keyston Bros");
+        map.put("CT.DJ", "Motion Industries");
+        map.put("CT.DK", "MSC Industrial");
+        map.put("CT.DL", "Network");
+        map.put("CT.DM", "Newell Paper");
+        map.put("CT.DN", "SSS RDC only");
+        map.put("CT.DO", "Strategic Mkt");
+        map.put("CT.DP", "SPR/GCN");
+        map.put("CT.DQ", "Staples");
+        map.put("CT.DR", "Bunzl");
+        map.put("CT.DS", "Veritiv");
+        map.put("CT.DT", "Cintas Canada");
+        map.put("CT.DU", "Hardware B2B");
+        map.put("CT.M0", "Retail 20 Case Min");
+        map.put("CT.M1", "Retail 30 Case Min");
+        map.put("CT.M2", "Retail 60 Case Min");
+        map.put("CT.M3", "Retail 90 Case Min");
+        map.put("CT.VA", "Misc Street Accts");
+        map.put("CT.VB", "Key Acct Drum Billed");
+        map.put("CT.VC", "Key Acct CPC");
+        map.put("CT.VE", "Distributor");
+        map.put("CT.VF", "FieldLegl DrumBilled");
+        map.put("CT.VG", "Federal Appropriated");
+        map.put("CT.VK", "Nat Acct C.P.C.");
+        map.put("CT.VM", "Alliance Accts");
+        map.put("CT.VN", "Nat Accts DrumBilled");
+        map.put("CT.VW", "Field Legal C.P.C.");
+        
+        //#Contact record type
+        map.put("protectedContactRecordType", "012500000006jB8AAI");
+        map.put("contactRecordType", "012500000006jB7AAI");
+        map.put("commissionedRepType", "012500000006jB6AAI");
+        map.put("SalesOrderRecordTypeId", "01250000000EIpVAAW");
+        
+        //#Plant look up
+        map.put("3140", "ATLANTA Distribution Center");
+        map.put("3160", "Allentown");
+        map.put("3300", "Chicago");
+        map.put("3400", "Dallas");
+        map.put("3440", "Hawaii");
+        map.put("3470", "Texas Distribution Center");
+        map.put("3530", "Corona");
+        map.put("3630", "Seattle");
+        map.put("3920", "Zep Equipment Division");
+        map.put("4100", "ZVC Canada");
+        map.put("4160", "ZVC Allentown");
+        map.put("4352", "ZVC Fontana");
+        map.put("4372", "ZVC Kent");
+        map.put("4475", "ZVC Dallas");
+        map.put("4547", "ZVC Camco");
+        map.put("4622", "ZVC Atlanta");
+        map.put("5400", "Montreal");
+        map.put("6000", "GDC Retail");
+        map.put("6100", "EMERSON Manufacturing");
+        map.put("6200", "ADC Retail");
+        map.put("6300", "Cartersville Retail");
+        map.put("6400", "Fresno Retail");
+        map.put("6900", "Marietta");
+        map.put("7110", "Kamloops");
+        map.put("7130", "Edmonton");
+        map.put("7240", "Winnipeg");
+        map.put("3770", "Niagara National");
+        map.put("3410", "Dallas MFG");
+        map.put("3000", "Georgia Distribution Center");
+        
+        //#added on 9/10
+        map.put("3110", "ATLANTA Seaboard Manufacturing");
+        map.put("3370", "Clevland, OH (Offsite)");
+        
+        //#Account hold fields mapping
+        map.put("01block", "01 - Overall Block");
+        map.put("02block", "02 - All free of charge");
+        map.put("88block", "88 - Bad Master Data");
+        map.put("99block", "99 - No Sales Prev 12 Mth");
+        map.put("B1block", "B1 - Bad Debt");
+        map.put("L1block", "L1 - Pricing");
+        map.put("L2block", "L2 - Product Issues");
+        map.put("L3block", "L3 - Shipping charges");
+        map.put("L4block", "L4 - Duplicate Account");
+        map.put("L5block", "L5 - Hostile Buyer");
+        map.put("L6block", "L6 - Out of Business");
+        map.put("L7block", "L7 - Carrier Issues");
+        map.put("L8block", "L8 - Buying thru Distrib");
+        map.put("L9block", "L9 - Contractual Issues");
+        map.put("ZDblock", "ZD - ZVC Disabled/Inactiv");
+        map.put("ZUblock", "ZU - ZVC UnitBilling Hold");
+        map.put("ZVblock", "ZV - ZVC Trace Account");
+        map.put("ZWblock", "ZW - Sales Org Transfer");
+        
+        //#Sales Organisation name mapping
+        map.put("112010", "Zep Sales & Service US - Direct Sales");
+        map.put("112020", "Zep Sales & Service US - Distributors");
+        map.put("112030", "Zep Sales & Service US - Trace");
+        map.put("112040", "Zep Sales & Service US - Private Label");
+        map.put("113070", "Niagara National - Equipment");
+        map.put("113010", "Niagara National - Direct Sales");
+        map.put("212010", "Zep Sales & Service CA - Direct Sales");
+        map.put("212020", "Zep Sales & Service CA - Distributors");
+        map.put("212030", "Zep Sales & Service CA - Velocity");
+        map.put("212040", "Zep Sales & Service CA - Private Label");
+        map.put("142010", "Zep Vehicle Care - Direct Sales ");
+        map.put("142020", "Zep Vehicle Care - Licensed Distributor ");
+        map.put("142030", "Zep Vehicle Care - Customer Mgmt. Dist. ");
+        map.put("142040", "Zep Vehicle Care - Private Label");
+        map.put("162010", "Zep Retail - Direct Sales ");
+        map.put("164010", "Zep Distribution - Direct Sales");
+        map.put("164510", "Zep Automotive OEM - Direct Sales");
+        map.put("165010", "Zep Automotive Aftermarket - Direct Sales");
+        map.put("213010", "Amrep - Direct Sales");
+        map.put("214010", "Zep Vehicle Care CA - Direct Sales");
+        
+        //#SAP Industry mapping
+        //#New SAP Industry mapping
+        //#Added Utilities on 5/8/17
+        map.put("UTLI", "Utilities"); 	
+        //#End
+        map.put("0191", "GENERAL FARMS - CROP");
+        map.put("0241", "DAIRY FARMS");
+        map.put("0251", "BROILER, FRYER AND R");
+        map.put("0252", "CHICKEN EGGS");
+        map.put("0254", "POULTRY HATCHERIES");
+        map.put("0259", "POULTRY AND EGG FARM");
+        map.put("0291", "LIVESTOCK- FARMS & Y");
+        map.put("0742", "ANIMAL HOSP & VETERI");
+        map.put("0782", "LAWN & GARDEN SERVIC");
+        map.put("0851", "FORESTRY PRODUCTS");
+        map.put("0919", "MARINE PRODUCTS");
+        map.put("1221", "COAL MINING");
+        map.put("1311", "OIL AND NATURAL GAS");
+        map.put("1499", "MINING OF MINERALS -");
+        map.put("1511", "GENERAL BUILDING CON");
+        map.put("1521", "BLDG CONTRACTORS, DE");
+        map.put("1522", "RESIDENTIAL BUILDING");
+        map.put("1542", "NONRESIDENTIAL BUILD");
+        map.put("1611", "HIGHWAY & STREET PAV");
+        map.put("1711", "PLUMBING, HEATING AN");
+        map.put("1731", "ELECTRICAL CONTRACTO");
+        map.put("2011", "MEAT PACKING PLANTS");
+        map.put("2013", "SAUSAGES AND OTHER P");
+        map.put("2015", "POULTRY SLAUGHTERING");
+        map.put("2016", "POULTRY SLAUGHTERING");
+        map.put("2023", "DRY, CONDENSED, EVAP");
+        map.put("2026", "FLUID MILK");
+        map.put("2033", "CANNED FRUITS AND SP");
+        map.put("2034", "DEHYDRATED FRUITS, V");
+        map.put("2037", "FROZEN FRUITS AND VE");
+        map.put("2048", "PRODUCTION OF FEEDS");
+        map.put("2051", "BAKERY PRODS - EXCEP");
+        map.put("2052", "BAKERY PRODS - COOKI");
+        map.put("2053", "FROZEN BAKERY PRODUC");
+        map.put("2084", "WINES");
+        map.put("2085", "DISTILLED AND BLENDE");
+        map.put("2086", "BOTTLING COMPANIES");
+        map.put("2092", "FISH AND SEAFOOD PRE");
+        map.put("2099", "FOOD PREPARATION - M");
+        map.put("2299", "TEXTILES");
+        map.put("2389", "APPAREL AND ACCESSOR");
+        map.put("2499", "WOOD PRODUCTS - MANU");
+        map.put("2599", "FURNITURE AND FIXTUR");
+        map.put("2621", "PAPER MILLS");
+        map.put("2711", "NEWSPAPERS =  PUBLISHI");
+        map.put("2752", "COMMERCIAL PRINTING");
+        map.put("2834", "PHARMACEUTICALS");
+        map.put("2841", "CHEMICAL MFG- SOAPS");
+        map.put("2842", "CHEMICALS - SPECIAL");
+        map.put("3011", "TIRES, RUBBER PRODUC");
+        map.put("3079", "PLASTIC PRODUCTS MAN");
+        map.put("3089", "PLASTIC PRODUCTS MAN");
+        map.put("3271", "CONCRETE BLOCK & BRI");
+        map.put("3272", "CONCRETE PRODS INCLU");
+        map.put("3299", "MINERAL PRODUCTS");
+        map.put("3399", "PRIMARY METAL PRODUC");
+        map.put("3411", "METAL CANS & DRUMS");
+        map.put("3499", "FABRICATED METAL PRO");
+        map.put("3523", "FARM MACHINERY AND E");
+        map.put("3569", "INDUSTRIAL MACHINERY");
+        map.put("3571", "COMPUTERS");
+        map.put("3579", "OFFICE MACHINES");
+        map.put("3639", "HOUSEHOLD APPLIANCES");
+        map.put("3711", "AUTOMOBILES");
+        map.put("3713", "TRUCKS, BUSES AND TR");
+        map.put("3714", "MOTOR VEHICLE PARTS");
+        map.put("3721", "AIRCRAFT - MANUFACTU");
+        map.put("3732", "BOAT & SHIP BUILDING");
+        map.put("3949", "SPORTING GOODS, GAME");
+        map.put("3999", "MISCELLANEOUS MANUFA");
+        map.put("4011", "RAILROADS");
+        map.put("4119", "BUSES, (CITY, INTERC");
+        map.put("4213", "TRUCKING - COMMON CA");
+        map.put("4222", "REFRIGERATED WAREHOU");
+        map.put("4225", "WAREHOUSING & STORAG");
+        map.put("4311", "U.S. POSTAL SERVICE");
+        map.put("4499", "WATER TRANS.INCL SHI");
+        map.put("4511", "AIR TRANSPORTATION");
+        map.put("4512", "AIRLINES AND AIR TRA");
+        map.put("4581", "AIRPORTS AND TERMINA");
+        map.put("4789", "TRUCK WASHES");
+        map.put("4811", "TELEPHONE COMMUNICAT");
+        map.put("4813", "TELEPHONE COMMUNICAT");
+        map.put("4832", "RADIO BROADCASTING");
+        map.put("4833", "TELEVISON & RADIO BR");
+        map.put("4911", "ELECTRIC SERVICES");
+        map.put("4923", "NATURAL GAS TRANSMIS");
+        map.put("4941", "WATER SUPPLY SYSTEMS");
+        map.put("4952", "SEWAGE SYSTEMS - WAS");
+        map.put("4959", "SANITARY SERVICES");
+        map.put("5013", "WHOLESALE - AUTOMOTI");
+        map.put("5039", "WHOLESALE CONSTRUCIO");
+        map.put("5063", "WHOLESALE ELECTRICAL");
+        map.put("5084", "WHOLESALE IND. MACHI");
+        map.put("5085", "WHOLESALE INDUSTRIAL");
+        map.put("5091", "WHOLE. SPORT & REC.G");
+        map.put("5113", "WHOLESALE INDUSTRIAL");
+        map.put("5141", "GROERIES, GENERAL LI");
+        map.put("5147", "MEATS AND MEAT PRODU");
+        map.put("5148", "FRESH FRUITS AND VEG");
+        map.put("5169", "WHOLESALE CHEMICAL &");
+        map.put("5181", "BEER AND ALE");
+        map.put("5211", "LUMBER AND OTHER BUI");
+        map.put("5261", "NURSERIES AND GARDEN");
+        map.put("5311", "DEPARTMENT STORES -");
+        map.put("5331", "VARIETY STORES WITH");
+        map.put("5411", "GROCERY STORES");
+        map.put("5461", "RETAIL BAKERIES");
+        map.put("5499", "MISC FOOD STORES");
+        map.put("5511", "NEW AND USED CAR DEA");
+        map.put("5531", "AUTOMOTIVE PARTS STO");
+        map.put("5541", "GASOLINE SERVICE STA");
+        map.put("5571", "MOTORCYCLE DEALERS");
+        map.put("5621", "NURSERIES AND GARDEN");
+        map.put("5699", "APPAREL AND ACCESSOR");
+        map.put("5719", "HOME FURNISHING STOR");
+        map.put("5812", "RESTAURANTS");
+        map.put("5813", "DRINKING PLACES");
+        map.put("5912", "DRUG STORES");
+        map.put("5921", "LIQUOR STORES");
+        map.put("5962", "AUTOMATIC VENDING MA");
+        map.put("5999", "Misc. Retail Stores");
+        map.put("6029", "BANKS, SAV.& LOANS,");
+        map.put("6399", "INSURANCE COMPANIES");
+        map.put("6513", "OPERATORS OF APARTME");
+        map.put("6519", "REAL ESTATE BROKERS");
+        map.put("6732", "CHARITIES - EDUCATIO");
+        map.put("7011", "HOTELS AND MOTELS");
+        map.put("7210", "LAUNDRY, GARMENT SER");
+        map.put("7231", "BEAUTY SHOPS");
+        map.put("7261", "FUNERAL SERVICE AND");
+        map.put("7349", "CLEANING & MTCE. SER");
+        map.put("7359", "EQUIPMENT RENTAL & L");
+        map.put("7513", "TRUCK RENTAL & LEASI");
+        map.put("7514", "CAR RENTAL & LEASING");
+        map.put("7538", "AUTOMOTIVE REPAIR SH");
+        map.put("7542", "CAR WASHES");
+        map.put("7692", "WELDING SERVICES");
+        map.put("7699", "REPAIR SERVICES OTHE");
+        map.put("7997", "SPORTS & RECREATION");
+        map.put("7999", "AMUSEMENT & RECREATI");
+        map.put("8011", "PHYSICIANS & DENTIST");
+        map.put("8051", "NURSING HOMES");
+        map.put("8059", "NURSING HOMES AND HO");
+        map.put("8062", "HOSPITALS");
+        map.put("8091", "OFFICES OF PHYSICIAN");
+        map.put("8099", "HEALTH & ALLIED SEVI");
+        map.put("8299", "SCHOOLS, COLLEGES &");
+        map.put("8351", "CHILD DAY CARE SERVI");
+        map.put("8661", "CHURCHES & OTHER RE");
+        map.put("8699", "OTHER ASSOCIATIONS &");
+        map.put("8999", "OTHER ASSOCIATIONS &");
+        map.put("9011", "GOVERNMENT INDUSTRIE");
+        map.put("9012", "LOCAL GOVERNMENT");
+        map.put("9221", "POLICE & FIRE PROTEC");
+        map.put("9531", "HOUSING & URGAN DEV.");
+        map.put("9811", "MUNICIPAL GOVERNMENT");
+        map.put("9831", "STATE GOVERNMENT");
+        map.put("9841", "FEDERAL GOVERNMENT");
+        map.put("9999", "Non-classifiable");
+        map.put("ZZZZ", "Not Yet Assigned");
+        
+        //#Freight Accessorials for sales org
+        map.put("0007", "Heated Van");
+        map.put("0014", "Driver Unload");
+        map.put("0020", "Hazardous Materials");
+        map.put("0022", "Lumper Unload");
+
+        //#0024", "Over Dimension
+        map.put("0024", "Pump Service Req'd");
+        map.put("0025", "Lift Gate + Pump Svc Req'd");
+        map.put("0026", "Over Length");
+        map.put("0027", "Over Width");
+        map.put("0028", "Protective Service");
+        map.put("0037", "Block and Brace");
+        map.put("0038", "C.O.D. Shipment");
+        map.put("0039", "Appointment Required");
+        map.put("0056", "Inside Delivery");
+        map.put("0058", "Job-Site Delivery");
+        map.put("0059", "Liftgate Service");
+        map.put("0063", "Marking or Tagging");
+        map.put("0075", "Residential Pickup or Delivery");
+        map.put("0079", "Sorting Segregating");
+        map.put("0091", "3rd Shift Receiving");
+        map.put("0151", "2 Man Delivery");
+        map.put("0152", "Non-Commercial Delivery");
+        map.put("0153", "No Ramp for Pallet Jack");
+        map.put("0154", "Delivery Upstairs or Downstairs");
+        map.put("0155", "Call Before Arrival");
+        map.put("0226", "Protect From Freeze");
+        map.put("0246", "Compartment Fee");
+        map.put("150", "Dunnage/Pallet Removal");
+        map.put("156", "24x24 / 24x32 Pallet Required");
+        map.put("675", "Govt/Military/Port Installations");
+        map.put("EXC", "Straight Truck Required");
+
+        //#Shipping type code decodes for sales org
+        map.put("01ZZVSART", "PP&A Truck");
+        map.put("02ZZVSART", "COL Truck");
+        map.put("03ZZVSART", "PP Truck");
+        map.put("04ZZVSART", "PP N/C Truck");
+        map.put("07ZZVSART", "CPU - Will Call");
+        map.put("30ZZVSART", "Third Party Bill");
+        map.put("05ZZVSART", "PP 1/2 Truck");
+        map.put("06ZZVSART", "Rep Pickup");
+        map.put("08ZZVSART", "PP&A Parcel");
+        map.put("09ZZVSART", "COL Parcel");
+        map.put("10ZZVSART", "PP Parcel");
+        map.put("11ZZVSART", "PP N/C Parcel");
+        map.put("12ZZVSART", "PP 1/2 Parcel");
+        map.put("13ZZVSART", "PP&A Rail");
+        map.put("14ZZVSART", "COL Rail");
+        map.put("15ZZVSART", "PP Rail");
+        map.put("16ZZVSART", "PP N/C Rail");
+        map.put("17ZZVSART", "PP 1/2 Rail");
+        map.put("18ZZVSART", "PP&A Marine");
+        map.put("19ZZVSART", "COL Marine");
+        map.put("20ZZVSART", "PP Marine");
+        map.put("21ZZVSART", "PP N/C Marine");
+        map.put("22ZZVSART", "PP 1/2 Marine");
+        map.put("99ZZVSART", "Service Order Only");
+        map.put("ZVZZVSART", "Prepaid/No Freight");
+        
+        //#Sales org Group__c code-decode
+        map.put("000", "Arkansas - West");
+        map.put("001", "Colorado");
+        map.put("002", "Colorado - Other");
+        map.put("003", "Dallas - Other");
+        map.put("004", "Houston - Other");
+        map.put("005", "Louisiana - East");
+        map.put("006", "Louisiana - Other");
+        map.put("007", "Louisiana - West");
+        map.put("008", "New Mexico");
+        map.put("009", "New Mexico - Other");
+        map.put("010", "Oklahoma");
+        map.put("011", "Texas - Dallas");
+        map.put("012", "Texas - Houston");
+        map.put("013", "Texas - San Antonio");
+        map.put("014", "Texas - West");
+        map.put("015", "Utah");
+        map.put("016", "Wyoming");
+        map.put("017", "South Central");
+        map.put("050", "New Bruswick");
+        map.put("051", "Newfoundland");
+        map.put("052", "Nova Scotia");
+        map.put("053", "Ontario - East");
+        map.put("054", "Ontario - Other");
+        map.put("055", "Ontario - South");
+        map.put("056", "Prince Edward Island");
+        map.put("057", "Quebec");
+        map.put("058", "Quebec - Other");
+        map.put("059", "Nova Scotia - Other");
+        map.put("060", "Ontario");
+        map.put("099", "Default");
+        map.put("100", "BID");
+        map.put("101", "Connecticut");
+        map.put("102", "DC - Other");
+        map.put("103", "DC Metro");
+        map.put("104", "Delaware - North");
+        map.put("105", "Delaware - South");
+        map.put("106", "Maine");
+        map.put("107", "Maryland");
+        map.put("108", "Massachusetts");
+        map.put("109", "Massachusetts - Oth");
+        map.put("110", "New Hampshire");
+        map.put("111", "New Jersey - North");
+        map.put("112", "New Jersey - Other");
+        map.put("113", "New Jersey - South");
+        map.put("114", "New York");
+        map.put("115", "New York - Other");
+        map.put("116", "New York Metro");
+        map.put("117", "Penn - Philadelphia");
+        map.put("118", "Penn - Pittsburgh");
+        map.put("119", "Pennsylvania - South");
+        map.put("120", "Philadelphia - Other");
+        map.put("121", "Pittsburgh - Other");
+        map.put("122", "Rhode Island");
+        map.put("123", "Vermont");
+        map.put("124", "Virginia - North");
+        map.put("125", "West Virginia");
+        map.put("126", "North East");
+        map.put("127", "Inactive NE");
+        map.put("128", "East Area");
+        map.put("200", "Illinois");
+        map.put("201", "Illinois - Other");
+        map.put("202", "Illinois - South");
+        map.put("203", "Indiana");
+        map.put("204", "Indiana - Other");
+        map.put("205", "Iowa - North");
+        map.put("206", "Iowa - South");
+        map.put("207", "Kansas - Kansas City");
+        map.put("208", "Kansas City - Other");
+        map.put("209", "Kansas-Stl");
+        map.put("210", "MI - Upper Peninsula");
+        map.put("211", "Minnesota");
+        map.put("212", "Minnesota - Other");
+        map.put("213", "Missouri - KansasCty");
+        map.put("214", "Missouri - Other");
+        map.put("215", "Missouri - St. Louis");
+        map.put("216", "Nebraska");
+        map.put("217", "North Dakota");
+        map.put("218", "Northwest Indiana");
+        map.put("219", "South Dakota");
+        map.put("220", "Wisconsin - East");
+        map.put("221", "Wisconsin - West");
+        map.put("222", "North West");
+        map.put("223", "West Central");
+        map.put("250", "Cincinnati - Other");
+        map.put("251", "Cleveland - Other");
+        map.put("252", "Columbus - Other");
+        map.put("253", "Kentucky - North");
+        map.put("254", "MI - Lower Peninsula");
+        map.put("255", "Michigan - Other");
+        map.put("256", "Ohio - Cincinnati");
+        map.put("257", "Ohio - Cleveland");
+        map.put("258", "Ohio - Columbus");
+        map.put("259", "East Central");
+        map.put("300", "Alberta");
+        map.put("301", "Alberta - Other");
+        map.put("302", "British Columbia");
+        map.put("303", "British Columbia-Oth");
+        map.put("304", "Canada - Third Party");
+        map.put("305", "Manitoba");
+        map.put("306", "Manitoba - Other");
+        map.put("307", "Ontario - West");
+        map.put("308", "Saskatchewan");
+        map.put("309", "Saskatchewan - Other");
+        map.put("310", "Velocity - Cust Mng");
+        map.put("311", "Nunavut");
+        map.put("312", "Northwst Territories");
+        map.put("313", "Yukon");
+        map.put("314", "BC - Kootenays");
+        map.put("350", "Alaska");
+        map.put("351", "Arizona");
+        map.put("352", "California");
+        map.put("353", "California - Other");
+        map.put("354", "Hawaii");
+        map.put("355", "Hawaii - Other");
+        map.put("356", "Idaho");
+        map.put("357", "Montana");
+        map.put("358", "Nevada");
+        map.put("359", "Oregon");
+        map.put("360", "Washington");
+        map.put("361", "Washington - Other");
+        map.put("362", "Inactive No California");
+        map.put("363", "South West");
+        map.put("364", "West Area");
+        map.put("400", "Alabama");
+        map.put("401", "Arkansas - East");
+        map.put("402", "Florida");
+        map.put("403", "Georgia");
+        map.put("404", "Georgia - Other");
+        map.put("405", "Kentucky - South");
+        map.put("406", "Mississippi");
+        map.put("407", "North Carolina");
+        map.put("408", "South Carolina");
+        map.put("409", "Tennessee");
+        map.put("410", "Virginia - South");
+        map.put("411", "South East");
+        map.put("412", "Mid South");
+        map.put("900", "Export");
+        map.put("901", "Intercompany");
+        map.put("902", "Air Guard (Ontario)");
+        map.put("903", "Niagara (Georgia)");
+        map.put("904", "Distr Mktg Accts");
+        map.put("905", "CA & Distr Mgrs");
+        map.put("906", "Indirect Trace Accts");
+        map.put("907", "Commissary");
+        map.put("910", "Government Sales");
+        map.put("915", "Petro Accounts");
+        map.put("916", "OrigBikeSpirit Accts");
+        map.put("990", "Unassigned");
+        map.put("999", "MISC");
+        
+        //# ISO Code Conversions
+        map.put("P1", "%");
+        map.put("%O", "%O");
+        map.put("1", "1");
+        map.put("DAY", "10");
+        map.put("22S", "22S");
+        map.put("2M", "2M");
+        map.put("2X", "2X");
+        map.put("4O", "4O");
+        map.put("4T", "4T");
+        map.put("AMP", "A");
+        map.put("A87", "A87");
+        map.put("A93", "A93");
+        map.put("ACR", "ACR");
+        map.put("B34", "B34");
+        map.put("B45", "B45");
+        map.put("B47", "B47");
+        map.put("B73", "B73");
+        map.put("B75", "B75");
+        map.put("B78", "B78");
+        map.put("B84", "B84");
+        map.put("BG", "BAG");
+        map.put("BAR", "BAR");
+        map.put("BO", "BOT");
+        map.put("BOX", "BOX");
+        map.put("BQK", "BQK");
+        map.put("C10", "C10");
+        map.put("C36", "C36");
+        map.put("C38", "C38");
+        map.put("C39", "C39");
+        map.put("2J", "C3S");
+        map.put("C41", "C41");
+        map.put("C56", "C56");
+        map.put("CMQ", "CCM");
+        map.put("CDL", "CD");
+        map.put("DMQ", "CDM");
+        map.put("CMT", "CM");
+        map.put("CMK", "CM2");
+        map.put("CMH", "CMH");
+        map.put("CS", "CS");
+        map.put("CST", "CST");
+        map.put("CLT", "CTL");
+        map.put("D10", "D10");
+        map.put("D41", "D41");
+        map.put("D46", "D46");
+        map.put("DD", "DEG");
+        map.put("DMT", "DM");
+        map.put("DR", "DR");
+        map.put("DZN", "DZ");
+        map.put("EA", "EA");
+        map.put("EE", "EE");
+        map.put("EML", "EML");
+        map.put("FAR", "F");
+        map.put("FAH", "FA");
+        map.put("FOT", "FT");
+        map.put("FTK", "FT2");
+        map.put("FTQ", "FT3");
+        map.put("GRM", "G");
+        map.put("G/L", "G/L");
+        map.put("GA", "GA");
+        map.put("GAU", "GAU");
+        map.put("CEL", "GC");
+        map.put("GHG", "GHG");
+        map.put("GV", "GJ");
+        map.put("GKG", "GKG");
+        map.put("GL", "GLI");
+        map.put("GLL", "GLL");
+        map.put("GLM", "GLM");
+        map.put("GM", "GM");
+        map.put("GM", "GM2");
+        map.put("GPH", "GPH");
+        map.put("GQ", "GQ");
+        map.put("GRO", "GRO");
+        map.put("GW", "GW");
+        map.put("H", "H");
+        map.put("HAR", "HAR");
+        map.put("HLT", "HL");
+        map.put("A97", "HPA");
+        map.put("HTZ", "HZ");
+        map.put("IGL", "IGL");
+        map.put("INH", "IN");
+        map.put("INK", "IN2");
+        map.put("INQ", "IN3");
+        map.put("JOU", "J");
+        map.put("ANN", "JHR");
+        map.put("JKG", "JKG");
+        map.put("B11", "JKK");
+        map.put("JMO", "JMO");
+        map.put("KEL", "K");
+        map.put("B22", "KA");
+        map.put("CA", "KAN");
+        map.put("CT", "KAR");
+        map.put("KBK", "KBK");
+        map.put("KGM", "KG");
+        map.put("28", "KGF");
+        map.put("KGK", "KGK");
+        map.put("KGM", "KGM");
+        map.put("KGS", "KGS");
+        map.put("KMQ", "KGV");
+        map.put("KGW", "KGW");
+        map.put("KHZ", "KHZ");
+        map.put("BX", "KI");
+        map.put("KJO", "KJ");
+        map.put("KJG", "KJG");
+        map.put("KJK", "KJK");
+        map.put("KJM", "KJM");
+        map.put("KMT", "KM");
+        map.put("KMK", "KM2");
+        map.put("KMH", "KMH");
+        map.put("KMK", "KMK");
+        map.put("KMN", "KMN");
+        map.put("KMS", "KMS");
+        map.put("B49", "KOH");
+        map.put("KPA", "KPA");
+        map.put("KT", "KT");
+        map.put("KVT", "KV");
+        map.put("KVA", "KVA");
+        map.put("KWT", "KW");
+        map.put("KWH", "KWH");
+        map.put("KWK", "KWK");
+        map.put("LTR", "L");
+        map.put("L2", "L2");
+        map.put("LB", "LB");
+        map.put("C62", "LE");
+        map.put("LHK", "LHK");
+        map.put("LMS", "LMS");
+        map.put("LPH", "LPH");
+        map.put("MTR", "M");
+        map.put("M%", "M%");
+        map.put("M%O", "M%O");
+        map.put("MTS", "M/S");
+        map.put("MTK", "M2");
+        map.put("M2I", "M2I");
+        map.put("S4", "M2S");
+        map.put("MTQ", "M3");
+        map.put("MQS", "M3S");
+        map.put("4K", "MA");
+        map.put("MBR", "MBA");
+        map.put("MBZ", "MBZ");
+        map.put("3B", "MEJ");
+        map.put("MGM", "MG");
+        map.put("MGF", "MGF");
+        map.put("MGG", "MGG");
+        map.put("MGK", "MGK");
+        map.put("M1", "MGL");
+        map.put("GP", "MGQ");
+        map.put("MAW", "MGW");
+        map.put("MHZ", "MHZ");
+        map.put("SMI", "MI");
+        map.put("MIK", "MI2");
+        map.put("4H", "MIM");
+        map.put("MIN", "MIN");
+        map.put("B98", "MIS");
+        map.put("C15", "MJ");
+        map.put("MLT", "ML");
+        map.put("MLK", "MLK");
+        map.put("MLW", "MLW");
+        map.put("MMT", "MM");
+        map.put("MMK", "MM2");
+        map.put("MMA", "MMA");
+        map.put("MMG", "MMG");
+        map.put("MMH", "MMH");
+        map.put("D87", "MMK");
+        map.put("C18", "MMO");
+        map.put("MMQ", "MMQ");
+        map.put("C16", "MMS");
+        map.put("C22", "MNM");
+        map.put("C19", "MOK");
+        map.put("C34", "MOL");
+        map.put("MON", "MON");
+        map.put("MPA", "MPA");
+        map.put("MPB", "MPB");
+        map.put("MPG", "MPG");
+        map.put("MPM", "MPM");
+        map.put("C24", "MPS");
+        map.put("MPT", "MPT");
+        map.put("MPZ", "MPZ");
+        map.put("MQH", "MQH");
+        map.put("C26", "MS");
+        map.put("MSK", "MS2");
+        map.put("C29", "MTE");
+        map.put("MTS", "MTS");
+        map.put("2Z", "MV");
+        map.put("MVA", "MVA");
+        map.put("C31", "MW");
+        map.put("MWH", "MWH");
+        map.put("NEW", "N");
+        map.put("C45", "NAM");
+        map.put("NM", "NM");
+        map.put("C47", "NS");
+        map.put("C60", "OCM");
+        map.put("OHM", "OHM");
+        map.put("C61", "OM");
+        map.put("ONZ", "OZ");
+        map.put("OZA", "OZA");
+        map.put("P", "P");
+        map.put("PAL", "PA");
+        map.put("PR", "PAA");
+        map.put("PK", "PAK");
+        map.put("PF", "PAL");
+        map.put("C65", "PAS");
+        map.put("PCT", "PCT");
+        map.put("PL", "PL");
+        map.put("PMI", "PMI");
+        map.put("61", "PPB");
+        map.put("59", "PPM");
+        map.put("PPT", "PPT");
+        map.put("IE", "PRS");
+        map.put("PS", "PS");
+        map.put("PT", "PT");
+        map.put("QT", "QT");
+        map.put("23", "RHO");
+        map.put("RO", "ROL");
+        map.put("ROM", "ROM");
+        map.put("SEC", "S");
+        map.put("SET", "SET");
+        map.put("PCE", "ST");
+        map.put("HUR", "STD");
+        map.put("DAY", "TAG");
+        map.put("TC3", "TC3");
+        map.put("D33", "TES");
+        map.put("MIL", "TH");
+        map.put("TM3", "TM3");
+        map.put("TNE", "TO");
+        map.put("STN", "TON");
+        map.put("TOT", "TOT");
+        map.put("TST", "TST");
+        map.put("UGL", "UGL");
+        map.put("VLT", "V");
+        map.put("V%", "V%");
+        map.put("V%O", "V%O");
+        map.put("V01", "V01");
+        map.put("C36", "V02");
+        map.put("VAL", "VAL");
+        map.put("VPB", "VPB");
+        map.put("BPM", "VPM");
+        map.put("BPT", "VPT");
+        map.put("WTT", "W");
+        map.put("WAS", "WAS");
+        map.put("WEE", "WCH");
+        map.put("D53", "WMK");
+        map.put("WTL", "WTL");
+        map.put("YRD", "YD");
+        map.put("YDK", "YD2");
+        map.put("YDQ", "YD3");
+        map.put("GAL", "GAL");
+        
+        //#Department code decode value
+        map.put("0001DEPT", "Managing Director");
+        map.put("0002DEPT", "Purchasing");
+        map.put("0003DEPT", "Sales");
+        map.put("0004DEPT", "Organization");
+        map.put("0005DEPT", "Administration");
+        map.put("0006DEPT", "Production");
+        map.put("0007DEPT", "Quality Assurance");
+        map.put("0008DEPT", "Secretaries");
+        map.put("0009DEPT", "Financial Department");
+        map.put("0010DEPT", "Legal Department ");
+        map.put("0011DEPT", "Accounts Payable ");
+        map.put("0012DEPT", "Maintenance");
+        map.put("0013DEPT", "Janitorial");
+        map.put("0014DEPT", "Parts Department");
+        map.put("0015DEPT", "House Keeping");
+        map.put("0016DEPT", "Tool Crib");
+        map.put("0017DEPT", "Quality Assurance");
+        map.put("0018DEPT", "Warehouse");
+
+        //#Account type code-decode
+        map.put("NA", "National Account");
+        map.put("GA", "Government GSA");
+        map.put("NC", "NCPA");
+        map.put("TC", "TCPN");
+        map.put("CA", "Corporate Account");
+        map.put("IS", "Inside Account");
+        map.put("DC", "Distributor Account");
+        map.put("DC", "Distributor Account");
+        map.put("RE", "Regional");
+        map.put("LO", "Local");
+        map.put("RD", "Distribution");
+        map.put("US", "US Communities");
+
+        //Customer Group Code-decode");
+        map.put("C0", "Non-Commission");
+        map.put("C1", "West Canada Comm");
+        map.put("C2", "East Canada Comm");
+        map.put("C3", "California Comm");
+        map.put("C4", "Standard US Comm");
+        map.put("C5", "Sales Agent Comm");
+        map.put("D0", "Commercial/OEM");
+        map.put("D1", "Facilities/Office");
+        map.put("D2", "Industrial");
+        map.put("D3", "Samples");
+        map.put("D4", "Service");
+        map.put("D5", "Brand");
+        map.put("D6", "Private Label");
+        map.put("D7", "Brand & Private Label");
+        map.put("R1", "Hardware");
+        map.put("R2", "Home Depot");
+        map.put("R3", "Lowe's");
+        map.put("R4", "Walmart");
+        map.put("R5", "Mass");
+        map.put("R6", "Other");
+        map.put("R7", "Menards");
+
+        //Customer Type code-decode  ************************
+        map.put("DAD", "Adhesive");
+        map.put("DAU", "Automotive");
+        map.put("DFS", "Food Service");
+        map.put("DHA", "Hardware");
+        map.put("DHO", "Hotel");
+        map.put("DIN", "Industrial");
+        map.put("DJS", "Jan San");
+        map.put("DMF", "Multi-Family");
+        map.put("DMO", "Motorcycle");
+        map.put("DOF", "Office");
+        map.put("DPL", "Private Label");
+        map.put("DPT", "Paint");
+        map.put("DRD", "Re-Dist");
+        map.put("DSF", "Safety");
+        map.put("DSM", "Samples");
+        map.put("DSP", "Specialty");
+        map.put("DSV", "Service");
+        map.put("EB", "Energy Boring (Drill)");
+        map.put("EC", "Energy Cement");
+        map.put("ED", "Energy Distributor");
+        map.put("EF", "Energy Frac");
+        map.put("EM", "Energy Machine Shop");
+        map.put("EO", "Energy Other");
+        map.put("EP", "Energy Pipe Yard");
+        map.put("ER", "Energy Repair Center");
+        map.put("ES", "Energy Systems, Well");
+        map.put("ET", "Energy Tools (Fish)");
+        map.put("EW", "Energy Wireline");
+        map.put("FA", "Food Alcoholic Bever");
+        map.put("FB", "Food Bakery");
+        map.put("FC", "Food Cheese");
+        map.put("FD", "Food Fluid Milk");
+        map.put("FE", "Food Seafood");
+        map.put("FF", "Food Fresh Cut");
+        map.put("FG", "Food Grocery");
+        map.put("FM", "Food Red Meat");
+        map.put("FN", "Food Non-Alcoholic B");
+        map.put("FO", "Food Other");
+        map.put("FP", "Food Poultry");
+        map.put("FQ", "Food Quick Serve");
+        map.put("FR", "Food Restaurants");
+        map.put("FS", "Food Processed Food");
+        map.put("FT", "Food Cafeterias/Cont");
+        map.put("FU", "Food Egg");
+        map.put("GE", "Govt Education");
+        map.put("GM", "Govt Municipal");
+        map.put("GO", "Govt Other");
+        map.put("GS", "Govt State");
+        map.put("GZ", "Govt General");
+        map.put("SA", "SA Automotive");
+        map.put("SC", "SA Construction");
+        map.put("SI", "SA Industrial/Manufa");
+        map.put("SM", "SA Mining");
+        map.put("SR", "SA Railroad");
+        map.put("SS", "SA Services");
+        map.put("ST", "SA Transportation");
+        map.put("SW", "SA Waste Haul");
+        map.put("VA", "Asphalt");
+        map.put("VA1", "AllocDistr0601 50/50");
+        map.put("VA2", "AllocDistr0602 20/80");
+        map.put("VA3", "AllocDistr0603 80/20");
+        map.put("VC1", "CarWash ConvrFullSrv");
+        map.put("VC2", "CarWash ConvrExterio");
+        map.put("VC3", "CarWash SelfSrvInBay");
+        map.put("VC4", "C-Store");
+        map.put("VC5", "ZVC Australia");
+        map.put("VD1", "Auto Dealership");
+        map.put("VF1", "Fleet - Car Rental");
+        map.put("VF2", "Truck Wash");
+        map.put("VF3", "Fleet - Bus");
+        map.put("VF4", "Truck Wash - Niagara");
+        map.put("VP", "Plane");
+        map.put("VR", "Rail");
+        map.put("VR1", "Retail -In Bay");
+        map.put("VR2", "Retail -Conveyor Ext");
+        map.put("VT", "Truck");
+        map.put("VV", "Concrete");
+        map.put("ZA", "Automotive - ZVC");
+        map.put("ZC", "Construction");
+        map.put("ZH", "Hospitality");
+        map.put("ZI", "Industrial/Manufactu");
+        map.put("ZL", "Assisted Living");
+        map.put("ZM", "Mining");
+        map.put("ZR", "Road/Concrete/Asphal");
+        map.put("ZS", "Services");
+        map.put("ZT", "Transportation");
+        map.put("ZV", "Aviation");
+        map.put("ZW", "Waste Haul");
+        map.put("ZZ1", "InternalAct Sample");
+        map.put("ZZ2", "InternalAct DistrMar");
+        map.put("ZZZ", "Misc Accts");
+        
+        //#Function code decode values
+        map.put("01", "Executive Board");
+        map.put("02", "Head of Purchasing");
+        map.put("03", "Head of Sales");
+        map.put("04", "Head of Personnel");
+        map.put("05", "Janitor");
+        map.put("06", "Head of the Canteen");
+        map.put("07", "Personal Assistant");
+        map.put("08", "EDP Manager");
+        map.put("09", "Financial Accountg Manager");
+        map.put("10", "Marking Manager");
+        map.put("11", "Head Housekeeping");
+        map.put("Z1", "MSDS recipient");
+        map.put("ZI", "Billing Documents");
+        map.put("ZN", "ASNs");
+        map.put("ZO", "Order Confirmations");
+        
+        //#KVGR1 B5S
+        map.put("B5S", "Five Star");
+        map.put("KEY", "Key Account");
+        
+        //#Sales org district
+        map.put("AGCC", "Air Guard Control");
+        map.put("AZMSTH", "AFCO Zep Midsouth");
+        map.put("AZMWCS", "AFCO Zep MW CSR Supt");
+        map.put("AZWTRT", "AFCO Zep Water Trtmt");
+        map.put("AZNEST", "AFCO Zep Northeast");
+        map.put("AZBDEV", "AFCO Zep F&B Bus Dev");
+        map.put("AZSEST", "AFCO Zep Southeast");
+        map.put("AZMIDW", "AFCO Zep Midwest");
+        map.put("AZWEST", "AFCO Zep West");
+        map.put("AZPNW", "AFCO Zep Pacific NW");
+        map.put("CCCAES", "Com. CA-East");
+        map.put("CCCAWS", "Com. CA-West");
+        map.put("CCNONE", "Non-Commissioned");
+        map.put("CCUSCA", "Com. US-California");
+        map.put("CCUSSA", "Comm US-SIS Agt");
+        map.put("CCUSST", "Com. US-Standard");
+        map.put("NNCMFG", "Niagara N'atl Corp");
+        map.put("ZEPAAM", "Zep Auto Aftermarket");
+        map.put("ZEPCAN", "Zep Canada");
+        map.put("ZEPCEN", "Zep Central Region");
+        map.put("ZEPEST", "Zep Eastern Region");
+        map.put("ZEPEXP", "Zep Export");
+        map.put("ZEPDIS", "Zep Distribution");
+        map.put("ZEPIC", "Zep Intercompany");
+        map.put("ZEPIND", "Zep Industrial");
+        map.put("ZEPINS", "Zep Institutional");
+        map.put("ZEPMSC", "Zep Miscellaneous");
+        map.put("ZEPOEM", "Zep OEM");
+        map.put("ZEPTRN", "Zep Transportation");
+        map.put("ZEPZZZ", "Zep Unassigned");
+        map.put("ZEPISS", "Zep Inside Sales");
+        map.put("ZEPMW", "Zep Midwest Region");
+        map.put("ZEPRTL", "Zep Retail");
+        map.put("ZEPSW", "Zep Southwest Region");
+        map.put("ZEPVCD", "Zep Vehicle Care");
+        map.put("ZEPWST", "Zep Western Region");
+        map.put("ZEPHOU", "Zep House");
+        map.put("ZEPNSN", "Zep No Svc Needed");
+
+        //Sales office
+        map.put("AGCO", "dba amrep");
+        map.put("AOEM", "Amrep OEM");
+        map.put("AZ16", "Water Treatment");
+        map.put("AZ17", "PAA / Puerto Rico");
+        map.put("AZ14", "Midwest CSR Support");
+        map.put("AZ15", "Business Development");
+        map.put("AZ12", "Southwest 1");
+        map.put("AZ13", "Southwest 2");
+        map.put("AZ10", "West");
+        map.put("AZ11", "AFCO California");
+        map.put("AZ09", "Pacific Northwest");
+        map.put("AZ07", "Midwest 2");
+        map.put("AZ08", "Midwest 3");
+        map.put("AZ05", "Southeast");
+        map.put("AZ06", "Midwest 1");
+        map.put("AZ03", "Northeast 3");
+        map.put("AZ04", "Midsouth");
+        map.put("AZ02", "Northeast 2");
+        map.put("AZ01", "Northeast 1");
+        map.put("AZPR", "AFCO Zep Puerto Rico");
+        map.put("B310", "Georgia");
+        map.put("B317", "MO - St Louis");
+        map.put("B320", "New Mexico");
+        map.put("B324", "New York");
+        map.put("B327", "Louisiana");
+        map.put("B328", "Massachusetts");
+        map.put("B330", "Illinois");
+        map.put("B334", "OH - Cincinnati");
+        map.put("B335", "OH - Cleveland");
+        map.put("B337", "OH - Columbus");
+        map.put("B340", "TX - Dallas");
+        map.put("B342", "Colorado");
+        map.put("B343", "Michigan");
+        map.put("B344", "Hawaii");
+        map.put("B345", "TX - Houston");
+        map.put("B346", "Indiana");
+        map.put("B350", "MO - Kansas City");
+        map.put("B353", "California");
+        map.put("B356", "PA - Pittsburgh");
+        map.put("B357", "Minnesota");
+        map.put("B359", "TX - San Antonio");
+        map.put("B363", "Washington");
+        map.put("B365", "New Jersey");
+        map.put("B367", "X-Minnesota");
+        map.put("B368", "PA - Philadelphia");
+        map.put("B370", "Washington DC");
+        map.put("B376", "Zep Sales Agents");
+        map.put("B378", "BID");
+        map.put("B540", "Quebec");
+        map.put("B560", "Maritimes");
+        map.put("B580", "Ontario");
+        map.put("B711", "British Columbia");
+        map.put("B713", "Alberta");
+        map.put("B718", "Saskatchewan");
+        map.put("B724", "Manitoba");
+        map.put("B726", "Velocity - Customer");
+        map.put("B781", "Canada - Third Party");
+        map.put("CAES", "Canada East");
+        map.put("CATC", "Canada Trace");
+        map.put("CAWS", "Canada West");
+        map.put("D001", "Toronto");
+        map.put("D002", "Minnesota/Kansas");
+        map.put("D003", "Hawaii");
+        map.put("D004", "Georgia");
+        map.put("D005", "Northwest Food");
+        map.put("D006", "California");
+        map.put("D007", "Manitoba");
+        map.put("D008", "New England");
+        map.put("D009", "Nashville");
+        map.put("D010", "Michigan/Ohio");
+        map.put("D011", "Central South Food");
+        map.put("D012", "Chicago");
+        map.put("D013", "Southeast Food");
+        map.put("D014", "Montreal");
+        map.put("D015", "Florida");
+        map.put("D016", "Ohio");
+        map.put("D017", "New York/New Jersey");
+        map.put("D018", "Charlotte");
+        map.put("D019", "North Texas");
+        map.put("D020", "Northeast Food");
+        map.put("D021", "Baltimore/DC");
+        map.put("D022", "Southwest Food");
+        map.put("D023", "Seattle");
+        map.put("D024", "Denver");
+        map.put("D025", "Alberta");
+        map.put("D026", "Pennsylvania");
+        map.put("D027", "Midwest Food");
+        map.put("D028", "Inside Sales US");
+        map.put("D029", "Inside Sales CA");
+        map.put("D030", "West Canada Food");
+        map.put("D031", "East Canada Food");
+        map.put("D050", "Southwest");
+        map.put("D051", "Northwest");
+        map.put("D052", "Mountain");
+        map.put("D053", "South Central");
+        map.put("D054", "North Central");
+        map.put("D055", "Midwest");
+        map.put("D056", "Hawaii");
+        map.put("D057", "Alaska");
+        map.put("D075", "Great Lakes");
+        map.put("D076", "NASS Southeast");
+        map.put("D077", "Blue Ridge");
+        map.put("D078", "Mid Atlantic");
+        map.put("D079", "Northeast");
+        map.put("D100", "TRN Central");
+        map.put("D101", "TRN Northeast");
+        map.put("D102", "TRN West");
+        map.put("D110", "IND Hawaii");
+        map.put("D111", "IND Lower MW");
+        map.put("D112", "IND Northeast");
+        map.put("D113", "IND Southeast");
+        map.put("D114", "IND Upper MW");
+        map.put("D115", "IND West");
+        map.put("D120", "INS Southeast");
+        map.put("D121", "INS Northeast");
+        map.put("D122", "INS West");
+        map.put("NNGA", "Niagara (Georgia)");
+        map.put("USMC", "X-US Mid-Central");
+        map.put("USNE", "X-US Northeast");
+        map.put("USSE", "X-US Southeast");
+        map.put("USWS", "X-US West");
+        map.put("V100", "Unassigned Area");
+        map.put("V200", "East Area");
+        map.put("V400", "West Area");
+        map.put("V500", "House Area");
+        map.put("ZEPA", "Zep Auto Aftermarket");
+        map.put("ZEPD", "Zep Distribution");
+        map.put("ZEPE", "Export");
+        map.put("ZEPI", "Intercompany");
+        map.put("ZEPR", "Zep Retail");
+        map.put("ZEPG", "Government");
+        map.put("ZEPO", "Zep OEM");
+        map.put("ZNCA", "NASS Canada");
+        map.put("ZNUS", "NASS US");
+        map.put("ZEPH", "Zep House");
+        map.put("ZEPN", "No Service Needed");
+
+        //Class Sales org fields mapping
+        map.put("CLP", "CLP - Closed Loop Account");
+        map.put("IPE", "IPE - Inactive Policy Exempt");
+        map.put("RFK", "RFK - Retail Fill & Kill");
+        map.put("SUB", "SUB - Single Unit Billing");
+        map.put("VEL", "VEL - Velocity");
+        map.put("V1", "Direct Acct");
+        map.put("V2", "Limited Svc acct");
+        map.put("V3", "OBOV -Distr Del Only");
+        map.put("V4", "OBOV -Zep Deliver");
+        map.put("V5", "OBOV -Distr Del &Svc");
+        map.put("V6", "Service DISTRIB Acct");
+        map.put("V7", "Supply DISTRIB Acct");
+        map.put("V8", "Indirect Acct");
+        map.put("V9", "Internal Acct");
+        map.put("VL", "Miscellaneous Laun/H");
+        map.put("VZ", "Sample Budget");
+
+        //New Phase 3 changes
+        //Item categories PSTYV
+        map.put("TAN", "Standard item");
+        map.put("TANN", "Standard item at no-charge");
+        map.put("ZTAS", "Third-party drop ship");
+        map.put("ZTNS", "Third-party drop ship at no-charge");
+        map.put("ZSAM", "Free good sample");
+        map.put("ZTAQ", "Sales BOM header");
+        map.put("ZTAE", "Sales BOM line item");
+        map.put("ZSOR", "Standard Order/Standard Sample");
+        map.put("ZSAM", "Sample Budget");
+        map.put("ZSUS", "Per Unit Billing");
+        map.put("ZSUR", "Per Unit Replenishment");
+
+        //Order type mapping
+        map.put("ZSOR", "Standard");
+        map.put("ZSAM", "Sample Budget");
+        map.put("ZSUS", "Single Unit Billing");
+        map.put("ZSUR", "Single Unit Replenishment");
+        
+        
+        /*
+         * #Net payment terms
+			#NET0001	No discount, pay as soon as possible
+			#NET0002	1% disc, pay due when inv recd
+			#NET0003	1% disc if paid in 10 days; NET 30
+			#NET0004	1% disc if paid in 15 days; NET 30
+			#NETNET0005	1% disc if paid in 30 days; NET 90
+			#NETNET0006	2% disc if paid in 10 days; NET 30
+			#NETNET0007	2 disc if paid in 15 days; NET 30
+			#NETNET0008	2% disc if paid in 20 days; NET 30
+			#NETNET0009	2% disc if paid in 30 days; NET 31
+			#NETNET0010	2% disc if paid in 60 days; NET 61
+			#NETNET0011	5% disc if paid in 15 days; NET 30
+			#NETNET0012	NET 10
+			#NETNET0013	NET 15
+			#NETNET0014	NET 20
+			#NET0015	NET 25
+			#NET0016	NET 27
+			#NET0017	NET 30
+			#NET0018	NET 42
+			#NET0019	NET 45
+			#NET0020	NET 60
+			#NET0021	NET 90
+			#NET0022	NET 120
+			#NET0023	NET 180
+			#NET0024	NET 270
+			#NET0025	1/2% in 10 days, NET 30
+			#NET0026	1% in 15 days, NET 20
+			#NET0027	1% in 30 days, NET 31
+			#NET0028	NET 55
+			#NET0029	NET 50
+			#NET0030	NET 38
+			#NET0032	NET 74
+			#NET0033	NET 35
+			#NET0035	NET 35
+			#NET31	5% disc if paid in 10 days, NET 30
+			#NETTEST	5% disc if paid in 10 days; NET 30
+			#NETZ002	2 Installments 30 / 60
+			#NETZ003	3 Installments 30/60/90
+			#NETZ004	4 Installments 30/60/90/120
+			#NETZ005	Credit Card Only
+			#NETZ006	2% disc if paid in 10 days; NET 30
+			#NETZ007	1/2% in 10 days, NET 30
+			#NETZ008	1% in 10 days, NET 60
+			#NETZ010	NET 150
+			#NETZ011	.5% 25 days, NET 30
+			#NETZ012	1.5% 15 days, NET 30
+			#NETZ013	Z013
+			#NETZ014	2% 10 days, NET 45
+			#NETZ015	2% 10 days, NET 60
+			#NETZ016	1% in 50 days, NET 50
+			#NETZ017	EFT Debit
+			#NETZ018	NET 50
+			#NETZ019	NET 75
+			#NETZ020	1% disc if paid in 30 days; NET 60
+			#NETZ021	1% 60 days
+			#NETZ022	1% 60, NET 61
+			#NETZ023	2% 10, NET 60
+			#NETZ024	2% 15, NET 90
+			#NETZ025	2% 60, NET 61
+			#NETZ026	2% 75
+			#NETZ027	2% 90, NET 91
+			#NETZ028	CASH IN ADVANCE
+			#NETZ029	2% 60, NET 61
+			#NETZ030	2% 45, NET 60
+			#NETZ031	1% 90, NET 120
+			#NETZ032	1% 45 plus 15
+			#NETZ033	Spring Booking 2017
+			#NETZ100	Due in 35 months
+			#NETZEMP	Due first day of month
+         */
+        
+        //#Net payment terms
+        //#Updated ZTERMS
+        map.put("NET0003", "1% disc if paid in 10 days; NET 30");
+        map.put("NET0004", "1% 15 days, net 30 days");
+        map.put("NET0007", "2% 15 days, net 30 days");
+        map.put("NET0009", "2% 30 days, net 31 days");
+        map.put("NET0012", "Net 10 Days");
+        map.put("NET0013", "Net 15 Days");
+        map.put("NET0014", "Net 20 Days");
+        map.put("NET0015", "Net 25 Days");
+        map.put("NET0016", "Net 27 Days");
+        map.put("NET0017", "Net 30");
+        map.put("NET0018", "Net 42 Days");
+        map.put("NET0019", "Net 45");
+        map.put("NET0020", "Net 60");
+        map.put("NET0021", "Net 90");
+        map.put("NET0022", "Net 120");
+        map.put("NET0023", "Net 180");
+        map.put("NET0024", "Net 270");
+        map.put("NET0027", "1% in 30 days, NET 31");
+        map.put("NET0033", "Cash on Delivery");
+        map.put("NETIK00", "Within 5 days 3% cash discount");
+        map.put("NETLVT0", "16 days 2%, 31 days net");
+        map.put("NETMVT0", "10 days 3%, 16  2%, 31 net");
+        map.put("NETTEST", "5% disc if paid in 10 days");
+        map.put("NETWALL", "99% forever");
+        map.put("NETWL01", "12 days net");
+        map.put("NETZ001", "50% within 0 Days, net 30 days");
+        map.put("NETZ002", "2 Installments 30 / 60");
+        map.put("NETZ003", "3 Installments 30/60/90");
+        map.put("NETZ004", "4 Installments 30/60/90/120");
+        map.put("NETZ005", "Credit Card Only");
+        map.put("NETZ006", "2% 10 net 30");
+        map.put("NETZ007", "1/2% 10 net 30");
+        map.put("NETZ010", "Net 150");
+        map.put("NETZ014", "NETZ014 2% 10 days, NET 45");
+        map.put("NETZ016", "Net 50 1%");
+        map.put("NETZ017", "EFT Debit");
+        map.put("NETZ018", "Net 50");
+        map.put("NETZ019", "Net 75");
+        map.put("NETZ020", "1% if paid in 30 days; Net 60");
+        map.put("NETZ021", "1% 60 days");
+        map.put("NETZ022", "1% 60, net 61 days");
+        map.put("NETZ023", "2% 10, net 60");
+        map.put("NETZ024", "2% 15, net 90");
+        map.put("NETZ025", "2% 60, net 61");
+        map.put("NETZ026", "2% 75");
+        map.put("NETZ027", "2% 90, net 91");
+        map.put("NETZ028", "CASH IN ADVANCE");
+        map.put("NETZ029", "2% 60, net 61");
+        map.put("NETZ030", "2% 45, net 60");
+        map.put("NETZ031", "1% 90, net 120");
+        map.put("NETZ032", "1% 45 plus 15");
+        map.put("NETZ033", "Spring Booking 2017");
+        map.put("NETZ035", "Net 35");
+        map.put("NETZ040", "Net 40");
+        map.put("NETZ050", "Net 50");
+        map.put("NETZ065", "Net 65");
+        map.put("NETZ070", "Net 70");
+        map.put("NETZ100", "Due in 35 months");
+        map.put("NETZ102", "1% Within 10 days, Net 45");
+        map.put("NETZ120", "1% within 20 days, Net 30");
+        map.put("NETZ144", "1% within 45 days, Net 46");
+        map.put("NETZ214", "2% within 15 days, Net 45");
+        map.put("NETZ215", "2% within 15 days, Net 60");
+        map.put("NETZ231", "2% within 30 days, Net 60");
+        map.put("NETZ240", "2% within 45 days, Net 46");
+        map.put("NETZ242", "2% within 40 days, Net 41");
+        map.put("NETZ360", "Net 360 days");
+        map.put("NETZ365", "Net 365 days");
+        map.put("NETZB00", "Pay immediately w/o deduction");
+        map.put("NETZB01", "14 Days 3%, 30/2%, 45 net");
+        map.put("NETZB02", "8 days 5%, 14/2%, 21 net");
+        map.put("NETZB03", "20 days 2%, 30 days net");
+        map.put("NETZB04", "10 days 4%, 20/2%, 30 net");
+        map.put("NETZB05", "5 days 2%, 10 days net");
+        map.put("NETZEMP", "Due first day of month");
+        map.put("NETZ240", "2% within 45 days, net 46 days");
+        
+        String result = map.get(property);
+        return result;
+    }
+}
